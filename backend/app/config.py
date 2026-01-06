@@ -38,8 +38,8 @@ class Config:
     
     # API Settings
     API_HOST: str = os.getenv('API_HOST', '0.0.0.0')
-    API_PORT: int = int(os.getenv('API_PORT', '8000'))
-    CORS_ORIGINS: list = os.getenv('CORS_ORIGINS', 'http://localhost:3000').split(',')
+    API_PORT: int = int(os.getenv('API_PORT', '8001'))
+    CORS_ORIGINS: list = os.getenv('CORS_ORIGINS', 'http://localhost:3001').split(',')
     
     @classmethod
     def validate(cls) -> bool:

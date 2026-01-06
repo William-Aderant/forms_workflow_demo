@@ -40,12 +40,23 @@ class FormDetail(BaseModel):
     error_message: Optional[str] = None
 
 
+class FormField(BaseModel):
+    """Form field model with field type and bounding box information."""
+    field_type: str = Field(..., description="Detected field type (e.g., 'name', 'address', 'attorney')")
+    label_text: str = Field(..., description="Label text from the form (e.g., 'Name:', 'Address')")
+    value_text: Optional[str] = Field(None, description="Value text if form is filled (empty for blank forms)")
+    bounding_box: Dict[str, float] = Field(..., description="Bounding box coordinates (left, top, width, height, normalized 0-1)")
+    confidence: float = Field(..., description="OCR confidence score (0-100)")
+    field_confidence: float = Field(..., description="Field type classification confidence (0-1)")
+
+
 class ImageMetadata(BaseModel):
     """Image metadata with bounding box information."""
     image_path: str
     form_id: str
     form_name: str
-    boxes: List[Dict[str, Any]] = Field(..., description="List of bounding boxes with coordinates and text")
+    boxes: List[Dict[str, Any]] = Field(default_factory=list, description="List of bounding boxes with coordinates and text (legacy)")
+    form_fields: List[FormField] = Field(default_factory=list, description="List of detected form fields with field types")
     created_at: datetime
 
 

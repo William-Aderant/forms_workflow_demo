@@ -1,9 +1,10 @@
 """
 FastAPI application for Court Forms OCR Workflow.
 """
-from fastapi import FastAPI, HTTPException, BackgroundTasks
+from fastapi import FastAPI, HTTPException, BackgroundTasks, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, FileResponse, StreamingResponse
+from starlette.middleware.base import BaseHTTPMiddleware
 from datetime import datetime
 from typing import List, Optional
 import logging
@@ -46,6 +47,24 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# Request logging middleware
+@app.middleware("http")
+async def log_requests(request: Request, call_next):
+    # #region agent log
+    import json; log_data = json.dumps({"location": "main.py:50", "message": "Incoming request", "data": {"method": request.method, "url": str(request.url), "path": request.url.path}, "timestamp": int(datetime.now().timestamp() * 1000), "sessionId": "debug-session", "runId": "run1", "hypothesisId": "A,C"}) + "\n"; open("/Users/william.holden/Documents/GitHub/forms_workflow_demo/.cursor/debug.log", "a").write(log_data)
+    # #endregion
+    try:
+        response = await call_next(request)
+        # #region agent log
+        import json; log_data = json.dumps({"location": "main.py:54", "message": "Request completed", "data": {"method": request.method, "path": request.url.path, "status_code": response.status_code}, "timestamp": int(datetime.now().timestamp() * 1000), "sessionId": "debug-session", "runId": "run1", "hypothesisId": "A,C"}) + "\n"; open("/Users/william.holden/Documents/GitHub/forms_workflow_demo/.cursor/debug.log", "a").write(log_data)
+        # #endregion
+        return response
+    except Exception as e:
+        # #region agent log
+        import json; log_data = json.dumps({"location": "main.py:58", "message": "Request error", "data": {"method": request.method, "path": request.url.path, "error": str(e)}, "timestamp": int(datetime.now().timestamp() * 1000), "sessionId": "debug-session", "runId": "run1", "hypothesisId": "D"}) + "\n"; open("/Users/william.holden/Documents/GitHub/forms_workflow_demo/.cursor/debug.log", "a").write(log_data)
+        # #endregion
+        raise
+
 # Initialize rate limiter (doesn't require API keys)
 rate_limiter = RateLimiter(max_total_calls=Config.MAX_TOTAL_CALLS)
 
@@ -69,6 +88,10 @@ async def startup_event():
     """Initialize application on startup."""
     global firecrawl_service, textract_service, image_processor
     
+    # #region agent log
+    import json; log_data = json.dumps({"location": "main.py:67", "message": "startup_event called", "data": {"api_host": Config.API_HOST, "api_port": Config.API_PORT, "cors_origins": Config.CORS_ORIGINS}, "timestamp": int(datetime.now().timestamp() * 1000), "sessionId": "debug-session", "runId": "run1", "hypothesisId": "A,C"}) + "\n"; open("/Users/william.holden/Documents/GitHub/forms_workflow_demo/.cursor/debug.log", "a").write(log_data)
+    # #endregion
+    
     try:
         Config.validate()
         logger.info("Configuration validated successfully")
@@ -78,14 +101,24 @@ async def startup_event():
         textract_service = TextractService(rate_limiter=rate_limiter)
         image_processor = ImageProcessor()
         logger.info("Services initialized successfully")
+        
+        # #region agent log
+        import json; log_data = json.dumps({"location": "main.py:80", "message": "startup_event completed", "data": {"services_initialized": True}, "timestamp": int(datetime.now().timestamp() * 1000), "sessionId": "debug-session", "runId": "run1", "hypothesisId": "A"}) + "\n"; open("/Users/william.holden/Documents/GitHub/forms_workflow_demo/.cursor/debug.log", "a").write(log_data)
+        # #endregion
     except ValueError as e:
         logger.error(f"Configuration error: {e}")
+        # #region agent log
+        import json; log_data = json.dumps({"location": "main.py:82", "message": "startup_event config error", "data": {"error": str(e)}, "timestamp": int(datetime.now().timestamp() * 1000), "sessionId": "debug-session", "runId": "run1", "hypothesisId": "A"}) + "\n"; open("/Users/william.holden/Documents/GitHub/forms_workflow_demo/.cursor/debug.log", "a").write(log_data)
+        # #endregion
         raise
 
 
 @app.get("/api/health", response_model=HealthResponse)
 async def health_check():
     """Health check endpoint."""
+    # #region agent log
+    import json; log_data = json.dumps({"location": "main.py:86", "message": "health_check called", "data": {}, "timestamp": int(datetime.now().timestamp() * 1000), "sessionId": "debug-session", "runId": "run1", "hypothesisId": "A"}) + "\n"; open("/Users/william.holden/Documents/GitHub/forms_workflow_demo/.cursor/debug.log", "a").write(log_data)
+    # #endregion
     return HealthResponse(
         status="healthy",
         timestamp=datetime.now()
@@ -98,6 +131,9 @@ async def scrape_forms(request: ScrapeRequest, background_tasks: BackgroundTasks
     Start scraping forms from the court forms website.
     This endpoint initiates the scraping process in the background.
     """
+    # #region agent log
+    import json; log_data = json.dumps({"location": "main.py:95", "message": "scrape_forms endpoint called", "data": {"request_url": str(request.url) if hasattr(request, 'url') else None, "has_background_tasks": bool(background_tasks)}, "timestamp": int(datetime.now().timestamp() * 1000), "sessionId": "debug-session", "runId": "run1", "hypothesisId": "D"}) + "\n"; open("/Users/william.holden/Documents/GitHub/forms_workflow_demo/.cursor/debug.log", "a").write(log_data)
+    # #endregion
     job_id = str(uuid.uuid4())
     
     # Initialize SSE message storage for this job
@@ -110,6 +146,10 @@ async def scrape_forms(request: ScrapeRequest, background_tasks: BackgroundTasks
         url=request.url,
         job_id=job_id
     )
+    
+    # #region agent log
+    import json; log_data = json.dumps({"location": "main.py:114", "message": "scrape_forms returning response", "data": {"job_id": job_id}, "timestamp": int(datetime.now().timestamp() * 1000), "sessionId": "debug-session", "runId": "run1", "hypothesisId": "D"}) + "\n"; open("/Users/william.holden/Documents/GitHub/forms_workflow_demo/.cursor/debug.log", "a").write(log_data)
+    # #endregion
     
     return ScrapeResponse(
         message="Scraping initiated",
@@ -327,15 +367,15 @@ def process_forms_scraping(url: str, job_id: str):
                 
                 logger.info(f"[{idx}/{len(pdf_infos)}] Downloaded: {form_name} ({len(pdf_bytes)} bytes)")
                 
-                # Process with Textract
+                # Process with Textract FORMS feature
                 form_entry.status = 'processing'
                 _send_sse_update(job_id, 'form_processing', {
                     'form_id': form_id,
                     'form_name': form_name,
-                    'message': 'Processing with Textract...'
+                    'message': 'Processing with Textract FORMS...'
                 })
                 
-                ocr_result = textract_service.process_pdf(pdf_bytes)
+                ocr_result = textract_service.process_pdf_with_forms(pdf_bytes)
                 
                 if ocr_result.get('success'):
                     # Update form entry with results
@@ -354,12 +394,15 @@ def process_forms_scraping(url: str, job_id: str):
                         _send_sse_update(job_id, 'form_image', {
                             'form_id': form_id,
                             'form_name': form_name,
-                            'message': 'Creating annotated image...'
+                            'message': 'Creating annotated image with form fields...'
                         })
+                        
+                        # Get form fields from OCR result
+                        form_fields = ocr_result.get('form_fields', [])
                         
                         image_result = image_processor.create_annotated_image(
                             pdf_bytes=pdf_bytes,
-                            bounding_boxes=ocr_result.get('bounding_boxes', []),
+                            form_fields=form_fields,
                             form_id=form_id,
                             form_name=form_name
                         )
@@ -368,17 +411,32 @@ def process_forms_scraping(url: str, job_id: str):
                             if form_id not in images_storage:
                                 images_storage[form_id] = []
                             
+                            # Convert form fields to FormField models
+                            from app.models import FormField
+                            form_field_models = [
+                                FormField(
+                                    field_type=field.get('field_type', 'unknown'),
+                                    label_text=field.get('label_text', ''),
+                                    value_text=field.get('value_text', ''),
+                                    bounding_box=field.get('bounding_box', {}),
+                                    confidence=field.get('confidence', 0),
+                                    field_confidence=field.get('field_confidence', 0)
+                                )
+                                for field in image_result['metadata'].get('form_fields', [])
+                            ]
+                            
                             images_storage[form_id].append(
                                 ImageMetadata(
                                     image_path=image_result['image_path'],
                                     form_id=form_id,
                                     form_name=form_name,
-                                    boxes=image_result['metadata']['boxes'],
+                                    boxes=image_result['metadata'].get('boxes', []),
+                                    form_fields=form_field_models,
                                     created_at=datetime.fromisoformat(image_result['metadata']['created_at'])
                                 )
                             )
                             images_created += 1
-                            logger.info(f"Created annotated image for form {form_id}: {image_result['image_path']}")
+                            logger.info(f"Created annotated image for form {form_id}: {image_result['image_path']} with {len(form_field_models)} form fields")
                         
                         form_entry.status = 'completed'
                     

@@ -100,14 +100,18 @@ export default function ImageGallery({ images, formName }: ImageGalleryProps) {
                   onClick={() => handleImageClick(image)}
                 >
                   <img
-                    src={`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'}/api/images/${image.image_path.split('/').pop()}`}
+                    src={`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8001'}/api/images/${image.image_path.split('/').pop()}`}
                     alt={`Annotated form ${index + 1}`}
                     style={{ width: '100%', height: '100%', objectFit: 'contain' }}
                   />
                 </Box>
                 <ImageListItemBar
                   title={`Image ${index + 1}`}
-                  subtitle={`${image.boxes.length} bounding boxes`}
+                  subtitle={
+                    image.form_fields && image.form_fields.length > 0
+                      ? `${image.form_fields.length} form fields`
+                      : `${image.boxes.length} bounding boxes`
+                  }
                   actionIcon={
                     <>
                       <IconButton
@@ -158,33 +162,53 @@ export default function ImageGallery({ images, formName }: ImageGalleryProps) {
             <DialogContent>
               <Box mb={2}>
                 <img
-                  src={`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'}/api/images/${selectedImage.image_path.split('/').pop()}`}
+                  src={`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8001'}/api/images/${selectedImage.image_path.split('/').pop()}`}
                   alt={selectedImage.form_name}
                   style={{ width: '100%', height: 'auto' }}
                 />
               </Box>
-              <Box>
-                <Typography variant="subtitle2" gutterBottom>
-                  Bounding Boxes ({selectedImage.boxes.length})
-                </Typography>
-                <Box display="flex" flexWrap="wrap" gap={1} mt={1}>
-                  {selectedImage.boxes.slice(0, 20).map((box, index) => (
-                    <Chip
-                      key={index}
-                      label={`${box.block_type}: ${box.text.substring(0, 30)}`}
-                      size="small"
-                      variant="outlined"
-                    />
-                  ))}
-                  {selectedImage.boxes.length > 20 && (
-                    <Chip
-                      label={`+${selectedImage.boxes.length - 20} more`}
-                      size="small"
-                      variant="outlined"
-                    />
-                  )}
+              {selectedImage.form_fields && selectedImage.form_fields.length > 0 ? (
+                <Box>
+                  <Typography variant="subtitle2" gutterBottom>
+                    Form Fields ({selectedImage.form_fields.length})
+                  </Typography>
+                  <Box display="flex" flexWrap="wrap" gap={1} mt={1}>
+                    {selectedImage.form_fields.map((field, index) => (
+                      <Chip
+                        key={index}
+                        label={`${field.field_type.toUpperCase()}: ${field.label_text || 'N/A'}`}
+                        size="small"
+                        variant="outlined"
+                        color="primary"
+                        title={`Confidence: ${field.confidence.toFixed(1)}%, Field Type Confidence: ${(field.field_confidence * 100).toFixed(1)}%`}
+                      />
+                    ))}
+                  </Box>
                 </Box>
-              </Box>
+              ) : (
+                <Box>
+                  <Typography variant="subtitle2" gutterBottom>
+                    Bounding Boxes ({selectedImage.boxes.length})
+                  </Typography>
+                  <Box display="flex" flexWrap="wrap" gap={1} mt={1}>
+                    {selectedImage.boxes.slice(0, 20).map((box, index) => (
+                      <Chip
+                        key={index}
+                        label={`${box.block_type}: ${box.text.substring(0, 30)}`}
+                        size="small"
+                        variant="outlined"
+                      />
+                    ))}
+                    {selectedImage.boxes.length > 20 && (
+                      <Chip
+                        label={`+${selectedImage.boxes.length - 20} more`}
+                        size="small"
+                        variant="outlined"
+                      />
+                    )}
+                  </Box>
+                </Box>
+              )}
             </DialogContent>
           </>
         )}

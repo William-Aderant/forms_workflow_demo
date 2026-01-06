@@ -94,16 +94,21 @@ IMAGES_OUTPUT_DIR=output/images
 
 # API Settings
 API_HOST=0.0.0.0
-API_PORT=8000
-CORS_ORIGINS=http://localhost:3000
+API_PORT=8001
+CORS_ORIGINS=http://localhost:3001
 ```
 
 5. Run the backend server:
 ```bash
-uvicorn app.main:app --reload
+uvicorn app.main:app --reload --port 8001
 ```
 
-The API will be available at `http://localhost:8000`
+Alternatively, you can run it using Python which will use the config:
+```bash
+python -m app.main
+```
+
+The API will be available at `http://localhost:8001`
 
 ## Frontend Setup
 
@@ -119,7 +124,7 @@ npm install
 
 3. Create a `.env.local` file:
 ```env
-NEXT_PUBLIC_API_URL=http://localhost:8000
+NEXT_PUBLIC_API_URL=http://localhost:8001
 ```
 
 4. Run the development server:
@@ -127,7 +132,7 @@ NEXT_PUBLIC_API_URL=http://localhost:8000
 npm run dev
 ```
 
-The frontend will be available at `http://localhost:3000`
+The frontend will be available at `http://localhost:3001`
 
 ## Usage
 

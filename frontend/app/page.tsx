@@ -48,15 +48,24 @@ export default function HomePage() {
   }
 
   const handleScrape = async () => {
+    // #region agent log
+    fetch('http://127.0.0.1:7252/ingest/564ebba2-2403-423b-931f-138186fce4fd',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'page.tsx:50',message:'handleScrape called',data:{timestamp:Date.now()},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'A'})}).catch(()=>{});
+    // #endregion
     try {
       setScraping(true)
       setError(null)
       setProgress(null)
       setCurrentForm(null)
       
+      // #region agent log
+      fetch('http://127.0.0.1:7252/ingest/564ebba2-2403-423b-931f-138186fce4fd',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'page.tsx:57',message:'About to call api.scrapeForms',data:{url:'https://selfhelp.courts.ca.gov/find-forms/all'},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'A'})}).catch(()=>{});
+      // #endregion
       const response = await api.scrapeForms({
         url: 'https://selfhelp.courts.ca.gov/find-forms/all',
       })
+      // #region agent log
+      fetch('http://127.0.0.1:7252/ingest/564ebba2-2403-423b-931f-138186fce4fd',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'page.tsx:61',message:'api.scrapeForms returned',data:{jobId:response?.job_id,hasJobId:!!response?.job_id},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'A'})}).catch(()=>{});
+      // #endregion
       
       if (response.job_id) {
         // Subscribe to real-time progress updates
@@ -143,6 +152,9 @@ export default function HomePage() {
         setScraping(false)
       }
     } catch (err: any) {
+      // #region agent log
+      fetch('http://127.0.0.1:7252/ingest/564ebba2-2403-423b-931f-138186fce4fd',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'page.tsx:145',message:'handleScrape catch block',data:{errorMessage:err?.message,errorName:err?.name,isNetworkError:err?.message?.includes('Network Error'),stack:err?.stack},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'A,B,C'})}).catch(()=>{});
+      // #endregion
       setError(err.message || 'Failed to start scraping')
       setScraping(false)
     }

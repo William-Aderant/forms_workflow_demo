@@ -1,4 +1,4 @@
 {
-  "/forms/[id]/page": "app/forms/[id]/page.js",
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/forms/[id]/page": "app/forms/[id]/page.js"
 }

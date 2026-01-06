@@ -3,7 +3,11 @@
  */
 import axios from 'axios'
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8001'
+
+// #region agent log
+fetch('http://127.0.0.1:7252/ingest/564ebba2-2403-423b-931f-138186fce4fd',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'api.ts:6',message:'API_URL configured',data:{apiUrl:API_URL,envUrl:process.env.NEXT_PUBLIC_API_URL},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'B'})}).catch(()=>{});
+// #endregion
 
 const apiClient = axios.create({
   baseURL: API_URL,
@@ -11,6 +15,11 @@ const apiClient = axios.create({
     'Content-Type': 'application/json',
   },
 })
+
+// #region agent log
+apiClient.interceptors.request.use(config => {fetch('http://127.0.0.1:7252/ingest/564ebba2-2403-423b-931f-138186fce4fd',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'api.ts:15',message:'Axios request starting',data:{url:config.url,baseURL:config.baseURL,method:config.method,fullUrl:`${config.baseURL}${config.url}`},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'B'})}).catch(()=>{}); return config;}, error => {fetch('http://127.0.0.1:7252/ingest/564ebba2-2403-423b-931f-138186fce4fd',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'api.ts:15',message:'Axios request error',data:{error:error?.message,stack:error?.stack},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'B'})}).catch(()=>{}); return Promise.reject(error);});
+apiClient.interceptors.response.use(response => {fetch('http://127.0.0.1:7252/ingest/564ebba2-2403-423b-931f-138186fce4fd',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'api.ts:15',message:'Axios response received',data:{status:response.status,url:response.config.url},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'B'})}).catch(()=>{}); return response;}, error => {fetch('http://127.0.0.1:7252/ingest/564ebba2-2403-423b-931f-138186fce4fd',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'api.ts:15',message:'Axios response error',data:{message:error?.message,code:error?.code,responseStatus:error?.response?.status,responseData:error?.response?.data,url:error?.config?.url,baseURL:error?.config?.baseURL,fullUrl:error?.config?.baseURL?`${error.config.baseURL}${error.config.url}`:null},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'A,B,C'})}).catch(()=>{}); return Promise.reject(error);});
+// #endregion
 
 // Types
 export interface FormInfo {
@@ -27,6 +36,20 @@ export interface FormInfo {
 export interface FormDetail extends FormInfo {
   markdown_text?: string
   blocks_count?: number
+}
+
+export interface FormField {
+  field_type: string
+  label_text: string
+  value_text?: string
+  bounding_box: {
+    left: number
+    top: number
+    width: number
+    height: number
+  }
+  confidence: number
+  field_confidence: number
 }
 
 export interface ImageMetadata {
@@ -50,6 +73,7 @@ export interface ImageMetadata {
       y2: number
     }
   }>
+  form_fields?: FormField[]
   created_at: string
 }
 
@@ -80,8 +104,21 @@ export const api = {
 
   // Scrape forms
   async scrapeForms(request: ScrapeRequest = {}): Promise<ScrapeResponse> {
-    const response = await apiClient.post('/api/forms/scrape', request)
-    return response.data
+    // #region agent log
+    fetch('http://127.0.0.1:7252/ingest/564ebba2-2403-423b-931f-138186fce4fd',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'api.ts:97',message:'scrapeForms called',data:{request,apiUrl:API_URL},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'A,B'})}).catch(()=>{});
+    // #endregion
+    try {
+      const response = await apiClient.post('/api/forms/scrape', request)
+      // #region agent log
+      fetch('http://127.0.0.1:7252/ingest/564ebba2-2403-423b-931f-138186fce4fd',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'api.ts:100',message:'scrapeForms success',data:{jobId:response.data?.job_id},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'A,B'})}).catch(()=>{});
+      // #endregion
+      return response.data
+    } catch (error: any) {
+      // #region agent log
+      fetch('http://127.0.0.1:7252/ingest/564ebba2-2403-423b-931f-138186fce4fd',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'api.ts:105',message:'scrapeForms error caught',data:{errorMessage:error?.message,errorCode:error?.code,isNetworkError:error?.message?.includes('Network Error'),responseStatus:error?.response?.status,responseData:error?.response?.data},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'A,B,C'})}).catch(()=>{});
+      // #endregion
+      throw error
+    }
   },
 
   // List all forms
