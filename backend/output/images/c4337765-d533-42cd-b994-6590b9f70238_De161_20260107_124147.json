@@ -1,0 +1,304 @@
+{
+  "image_path": "c4337765-d533-42cd-b994-6590b9f70238_De161_20260107_124147.png",
+  "form_id": "c4337765-d533-42cd-b994-6590b9f70238",
+  "form_name": "De161",
+  "image_dimensions": {
+    "width": 1700,
+    "height": 2200
+  },
+  "boxes": [
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Judicial Council of California",
+      "confidence": 55.47657012939453,
+      "bounding_box": {
+        "left": 0.2080962061882019,
+        "top": 0.9553176164627075,
+        "width": 0.025009896606206894,
+        "height": 0.00800241157412529
+      },
+      "pixel_coordinates": {
+        "x1": 353,
+        "y1": 2101,
+        "x2": 396,
+        "y2": 2119
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "case_number: CASE NUMBER:",
+      "confidence": 92.68226623535156,
+      "bounding_box": {
+        "left": 0.6509596705436707,
+        "top": 0.07554366439580917,
+        "width": 0.2871646285057068,
+        "height": 0.018313387408852577
+      },
+      "pixel_coordinates": {
+        "x1": 1106,
+        "y1": 166,
+        "x2": 1594,
+        "y2": 206
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: ESTATE OF (name):",
+      "confidence": 92.9326400756836,
+      "bounding_box": {
+        "left": 0.06117912009358406,
+        "top": 0.07564828544855118,
+        "width": 0.5838804244995117,
+        "height": 0.018921412527561188
+      },
+      "pixel_coordinates": {
+        "x1": 104,
+        "y1": 166,
+        "x2": 1096,
+        "y2": 208
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Page:",
+      "confidence": 61.09251403808594,
+      "bounding_box": {
+        "left": 0.6803498268127441,
+        "top": 0.16531828045845032,
+        "width": 0.07528519630432129,
+        "height": 0.013587436638772488
+      },
+      "pixel_coordinates": {
+        "x1": 1156,
+        "y1": 363,
+        "x2": 1284,
+        "y2": 393
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: (Add pages as required.)",
+      "confidence": 51.673858642578125,
+      "bounding_box": {
+        "left": 0.7807684540748596,
+        "top": 0.16576960682868958,
+        "width": 0.06294497847557068,
+        "height": 0.012714403681457043
+      },
+      "pixel_coordinates": {
+        "x1": 1327,
+        "y1": 364,
+        "x2": 1434,
+        "y2": 392
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Item No. Description",
+      "confidence": 94.58806610107422,
+      "bounding_box": {
+        "left": 0.05930254980921745,
+        "top": 0.22384417057037354,
+        "width": 0.010829118080437183,
+        "height": 0.009528637863695621
+      },
+      "pixel_coordinates": {
+        "x1": 100,
+        "y1": 492,
+        "x2": 119,
+        "y2": 513
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: ATTACHMENT NO.:",
+      "confidence": 88.28022003173828,
+      "bounding_box": {
+        "left": 0.5570138096809387,
+        "top": 0.13512015342712402,
+        "width": 0.105673648416996,
+        "height": 0.013283805921673775
+      },
+      "pixel_coordinates": {
+        "x1": 946,
+        "y1": 297,
+        "x2": 1126,
+        "y2": 326
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Appraised value",
+      "confidence": 75.33998107910156,
+      "bounding_box": {
+        "left": 0.7936510443687439,
+        "top": 0.22339285910129547,
+        "width": 0.009416365996003151,
+        "height": 0.010850454680621624
+      },
+      "pixel_coordinates": {
+        "x1": 1349,
+        "y1": 491,
+        "x2": 1365,
+        "y2": 515
+      }
+    }
+  ],
+  "form_fields": [
+    {
+      "field_type": "other",
+      "label_text": "Judicial Council of California",
+      "value_text": "1998]",
+      "confidence": 55.47657012939453,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.2080962061882019,
+        "top": 0.9553176164627075,
+        "width": 0.025009896606206894,
+        "height": 0.00800241157412529
+      },
+      "pixel_coordinates": {
+        "x1": 353,
+        "y1": 2101,
+        "x2": 396,
+        "y2": 2119
+      }
+    },
+    {
+      "field_type": "case_number",
+      "label_text": "CASE NUMBER:",
+      "value_text": "",
+      "confidence": 92.68226623535156,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.6509596705436707,
+        "top": 0.07554366439580917,
+        "width": 0.2871646285057068,
+        "height": 0.018313387408852577
+      },
+      "pixel_coordinates": {
+        "x1": 1106,
+        "y1": 166,
+        "x2": 1594,
+        "y2": 206
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "ESTATE OF (name):",
+      "value_text": "",
+      "confidence": 92.9326400756836,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.06117912009358406,
+        "top": 0.07564828544855118,
+        "width": 0.5838804244995117,
+        "height": 0.018921412527561188
+      },
+      "pixel_coordinates": {
+        "x1": 104,
+        "y1": 166,
+        "x2": 1096,
+        "y2": 208
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Page:",
+      "value_text": "",
+      "confidence": 61.09251403808594,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.6803498268127441,
+        "top": 0.16531828045845032,
+        "width": 0.07528519630432129,
+        "height": 0.013587436638772488
+      },
+      "pixel_coordinates": {
+        "x1": 1156,
+        "y1": 363,
+        "x2": 1284,
+        "y2": 393
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "(Add pages as required.)",
+      "value_text": "",
+      "confidence": 51.673858642578125,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.7807684540748596,
+        "top": 0.16576960682868958,
+        "width": 0.06294497847557068,
+        "height": 0.012714403681457043
+      },
+      "pixel_coordinates": {
+        "x1": 1327,
+        "y1": 364,
+        "x2": 1434,
+        "y2": 392
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Item No. Description",
+      "value_text": "1.",
+      "confidence": 94.58806610107422,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.05930254980921745,
+        "top": 0.22384417057037354,
+        "width": 0.010829118080437183,
+        "height": 0.009528637863695621
+      },
+      "pixel_coordinates": {
+        "x1": 100,
+        "y1": 492,
+        "x2": 119,
+        "y2": 513
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "ATTACHMENT NO.:",
+      "value_text": "",
+      "confidence": 88.28022003173828,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.5570138096809387,
+        "top": 0.13512015342712402,
+        "width": 0.105673648416996,
+        "height": 0.013283805921673775
+      },
+      "pixel_coordinates": {
+        "x1": 946,
+        "y1": 297,
+        "x2": 1126,
+        "y2": 326
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Appraised value",
+      "value_text": "$",
+      "confidence": 75.33998107910156,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.7936510443687439,
+        "top": 0.22339285910129547,
+        "width": 0.009416365996003151,
+        "height": 0.010850454680621624
+      },
+      "pixel_coordinates": {
+        "x1": 1349,
+        "y1": 491,
+        "x2": 1365,
+        "y2": 515
+      }
+    }
+  ],
+  "total_boxes": 8,
+  "total_form_fields": 8,
+  "created_at": "2026-01-07T12:41:48.002854"
+}

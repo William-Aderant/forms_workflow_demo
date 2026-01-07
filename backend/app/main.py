@@ -23,6 +23,7 @@ from app.utils.rate_limiter import RateLimiter
 from app.services.firecrawl_service import FirecrawlService
 from app.services.textract_service import TextractService
 from app.services.image_processor import ImageProcessor
+from app.routes.legal_form_pipeline import router as legal_form_router
 
 # Configure logging
 logging.basicConfig(
@@ -46,6 +47,9 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Include routers
+app.include_router(legal_form_router)
 
 # Request logging middleware
 @app.middleware("http")
@@ -388,8 +392,8 @@ def process_forms_scraping(url: str, job_id: str):
                     processed_count += 1
                     logger.info(f"[{idx}/{len(pdf_infos)}] Processed: {form_name}")
                     
-                    # Create annotated image if we haven't created 5 yet
-                    if images_created < Config.SAMPLE_IMAGES_COUNT:
+                    # Create annotated image for ALL forms (SAMPLE_IMAGES_COUNT <= 0 means unlimited)
+                    if Config.SAMPLE_IMAGES_COUNT <= 0 or images_created < Config.SAMPLE_IMAGES_COUNT:
                         form_entry.status = 'creating_image'
                         _send_sse_update(job_id, 'form_image', {
                             'form_id': form_id,

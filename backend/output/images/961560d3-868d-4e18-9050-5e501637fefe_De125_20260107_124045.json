@@ -1,0 +1,916 @@
+{
+  "image_path": "961560d3-868d-4e18-9050-5e501637fefe_De125_20260107_124045.png",
+  "form_id": "961560d3-868d-4e18-9050-5e501637fefe",
+  "form_name": "De125",
+  "image_dimensions": {
+    "width": 1700,
+    "height": 2200
+  },
+  "boxes": [
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: (CITACION JUDICIAL)",
+      "confidence": 94.3367919921875,
+      "bounding_box": {
+        "left": 0.15771909058094025,
+        "top": 0.12620675563812256,
+        "width": 0.06902748346328735,
+        "height": 0.012923275120556355
+      },
+      "pixel_coordinates": {
+        "x1": 268,
+        "y1": 277,
+        "x2": 385,
+        "y2": 306
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: C.",
+      "confidence": 80.0,
+      "bounding_box": {
+        "left": 0.2858695983886719,
+        "top": 0.9122435450553894,
+        "width": 0.23362867534160614,
+        "height": 0.013743692077696323
+      },
+      "pixel_coordinates": {
+        "x1": 485,
+        "y1": 2006,
+        "x2": 883,
+        "y2": 2037
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: (Fecha)",
+      "confidence": 83.12775421142578,
+      "bounding_box": {
+        "left": 0.10751526057720184,
+        "top": 0.7464149594306946,
+        "width": 0.4372826814651489,
+        "height": 0.029579419642686844
+      },
+      "pixel_coordinates": {
+        "x1": 182,
+        "y1": 1642,
+        "x2": 926,
+        "y2": 1707
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Code Civ. Proc., \u00a7 416.40 (association",
+      "confidence": 93.96102142333984,
+      "bounding_box": {
+        "left": 0.33364224433898926,
+        "top": 0.8750140070915222,
+        "width": 0.02984933741390705,
+        "height": 0.011989017017185688
+      },
+      "pixel_coordinates": {
+        "x1": 567,
+        "y1": 1925,
+        "x2": 617,
+        "y2": 1951
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Code Civ. Proc., \u00a7 416.40 (association",
+      "confidence": 94.84684753417969,
+      "bounding_box": {
+        "left": 0.6373968720436096,
+        "top": 0.8594651818275452,
+        "width": 0.029666446149349213,
+        "height": 0.01169380359351635
+      },
+      "pixel_coordinates": {
+        "x1": 1083,
+        "y1": 1890,
+        "x2": 1134,
+        "y2": 1916
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: b.",
+      "confidence": 86.50716400146484,
+      "bounding_box": {
+        "left": 0.2844209372997284,
+        "top": 0.796227753162384,
+        "width": 0.029443280771374702,
+        "height": 0.012032460421323776
+      },
+      "pixel_coordinates": {
+        "x1": 483,
+        "y1": 1751,
+        "x2": 533,
+        "y2": 1778
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Code Civ. Proc., \u00a7 416.40 (association",
+      "confidence": 85.64258575439453,
+      "bounding_box": {
+        "left": 0.6373237371444702,
+        "top": 0.8752292990684509,
+        "width": 0.029788149520754814,
+        "height": 0.011547858826816082
+      },
+      "pixel_coordinates": {
+        "x1": 1083,
+        "y1": 1925,
+        "x2": 1134,
+        "y2": 1950
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: C.",
+      "confidence": 83.3456039428711,
+      "bounding_box": {
+        "left": 0.2858695983886719,
+        "top": 0.912388801574707,
+        "width": 0.029771313071250916,
+        "height": 0.011828131973743439
+      },
+      "pixel_coordinates": {
+        "x1": 485,
+        "y1": 2007,
+        "x2": 536,
+        "y2": 2033
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: (SEAL)",
+      "confidence": 91.16354370117188,
+      "bounding_box": {
+        "left": 0.06094196438789368,
+        "top": 0.7929483652114868,
+        "width": 0.1915791928768158,
+        "height": 0.14960762858390808
+      },
+      "pixel_coordinates": {
+        "x1": 103,
+        "y1": 1744,
+        "x2": 429,
+        "y2": 2073
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: b.",
+      "confidence": 83.60956573486328,
+      "bounding_box": {
+        "left": 0.2844209372997284,
+        "top": 0.796227753162384,
+        "width": 0.14362981915473938,
+        "height": 0.012256704270839691
+      },
+      "pixel_coordinates": {
+        "x1": 483,
+        "y1": 1751,
+        "x2": 727,
+        "y2": 1778
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: under:",
+      "confidence": 93.95404815673828,
+      "bounding_box": {
+        "left": 0.3336601257324219,
+        "top": 0.8433631658554077,
+        "width": 0.029612606391310692,
+        "height": 0.011760267429053783
+      },
+      "pixel_coordinates": {
+        "x1": 567,
+        "y1": 1855,
+        "x2": 617,
+        "y2": 1881
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: under:",
+      "confidence": 93.57279968261719,
+      "bounding_box": {
+        "left": 0.33373621106147766,
+        "top": 0.8283575773239136,
+        "width": 0.029715612530708313,
+        "height": 0.012274974957108498
+      },
+      "pixel_coordinates": {
+        "x1": 567,
+        "y1": 1822,
+        "x2": 617,
+        "y2": 1849
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Code Civ. Proc., \u00a7 416.10 (corporation)",
+      "confidence": 94.72663879394531,
+      "bounding_box": {
+        "left": 0.6376516819000244,
+        "top": 0.8278940916061401,
+        "width": 0.029564717784523964,
+        "height": 0.011521897278726101
+      },
+      "pixel_coordinates": {
+        "x1": 1084,
+        "y1": 1821,
+        "x2": 1134,
+        "y2": 1846
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: CASE NUMBER (N\u00famero del caso):",
+      "confidence": 92.38636779785156,
+      "bounding_box": {
+        "left": 0.6552268266677856,
+        "top": 0.5955086350440979,
+        "width": 0.2830338478088379,
+        "height": 0.023320769891142845
+      },
+      "pixel_coordinates": {
+        "x1": 1113,
+        "y1": 1310,
+        "x2": 1595,
+        "y2": 1361
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Code Civ. Proc., \u00a7 416.10 (corporation)",
+      "confidence": 94.70826721191406,
+      "bounding_box": {
+        "left": 0.6373544931411743,
+        "top": 0.8439129590988159,
+        "width": 0.029609691351652145,
+        "height": 0.011735943146049976
+      },
+      "pixel_coordinates": {
+        "x1": 1083,
+        "y1": 1856,
+        "x2": 1133,
+        "y2": 1882
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: b.",
+      "confidence": 85.35826873779297,
+      "bounding_box": {
+        "left": 0.2846224904060364,
+        "top": 0.8125549554824829,
+        "width": 0.02937064878642559,
+        "height": 0.011453581042587757
+      },
+      "pixel_coordinates": {
+        "x1": 483,
+        "y1": 1787,
+        "x2": 533,
+        "y2": 1812
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: (El nombre, la direcci\u00f3n y el n\u00famero de tel\u00e9fono del abogado del accionante, o del accionante que no tiene abogado, es)",
+      "confidence": 81.02232360839844,
+      "bounding_box": {
+        "left": 0.059621259570121765,
+        "top": 0.6959486603736877,
+        "width": 0.8844925761222839,
+        "height": 0.04682033509016037
+      },
+      "pixel_coordinates": {
+        "x1": 101,
+        "y1": 1531,
+        "x2": 1604,
+        "y2": 1634
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: The name and address of the COURT is: (El nombre y direcci\u00f3n de la CORTE es)",
+      "confidence": 60.000003814697266,
+      "bounding_box": {
+        "left": 0.05908994376659393,
+        "top": 0.5997953414916992,
+        "width": 0.5945350527763367,
+        "height": 0.05947576090693474
+      },
+      "pixel_coordinates": {
+        "x1": 100,
+        "y1": 1319,
+        "x2": 1111,
+        "y2": 1450
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: (Actuario)",
+      "confidence": 60.59107208251953,
+      "bounding_box": {
+        "left": 0.61669921875,
+        "top": 0.7443814873695374,
+        "width": 0.25662627816200256,
+        "height": 0.015548272989690304
+      },
+      "pixel_coordinates": {
+        "x1": 1048,
+        "y1": 1637,
+        "x2": 1484,
+        "y2": 1671
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: (Actuario)",
+      "confidence": 50.09850311279297,
+      "bounding_box": {
+        "left": 0.6139873266220093,
+        "top": 0.7439213991165161,
+        "width": 0.32268446683883667,
+        "height": 0.03174039348959923
+      },
+      "pixel_coordinates": {
+        "x1": 1043,
+        "y1": 1636,
+        "x2": 1592,
+        "y2": 1706
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: FROM: (De)",
+      "confidence": 74.25444793701172,
+      "bounding_box": {
+        "left": 0.15819783508777618,
+        "top": 0.24071651697158813,
+        "width": 0.10315952450037003,
+        "height": 0.012825245968997478
+      },
+      "pixel_coordinates": {
+        "x1": 268,
+        "y1": 529,
+        "x2": 444,
+        "y2": 557
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Page of 2",
+      "confidence": 47.49510192871094,
+      "bounding_box": {
+        "left": 0.8435153961181641,
+        "top": 0.9439226388931274,
+        "width": 0.0916389599442482,
+        "height": 0.008185150101780891
+      },
+      "pixel_coordinates": {
+        "x1": 1433,
+        "y1": 2076,
+        "x2": 1589,
+        "y2": 2094
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: (CITACION JUDICIAL)",
+      "confidence": 54.55531311035156,
+      "bounding_box": {
+        "left": 0.7215097546577454,
+        "top": 0.08008275926113129,
+        "width": 0.14608262479305267,
+        "height": 0.017618423327803612
+      },
+      "pixel_coordinates": {
+        "x1": 1226,
+        "y1": 176,
+        "x2": 1474,
+        "y2": 214
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: NOTICE TO: (Aviso a)",
+      "confidence": 68.15106964111328,
+      "bounding_box": {
+        "left": 0.11727972328662872,
+        "top": 0.19949205219745636,
+        "width": 0.03151921555399895,
+        "height": 0.012978946790099144
+      },
+      "pixel_coordinates": {
+        "x1": 199,
+        "y1": 438,
+        "x2": 252,
+        "y2": 467
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Probate Code, \u00a7\u00a7 8250, 8271",
+      "confidence": 55.31626892089844,
+      "bounding_box": {
+        "left": 0.9149715900421143,
+        "top": 0.9308183789253235,
+        "width": 0.025889767333865166,
+        "height": 0.006848531309515238
+      },
+      "pixel_coordinates": {
+        "x1": 1555,
+        "y1": 2047,
+        "x2": 1599,
+        "y2": 2062
+      }
+    }
+  ],
+  "form_fields": [
+    {
+      "field_type": "other",
+      "label_text": "(CITACION JUDICIAL)",
+      "value_text": "(Aviso a)",
+      "confidence": 94.3367919921875,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.15771909058094025,
+        "top": 0.12620675563812256,
+        "width": 0.06902748346328735,
+        "height": 0.012923275120556355
+      },
+      "pixel_coordinates": {
+        "x1": 268,
+        "y1": 277,
+        "x2": 385,
+        "y2": 306
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "C.",
+      "value_text": "",
+      "confidence": 80.0,
+      "field_confidence": 0.3,
+      "bounding_box": {
+        "left": 0.2858695983886719,
+        "top": 0.9122435450553894,
+        "width": 0.23362867534160614,
+        "height": 0.013743692077696323
+      },
+      "pixel_coordinates": {
+        "x1": 485,
+        "y1": 2006,
+        "x2": 883,
+        "y2": 2037
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "(Fecha)",
+      "value_text": "",
+      "confidence": 83.12775421142578,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.10751526057720184,
+        "top": 0.7464149594306946,
+        "width": 0.4372826814651489,
+        "height": 0.029579419642686844
+      },
+      "pixel_coordinates": {
+        "x1": 182,
+        "y1": 1642,
+        "x2": 926,
+        "y2": 1707
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Code Civ. Proc., \u00a7 416.40 (association",
+      "value_text": "",
+      "confidence": 93.96102142333984,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.33364224433898926,
+        "top": 0.8750140070915222,
+        "width": 0.02984933741390705,
+        "height": 0.011989017017185688
+      },
+      "pixel_coordinates": {
+        "x1": 567,
+        "y1": 1925,
+        "x2": 617,
+        "y2": 1951
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Code Civ. Proc., \u00a7 416.40 (association",
+      "value_text": "",
+      "confidence": 94.84684753417969,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.6373968720436096,
+        "top": 0.8594651818275452,
+        "width": 0.029666446149349213,
+        "height": 0.01169380359351635
+      },
+      "pixel_coordinates": {
+        "x1": 1083,
+        "y1": 1890,
+        "x2": 1134,
+        "y2": 1916
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "b.",
+      "value_text": "",
+      "confidence": 86.50716400146484,
+      "field_confidence": 0.3,
+      "bounding_box": {
+        "left": 0.2844209372997284,
+        "top": 0.796227753162384,
+        "width": 0.029443280771374702,
+        "height": 0.012032460421323776
+      },
+      "pixel_coordinates": {
+        "x1": 483,
+        "y1": 1751,
+        "x2": 533,
+        "y2": 1778
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Code Civ. Proc., \u00a7 416.40 (association",
+      "value_text": "",
+      "confidence": 85.64258575439453,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.6373237371444702,
+        "top": 0.8752292990684509,
+        "width": 0.029788149520754814,
+        "height": 0.011547858826816082
+      },
+      "pixel_coordinates": {
+        "x1": 1083,
+        "y1": 1925,
+        "x2": 1134,
+        "y2": 1950
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "C.",
+      "value_text": "",
+      "confidence": 83.3456039428711,
+      "field_confidence": 0.3,
+      "bounding_box": {
+        "left": 0.2858695983886719,
+        "top": 0.912388801574707,
+        "width": 0.029771313071250916,
+        "height": 0.011828131973743439
+      },
+      "pixel_coordinates": {
+        "x1": 485,
+        "y1": 2007,
+        "x2": 536,
+        "y2": 2033
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "(SEAL)",
+      "value_text": "",
+      "confidence": 91.16354370117188,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.06094196438789368,
+        "top": 0.7929483652114868,
+        "width": 0.1915791928768158,
+        "height": 0.14960762858390808
+      },
+      "pixel_coordinates": {
+        "x1": 103,
+        "y1": 1744,
+        "x2": 429,
+        "y2": 2073
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "b.",
+      "value_text": "",
+      "confidence": 83.60956573486328,
+      "field_confidence": 0.3,
+      "bounding_box": {
+        "left": 0.2844209372997284,
+        "top": 0.796227753162384,
+        "width": 0.14362981915473938,
+        "height": 0.012256704270839691
+      },
+      "pixel_coordinates": {
+        "x1": 483,
+        "y1": 1751,
+        "x2": 727,
+        "y2": 1778
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "under:",
+      "value_text": "",
+      "confidence": 93.95404815673828,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.3336601257324219,
+        "top": 0.8433631658554077,
+        "width": 0.029612606391310692,
+        "height": 0.011760267429053783
+      },
+      "pixel_coordinates": {
+        "x1": 567,
+        "y1": 1855,
+        "x2": 617,
+        "y2": 1881
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "under:",
+      "value_text": "",
+      "confidence": 93.57279968261719,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.33373621106147766,
+        "top": 0.8283575773239136,
+        "width": 0.029715612530708313,
+        "height": 0.012274974957108498
+      },
+      "pixel_coordinates": {
+        "x1": 567,
+        "y1": 1822,
+        "x2": 617,
+        "y2": 1849
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Code Civ. Proc., \u00a7 416.10 (corporation)",
+      "value_text": "",
+      "confidence": 94.72663879394531,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.6376516819000244,
+        "top": 0.8278940916061401,
+        "width": 0.029564717784523964,
+        "height": 0.011521897278726101
+      },
+      "pixel_coordinates": {
+        "x1": 1084,
+        "y1": 1821,
+        "x2": 1134,
+        "y2": 1846
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "CASE NUMBER (N\u00famero del caso):",
+      "value_text": "",
+      "confidence": 92.38636779785156,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.6552268266677856,
+        "top": 0.5955086350440979,
+        "width": 0.2830338478088379,
+        "height": 0.023320769891142845
+      },
+      "pixel_coordinates": {
+        "x1": 1113,
+        "y1": 1310,
+        "x2": 1595,
+        "y2": 1361
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Code Civ. Proc., \u00a7 416.10 (corporation)",
+      "value_text": "",
+      "confidence": 94.70826721191406,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.6373544931411743,
+        "top": 0.8439129590988159,
+        "width": 0.029609691351652145,
+        "height": 0.011735943146049976
+      },
+      "pixel_coordinates": {
+        "x1": 1083,
+        "y1": 1856,
+        "x2": 1133,
+        "y2": 1882
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "b.",
+      "value_text": "",
+      "confidence": 85.35826873779297,
+      "field_confidence": 0.3,
+      "bounding_box": {
+        "left": 0.2846224904060364,
+        "top": 0.8125549554824829,
+        "width": 0.02937064878642559,
+        "height": 0.011453581042587757
+      },
+      "pixel_coordinates": {
+        "x1": 483,
+        "y1": 1787,
+        "x2": 533,
+        "y2": 1812
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "(El nombre, la direcci\u00f3n y el n\u00famero de tel\u00e9fono del abogado del accionante, o del accionante que no tiene abogado, es)",
+      "value_text": "",
+      "confidence": 81.02232360839844,
+      "field_confidence": 0.3,
+      "bounding_box": {
+        "left": 0.059621259570121765,
+        "top": 0.6959486603736877,
+        "width": 0.8844925761222839,
+        "height": 0.04682033509016037
+      },
+      "pixel_coordinates": {
+        "x1": 101,
+        "y1": 1531,
+        "x2": 1604,
+        "y2": 1634
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "The name and address of the COURT is: (El nombre y direcci\u00f3n de la CORTE es)",
+      "value_text": "",
+      "confidence": 60.000003814697266,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.05908994376659393,
+        "top": 0.5997953414916992,
+        "width": 0.5945350527763367,
+        "height": 0.05947576090693474
+      },
+      "pixel_coordinates": {
+        "x1": 100,
+        "y1": 1319,
+        "x2": 1111,
+        "y2": 1450
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "(Actuario)",
+      "value_text": "",
+      "confidence": 60.59107208251953,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.61669921875,
+        "top": 0.7443814873695374,
+        "width": 0.25662627816200256,
+        "height": 0.015548272989690304
+      },
+      "pixel_coordinates": {
+        "x1": 1048,
+        "y1": 1637,
+        "x2": 1484,
+        "y2": 1671
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "(Actuario)",
+      "value_text": "",
+      "confidence": 50.09850311279297,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.6139873266220093,
+        "top": 0.7439213991165161,
+        "width": 0.32268446683883667,
+        "height": 0.03174039348959923
+      },
+      "pixel_coordinates": {
+        "x1": 1043,
+        "y1": 1636,
+        "x2": 1592,
+        "y2": 1706
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "FROM: (De)",
+      "value_text": "(Herencia de)",
+      "confidence": 74.25444793701172,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.15819783508777618,
+        "top": 0.24071651697158813,
+        "width": 0.10315952450037003,
+        "height": 0.012825245968997478
+      },
+      "pixel_coordinates": {
+        "x1": 268,
+        "y1": 529,
+        "x2": 444,
+        "y2": 557
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Page of 2",
+      "value_text": "Code, \u00a7\u00a7 8250, 8271",
+      "confidence": 47.49510192871094,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.8435153961181641,
+        "top": 0.9439226388931274,
+        "width": 0.0916389599442482,
+        "height": 0.008185150101780891
+      },
+      "pixel_coordinates": {
+        "x1": 1433,
+        "y1": 2076,
+        "x2": 1589,
+        "y2": 2094
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "(CITACION JUDICIAL)",
+      "value_text": "FOR COURT USE ONLY (SOLO PARA USO DE LA CORTE)",
+      "confidence": 54.55531311035156,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.7215097546577454,
+        "top": 0.08008275926113129,
+        "width": 0.14608262479305267,
+        "height": 0.017618423327803612
+      },
+      "pixel_coordinates": {
+        "x1": 1226,
+        "y1": 176,
+        "x2": 1474,
+        "y2": 214
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "NOTICE TO: (Aviso a)",
+      "value_text": "(De)",
+      "confidence": 68.15106964111328,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.11727972328662872,
+        "top": 0.19949205219745636,
+        "width": 0.03151921555399895,
+        "height": 0.012978946790099144
+      },
+      "pixel_coordinates": {
+        "x1": 199,
+        "y1": 438,
+        "x2": 252,
+        "y2": 467
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Probate Code, \u00a7\u00a7 8250, 8271",
+      "value_text": "of 2",
+      "confidence": 55.31626892089844,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.9149715900421143,
+        "top": 0.9308183789253235,
+        "width": 0.025889767333865166,
+        "height": 0.006848531309515238
+      },
+      "pixel_coordinates": {
+        "x1": 1555,
+        "y1": 2047,
+        "x2": 1599,
+        "y2": 2062
+      }
+    }
+  ],
+  "total_boxes": 25,
+  "total_form_fields": 25,
+  "created_at": "2026-01-07T12:40:45.921474"
+}

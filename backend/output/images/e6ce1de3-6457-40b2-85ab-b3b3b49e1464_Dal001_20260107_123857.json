@@ -1,0 +1,160 @@
+{
+  "image_path": "e6ce1de3-6457-40b2-85ab-b3b3b49e1464_Dal001_20260107_123857.png",
+  "form_id": "e6ce1de3-6457-40b2-85ab-b3b3b49e1464",
+  "form_name": "Dal001",
+  "image_dimensions": {
+    "width": 1700,
+    "height": 2200
+  },
+  "boxes": [
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Judicial Council of California",
+      "confidence": 94.34830474853516,
+      "bounding_box": {
+        "left": 0.12539073824882507,
+        "top": 0.9303169846534729,
+        "width": 0.056229036301374435,
+        "height": 0.00838482566177845
+      },
+      "pixel_coordinates": {
+        "x1": 213,
+        "y1": 2046,
+        "x2": 308,
+        "y2": 2065
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: IMPORTANT ADVISORY INFORMATION",
+      "confidence": 91.10505676269531,
+      "bounding_box": {
+        "left": 0.9153801798820496,
+        "top": 0.8943854570388794,
+        "width": 0.02541724406182766,
+        "height": 0.006939999759197235
+      },
+      "pixel_coordinates": {
+        "x1": 1556,
+        "y1": 1967,
+        "x2": 1599,
+        "y2": 1982
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Page 1 of 2",
+      "confidence": 80.7662353515625,
+      "bounding_box": {
+        "left": 0.9127697944641113,
+        "top": 0.9122216105461121,
+        "width": 0.0278271846473217,
+        "height": 0.007736857049167156
+      },
+      "pixel_coordinates": {
+        "x1": 1551,
+        "y1": 2006,
+        "x2": 1599,
+        "y2": 2023
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: DAL-001 [Rev. July 1, 2016]",
+      "confidence": 60.70147705078125,
+      "bounding_box": {
+        "left": 0.12809798121452332,
+        "top": 0.9211478233337402,
+        "width": 0.05372001230716705,
+        "height": 0.006873762235045433
+      },
+      "pixel_coordinates": {
+        "x1": 217,
+        "y1": 2026,
+        "x2": 309,
+        "y2": 2041
+      }
+    }
+  ],
+  "form_fields": [
+    {
+      "field_type": "other",
+      "label_text": "Judicial Council of California",
+      "value_text": "July 1, 2016]",
+      "confidence": 94.34830474853516,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.12539073824882507,
+        "top": 0.9303169846534729,
+        "width": 0.056229036301374435,
+        "height": 0.00838482566177845
+      },
+      "pixel_coordinates": {
+        "x1": 213,
+        "y1": 2046,
+        "x2": 308,
+        "y2": 2065
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "IMPORTANT ADVISORY INFORMATION",
+      "value_text": "1 of 2",
+      "confidence": 91.10505676269531,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.9153801798820496,
+        "top": 0.8943854570388794,
+        "width": 0.02541724406182766,
+        "height": 0.006939999759197235
+      },
+      "pixel_coordinates": {
+        "x1": 1556,
+        "y1": 1967,
+        "x2": 1599,
+        "y2": 1982
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Page 1 of 2",
+      "value_text": "$ 55.3",
+      "confidence": 80.7662353515625,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.9127697944641113,
+        "top": 0.9122216105461121,
+        "width": 0.0278271846473217,
+        "height": 0.007736857049167156
+      },
+      "pixel_coordinates": {
+        "x1": 1551,
+        "y1": 2006,
+        "x2": 1599,
+        "y2": 2023
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "DAL-001 [Rev. July 1, 2016]",
+      "value_text": "of California",
+      "confidence": 60.70147705078125,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.12809798121452332,
+        "top": 0.9211478233337402,
+        "width": 0.05372001230716705,
+        "height": 0.006873762235045433
+      },
+      "pixel_coordinates": {
+        "x1": 217,
+        "y1": 2026,
+        "x2": 309,
+        "y2": 2041
+      }
+    }
+  ],
+  "total_boxes": 4,
+  "total_form_fields": 4,
+  "created_at": "2026-01-07T12:38:57.422976"
+}

@@ -1,0 +1,988 @@
+{
+  "image_path": "d608a68d-7b0d-44ed-9c27-b7a8bbc010a9_Cr840_20260107_123845.png",
+  "form_id": "d608a68d-7b0d-44ed-9c27-b7a8bbc010a9",
+  "form_name": "Cr840",
+  "image_dimensions": {
+    "width": 1700,
+    "height": 2200
+  },
+  "boxes": [
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: (2)",
+      "confidence": 100.0,
+      "bounding_box": {
+        "left": 0.14508458971977234,
+        "top": 0.49422749876976013,
+        "width": 0.0010005902731791139,
+        "height": 0.001000446965917945
+      },
+      "pixel_coordinates": {
+        "x1": 246,
+        "y1": 1087,
+        "x2": 248,
+        "y2": 1089
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: (1)",
+      "confidence": 100.0,
+      "bounding_box": {
+        "left": 0.14608514308929443,
+        "top": 0.5162375569343567,
+        "width": 0.001000590156763792,
+        "height": 0.001000446849502623
+      },
+      "pixel_coordinates": {
+        "x1": 248,
+        "y1": 1135,
+        "x2": 250,
+        "y2": 1137
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: (2)",
+      "confidence": 100.0,
+      "bounding_box": {
+        "left": 0.14508451521396637,
+        "top": 0.5342457294464111,
+        "width": 0.0010005899239331484,
+        "height": 0.0010004466166719794
+      },
+      "pixel_coordinates": {
+        "x1": 246,
+        "y1": 1175,
+        "x2": 248,
+        "y2": 1177
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: (2)",
+      "confidence": 100.0,
+      "bounding_box": {
+        "left": 0.14508436620235443,
+        "top": 0.626287579536438,
+        "width": 0.0010005891090258956,
+        "height": 0.0010004459181800485
+      },
+      "pixel_coordinates": {
+        "x1": 246,
+        "y1": 1377,
+        "x2": 248,
+        "y2": 1380
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: (3)",
+      "confidence": 100.0,
+      "bounding_box": {
+        "left": 0.14608490467071533,
+        "top": 0.6472970843315125,
+        "width": 0.001000588876195252,
+        "height": 0.0010004456853494048
+      },
+      "pixel_coordinates": {
+        "x1": 248,
+        "y1": 1424,
+        "x2": 250,
+        "y2": 1426
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "name: Name:",
+      "confidence": 92.25861358642578,
+      "bounding_box": {
+        "left": 0.26615670323371887,
+        "top": 0.13806389272212982,
+        "width": 0.001000582124106586,
+        "height": 0.0010004660580307245
+      },
+      "pixel_coordinates": {
+        "x1": 452,
+        "y1": 303,
+        "x2": 454,
+        "y2": 305
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Pen. Code, $ 18120.5",
+      "confidence": 53.49252700805664,
+      "bounding_box": {
+        "left": 0.12907451391220093,
+        "top": 0.9184191823005676,
+        "width": 0.02501458115875721,
+        "height": 0.007003364618867636
+      },
+      "pixel_coordinates": {
+        "x1": 219,
+        "y1": 2020,
+        "x2": 261,
+        "y2": 2035
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: a. Name:",
+      "confidence": 92.2371597290039,
+      "bounding_box": {
+        "left": 0.18602685630321503,
+        "top": 0.2425757646560669,
+        "width": 0.45665326714515686,
+        "height": 0.0233199093490839
+      },
+      "pixel_coordinates": {
+        "x1": 316,
+        "y1": 533,
+        "x2": 1092,
+        "y2": 584
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: 3",
+      "confidence": 91.86688995361328,
+      "bounding_box": {
+        "left": 0.10240111500024796,
+        "top": 0.39844968914985657,
+        "width": 0.015525474213063717,
+        "height": 0.011455988511443138
+      },
+      "pixel_coordinates": {
+        "x1": 174,
+        "y1": 876,
+        "x2": 200,
+        "y2": 901
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Check here to list additional items. List them on a separate piece of paper, write \"CR-840, item 3\" at the top,",
+      "confidence": 92.9427719116211,
+      "bounding_box": {
+        "left": 0.10217522829771042,
+        "top": 0.6946847438812256,
+        "width": 0.01592210866510868,
+        "height": 0.011570408008992672
+      },
+      "pixel_coordinates": {
+        "x1": 173,
+        "y1": 1528,
+        "x2": 200,
+        "y2": 1553
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "case_number: Case Number:",
+      "confidence": 85.66738891601562,
+      "bounding_box": {
+        "left": 0.6477681994438171,
+        "top": 0.3985808193683624,
+        "width": 0.29330387711524963,
+        "height": 0.030595656484365463
+      },
+      "pixel_coordinates": {
+        "x1": 1101,
+        "y1": 876,
+        "x2": 1599,
+        "y2": 944
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "name: Name:",
+      "confidence": 89.82583618164062,
+      "bounding_box": {
+        "left": 0.16108126938343048,
+        "top": 0.14715835452079773,
+        "width": 0.4812115728855133,
+        "height": 0.02006807178258896
+      },
+      "pixel_coordinates": {
+        "x1": 273,
+        "y1": 323,
+        "x2": 1091,
+        "y2": 367
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "date: (date):",
+      "confidence": 74.98223114013672,
+      "bounding_box": {
+        "left": 0.75649094581604,
+        "top": 0.675258457660675,
+        "width": 0.015583663247525692,
+        "height": 0.011642399244010448
+      },
+      "pixel_coordinates": {
+        "x1": 1286,
+        "y1": 1485,
+        "x2": 1312,
+        "y2": 1511
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Prohibited Items Finding and Orders",
+      "confidence": 67.38609313964844,
+      "bounding_box": {
+        "left": 0.9085558652877808,
+        "top": 0.9104496836662292,
+        "width": 0.032478634268045425,
+        "height": 0.00852921698242426
+      },
+      "pixel_coordinates": {
+        "x1": 1544,
+        "y1": 2002,
+        "x2": 1599,
+        "y2": 2021
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Fill in court name and street address:",
+      "confidence": 67.50028228759766,
+      "bounding_box": {
+        "left": 0.6513388156890869,
+        "top": 0.2583329677581787,
+        "width": 0.27129629254341125,
+        "height": 0.011966145597398281
+      },
+      "pixel_coordinates": {
+        "x1": 1107,
+        "y1": 568,
+        "x2": 1568,
+        "y2": 594
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: received by the court",
+      "confidence": 74.8055648803711,
+      "bounding_box": {
+        "left": 0.7569975256919861,
+        "top": 0.4843388795852661,
+        "width": 0.014973148703575134,
+        "height": 0.011208106763660908
+      },
+      "pixel_coordinates": {
+        "x1": 1286,
+        "y1": 1065,
+        "x2": 1312,
+        "y2": 1090
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: received by the court",
+      "confidence": 75.06420135498047,
+      "bounding_box": {
+        "left": 0.7565881013870239,
+        "top": 0.5034639835357666,
+        "width": 0.01546983327716589,
+        "height": 0.011502392590045929
+      },
+      "pixel_coordinates": {
+        "x1": 1286,
+        "y1": 1107,
+        "x2": 1312,
+        "y2": 1132
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "date: (date):",
+      "confidence": 74.88897705078125,
+      "bounding_box": {
+        "left": 0.756711483001709,
+        "top": 0.5240950584411621,
+        "width": 0.015161010436713696,
+        "height": 0.01121543999761343
+      },
+      "pixel_coordinates": {
+        "x1": 1286,
+        "y1": 1153,
+        "x2": 1312,
+        "y2": 1177
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "date: (date):",
+      "confidence": 75.00882720947266,
+      "bounding_box": {
+        "left": 0.7567827105522156,
+        "top": 0.6345644593238831,
+        "width": 0.015335384756326675,
+        "height": 0.011463027447462082
+      },
+      "pixel_coordinates": {
+        "x1": 1286,
+        "y1": 1396,
+        "x2": 1312,
+        "y2": 1421
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "date: (date):",
+      "confidence": 75.36788940429688,
+      "bounding_box": {
+        "left": 0.7568454742431641,
+        "top": 0.6552976965904236,
+        "width": 0.01509061548858881,
+        "height": 0.01097129937261343
+      },
+      "pixel_coordinates": {
+        "x1": 1286,
+        "y1": 1441,
+        "x2": 1312,
+        "y2": 1465
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "date: (date):",
+      "confidence": 73.92813873291016,
+      "bounding_box": {
+        "left": 0.7579358816146851,
+        "top": 0.545211672782898,
+        "width": 0.015448832884430885,
+        "height": 0.011326832696795464
+      },
+      "pixel_coordinates": {
+        "x1": 1288,
+        "y1": 1199,
+        "x2": 1314,
+        "y2": 1224
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: received by the court",
+      "confidence": 74.1338882446289,
+      "bounding_box": {
+        "left": 0.7568997740745544,
+        "top": 0.6147818565368652,
+        "width": 0.01507839746773243,
+        "height": 0.011395642533898354
+      },
+      "pixel_coordinates": {
+        "x1": 1286,
+        "y1": 1352,
+        "x2": 1312,
+        "y2": 1377
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Clerk stamps date here when form is filed.",
+      "confidence": 86.982421875,
+      "bounding_box": {
+        "left": 0.6476679444313049,
+        "top": 0.0655774250626564,
+        "width": 0.2932961881160736,
+        "height": 0.17077787220478058
+      },
+      "pixel_coordinates": {
+        "x1": 1101,
+        "y1": 144,
+        "x2": 1599,
+        "y2": 519
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: b. The defendant is subject to a criminal protective order issued under",
+      "confidence": 80.0,
+      "bounding_box": {
+        "left": 0.1029634028673172,
+        "top": 0.31228071451187134,
+        "width": 0.5215325355529785,
+        "height": 0.06410349160432816
+      },
+      "pixel_coordinates": {
+        "x1": 175,
+        "y1": 687,
+        "x2": 1061,
+        "y2": 828
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: 3",
+      "confidence": 63.085662841796875,
+      "bounding_box": {
+        "left": 0.10109511017799377,
+        "top": 0.39774560928344727,
+        "width": 0.40051937103271484,
+        "height": 0.014514269307255745
+      },
+      "pixel_coordinates": {
+        "x1": 171,
+        "y1": 875,
+        "x2": 852,
+        "y2": 906
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: New January 1, 2026, Optional Form",
+      "confidence": 74.8001480102539,
+      "bounding_box": {
+        "left": 0.08150868117809296,
+        "top": 0.9276808500289917,
+        "width": 0.07270073890686035,
+        "height": 0.008108356036245823
+      },
+      "pixel_coordinates": {
+        "x1": 138,
+        "y1": 2040,
+        "x2": 262,
+        "y2": 2058
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Pen. Code, $ 18120.5",
+      "confidence": 53.32543182373047,
+      "bounding_box": {
+        "left": 0.18875962495803833,
+        "top": 0.9096241593360901,
+        "width": 0.06004137545824051,
+        "height": 0.007152899634093046
+      },
+      "pixel_coordinates": {
+        "x1": 320,
+        "y1": 2001,
+        "x2": 422,
+        "y2": 2016
+      }
+    }
+  ],
+  "form_fields": [
+    {
+      "field_type": "other",
+      "label_text": "(2)",
+      "value_text": "",
+      "confidence": 100.0,
+      "field_confidence": 0.3,
+      "bounding_box": {
+        "left": 0.14508458971977234,
+        "top": 0.49422749876976013,
+        "width": 0.0010005902731791139,
+        "height": 0.001000446965917945
+      },
+      "pixel_coordinates": {
+        "x1": 246,
+        "y1": 1087,
+        "x2": 248,
+        "y2": 1089
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "(1)",
+      "value_text": "",
+      "confidence": 100.0,
+      "field_confidence": 0.3,
+      "bounding_box": {
+        "left": 0.14608514308929443,
+        "top": 0.5162375569343567,
+        "width": 0.001000590156763792,
+        "height": 0.001000446849502623
+      },
+      "pixel_coordinates": {
+        "x1": 248,
+        "y1": 1135,
+        "x2": 250,
+        "y2": 1137
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "(2)",
+      "value_text": "",
+      "confidence": 100.0,
+      "field_confidence": 0.3,
+      "bounding_box": {
+        "left": 0.14508451521396637,
+        "top": 0.5342457294464111,
+        "width": 0.0010005899239331484,
+        "height": 0.0010004466166719794
+      },
+      "pixel_coordinates": {
+        "x1": 246,
+        "y1": 1175,
+        "x2": 248,
+        "y2": 1177
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "(2)",
+      "value_text": "",
+      "confidence": 100.0,
+      "field_confidence": 0.3,
+      "bounding_box": {
+        "left": 0.14508436620235443,
+        "top": 0.626287579536438,
+        "width": 0.0010005891090258956,
+        "height": 0.0010004459181800485
+      },
+      "pixel_coordinates": {
+        "x1": 246,
+        "y1": 1377,
+        "x2": 248,
+        "y2": 1380
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "(3)",
+      "value_text": "",
+      "confidence": 100.0,
+      "field_confidence": 0.3,
+      "bounding_box": {
+        "left": 0.14608490467071533,
+        "top": 0.6472970843315125,
+        "width": 0.001000588876195252,
+        "height": 0.0010004456853494048
+      },
+      "pixel_coordinates": {
+        "x1": 248,
+        "y1": 1424,
+        "x2": 250,
+        "y2": 1426
+      }
+    },
+    {
+      "field_type": "name",
+      "label_text": "Name:",
+      "value_text": "",
+      "confidence": 92.25861358642578,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.26615670323371887,
+        "top": 0.13806389272212982,
+        "width": 0.001000582124106586,
+        "height": 0.0010004660580307245
+      },
+      "pixel_coordinates": {
+        "x1": 452,
+        "y1": 303,
+        "x2": 454,
+        "y2": 305
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Pen. Code, $ 18120.5",
+      "value_text": "2026,",
+      "confidence": 53.49252700805664,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.12907451391220093,
+        "top": 0.9184191823005676,
+        "width": 0.02501458115875721,
+        "height": 0.007003364618867636
+      },
+      "pixel_coordinates": {
+        "x1": 219,
+        "y1": 2020,
+        "x2": 261,
+        "y2": 2035
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "a. Name:",
+      "value_text": "",
+      "confidence": 92.2371597290039,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.18602685630321503,
+        "top": 0.2425757646560669,
+        "width": 0.45665326714515686,
+        "height": 0.0233199093490839
+      },
+      "pixel_coordinates": {
+        "x1": 316,
+        "y1": 533,
+        "x2": 1092,
+        "y2": 584
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "3",
+      "value_text": "",
+      "confidence": 91.86688995361328,
+      "field_confidence": 0.3,
+      "bounding_box": {
+        "left": 0.10240111500024796,
+        "top": 0.39844968914985657,
+        "width": 0.015525474213063717,
+        "height": 0.011455988511443138
+      },
+      "pixel_coordinates": {
+        "x1": 174,
+        "y1": 876,
+        "x2": 200,
+        "y2": 901
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Check here to list additional items. List them on a separate piece of paper, write \"CR-840, item 3\" at the top,",
+      "value_text": "",
+      "confidence": 92.9427719116211,
+      "field_confidence": 0.3,
+      "bounding_box": {
+        "left": 0.10217522829771042,
+        "top": 0.6946847438812256,
+        "width": 0.01592210866510868,
+        "height": 0.011570408008992672
+      },
+      "pixel_coordinates": {
+        "x1": 173,
+        "y1": 1528,
+        "x2": 200,
+        "y2": 1553
+      }
+    },
+    {
+      "field_type": "case_number",
+      "label_text": "Case Number:",
+      "value_text": "",
+      "confidence": 85.66738891601562,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.6477681994438171,
+        "top": 0.3985808193683624,
+        "width": 0.29330387711524963,
+        "height": 0.030595656484365463
+      },
+      "pixel_coordinates": {
+        "x1": 1101,
+        "y1": 876,
+        "x2": 1599,
+        "y2": 944
+      }
+    },
+    {
+      "field_type": "name",
+      "label_text": "Name:",
+      "value_text": "",
+      "confidence": 89.82583618164062,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.16108126938343048,
+        "top": 0.14715835452079773,
+        "width": 0.4812115728855133,
+        "height": 0.02006807178258896
+      },
+      "pixel_coordinates": {
+        "x1": 273,
+        "y1": 323,
+        "x2": 1091,
+        "y2": 367
+      }
+    },
+    {
+      "field_type": "date",
+      "label_text": "(date):",
+      "value_text": "",
+      "confidence": 74.98223114013672,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.75649094581604,
+        "top": 0.675258457660675,
+        "width": 0.015583663247525692,
+        "height": 0.011642399244010448
+      },
+      "pixel_coordinates": {
+        "x1": 1286,
+        "y1": 1485,
+        "x2": 1312,
+        "y2": 1511
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Prohibited Items Finding and Orders",
+      "value_text": "1 of 2",
+      "confidence": 67.38609313964844,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.9085558652877808,
+        "top": 0.9104496836662292,
+        "width": 0.032478634268045425,
+        "height": 0.00852921698242426
+      },
+      "pixel_coordinates": {
+        "x1": 1544,
+        "y1": 2002,
+        "x2": 1599,
+        "y2": 2021
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Fill in court name and street address:",
+      "value_text": "Superior Court of California, County of",
+      "confidence": 67.50028228759766,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.6513388156890869,
+        "top": 0.2583329677581787,
+        "width": 0.27129629254341125,
+        "height": 0.011966145597398281
+      },
+      "pixel_coordinates": {
+        "x1": 1107,
+        "y1": 568,
+        "x2": 1568,
+        "y2": 594
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "received by the court",
+      "value_text": "",
+      "confidence": 74.8055648803711,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.7569975256919861,
+        "top": 0.4843388795852661,
+        "width": 0.014973148703575134,
+        "height": 0.011208106763660908
+      },
+      "pixel_coordinates": {
+        "x1": 1286,
+        "y1": 1065,
+        "x2": 1312,
+        "y2": 1090
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "received by the court",
+      "value_text": "",
+      "confidence": 75.06420135498047,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.7565881013870239,
+        "top": 0.5034639835357666,
+        "width": 0.01546983327716589,
+        "height": 0.011502392590045929
+      },
+      "pixel_coordinates": {
+        "x1": 1286,
+        "y1": 1107,
+        "x2": 1312,
+        "y2": 1132
+      }
+    },
+    {
+      "field_type": "date",
+      "label_text": "(date):",
+      "value_text": "",
+      "confidence": 74.88897705078125,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.756711483001709,
+        "top": 0.5240950584411621,
+        "width": 0.015161010436713696,
+        "height": 0.01121543999761343
+      },
+      "pixel_coordinates": {
+        "x1": 1286,
+        "y1": 1153,
+        "x2": 1312,
+        "y2": 1177
+      }
+    },
+    {
+      "field_type": "date",
+      "label_text": "(date):",
+      "value_text": "",
+      "confidence": 75.00882720947266,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.7567827105522156,
+        "top": 0.6345644593238831,
+        "width": 0.015335384756326675,
+        "height": 0.011463027447462082
+      },
+      "pixel_coordinates": {
+        "x1": 1286,
+        "y1": 1396,
+        "x2": 1312,
+        "y2": 1421
+      }
+    },
+    {
+      "field_type": "date",
+      "label_text": "(date):",
+      "value_text": "",
+      "confidence": 75.36788940429688,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.7568454742431641,
+        "top": 0.6552976965904236,
+        "width": 0.01509061548858881,
+        "height": 0.01097129937261343
+      },
+      "pixel_coordinates": {
+        "x1": 1286,
+        "y1": 1441,
+        "x2": 1312,
+        "y2": 1465
+      }
+    },
+    {
+      "field_type": "date",
+      "label_text": "(date):",
+      "value_text": "",
+      "confidence": 73.92813873291016,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.7579358816146851,
+        "top": 0.545211672782898,
+        "width": 0.015448832884430885,
+        "height": 0.011326832696795464
+      },
+      "pixel_coordinates": {
+        "x1": 1288,
+        "y1": 1199,
+        "x2": 1314,
+        "y2": 1224
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "received by the court",
+      "value_text": "",
+      "confidence": 74.1338882446289,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.7568997740745544,
+        "top": 0.6147818565368652,
+        "width": 0.01507839746773243,
+        "height": 0.011395642533898354
+      },
+      "pixel_coordinates": {
+        "x1": 1286,
+        "y1": 1352,
+        "x2": 1312,
+        "y2": 1377
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Clerk stamps date here when form is filed.",
+      "value_text": "",
+      "confidence": 86.982421875,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.6476679444313049,
+        "top": 0.0655774250626564,
+        "width": 0.2932961881160736,
+        "height": 0.17077787220478058
+      },
+      "pixel_coordinates": {
+        "x1": 1101,
+        "y1": 144,
+        "x2": 1599,
+        "y2": 519
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "b. The defendant is subject to a criminal protective order issued under",
+      "value_text": "",
+      "confidence": 80.0,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.1029634028673172,
+        "top": 0.31228071451187134,
+        "width": 0.5215325355529785,
+        "height": 0.06410349160432816
+      },
+      "pixel_coordinates": {
+        "x1": 175,
+        "y1": 687,
+        "x2": 1061,
+        "y2": 828
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "3",
+      "value_text": "",
+      "confidence": 63.085662841796875,
+      "field_confidence": 0.3,
+      "bounding_box": {
+        "left": 0.10109511017799377,
+        "top": 0.39774560928344727,
+        "width": 0.40051937103271484,
+        "height": 0.014514269307255745
+      },
+      "pixel_coordinates": {
+        "x1": 171,
+        "y1": 875,
+        "x2": 852,
+        "y2": 906
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "New January 1, 2026, Optional Form",
+      "value_text": "Code, $ 18120.5",
+      "confidence": 74.8001480102539,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.08150868117809296,
+        "top": 0.9276808500289917,
+        "width": 0.07270073890686035,
+        "height": 0.008108356036245823
+      },
+      "pixel_coordinates": {
+        "x1": 138,
+        "y1": 2040,
+        "x2": 262,
+        "y2": 2058
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Pen. Code, $ 18120.5",
+      "value_text": "courts.ca.gov",
+      "confidence": 53.32543182373047,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.18875962495803833,
+        "top": 0.9096241593360901,
+        "width": 0.06004137545824051,
+        "height": 0.007152899634093046
+      },
+      "pixel_coordinates": {
+        "x1": 320,
+        "y1": 2001,
+        "x2": 422,
+        "y2": 2016
+      }
+    }
+  ],
+  "total_boxes": 27,
+  "total_form_fields": 27,
+  "created_at": "2026-01-07T12:38:45.515890"
+}

@@ -1,0 +1,304 @@
+{
+  "image_path": "8f372fef-b6c9-442a-a8ae-7d9c29082b4c_De120ma_20260107_124010.png",
+  "form_id": "8f372fef-b6c9-442a-a8ae-7d9c29082b4c",
+  "form_name": "De120ma",
+  "image_dimensions": {
+    "width": 1700,
+    "height": 2200
+  },
+  "boxes": [
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Page",
+      "confidence": 94.70451354980469,
+      "bounding_box": {
+        "left": 0.863334596157074,
+        "top": 0.9022237658500671,
+        "width": 0.02848641388118267,
+        "height": 0.018061697483062744
+      },
+      "pixel_coordinates": {
+        "x1": 1467,
+        "y1": 1984,
+        "x2": 1516,
+        "y2": 2024
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "case_number: CASE NUMBER:",
+      "confidence": 92.09040069580078,
+      "bounding_box": {
+        "left": 0.6483384966850281,
+        "top": 0.08180290460586548,
+        "width": 0.28998565673828125,
+        "height": 0.034500740468502045
+      },
+      "pixel_coordinates": {
+        "x1": 1102,
+        "y1": 179,
+        "x2": 1595,
+        "y2": 255
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: CONSERVATORSHIP",
+      "confidence": 94.17503356933594,
+      "bounding_box": {
+        "left": 0.5071980357170105,
+        "top": 0.06930772215127945,
+        "width": 0.03017083927989006,
+        "height": 0.011591073125600815
+      },
+      "pixel_coordinates": {
+        "x1": 862,
+        "y1": 152,
+        "x2": 913,
+        "y2": 177
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: ESTATE",
+      "confidence": 94.71434020996094,
+      "bounding_box": {
+        "left": 0.1680683195590973,
+        "top": 0.06917410343885422,
+        "width": 0.029978621751070023,
+        "height": 0.01158137060701847
+      },
+      "pixel_coordinates": {
+        "x1": 285,
+        "y1": 152,
+        "x2": 336,
+        "y2": 177
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: GUARDIANSHIP",
+      "confidence": 94.73573303222656,
+      "bounding_box": {
+        "left": 0.3119667172431946,
+        "top": 0.06925702095031738,
+        "width": 0.02969376929104328,
+        "height": 0.01158859021961689
+      },
+      "pixel_coordinates": {
+        "x1": 530,
+        "y1": 152,
+        "x2": 580,
+        "y2": 177
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: ESTATE",
+      "confidence": 80.0,
+      "bounding_box": {
+        "left": 0.06219429522752762,
+        "top": 0.06927517801523209,
+        "width": 0.029434142634272575,
+        "height": 0.011498725973069668
+      },
+      "pixel_coordinates": {
+        "x1": 105,
+        "y1": 152,
+        "x2": 155,
+        "y2": 177
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Judicial Council of California",
+      "confidence": 23.602706909179688,
+      "bounding_box": {
+        "left": 0.0762697085738182,
+        "top": 0.9395025968551636,
+        "width": 0.11296281963586807,
+        "height": 0.017538510262966156
+      },
+      "pixel_coordinates": {
+        "x1": 129,
+        "y1": 2066,
+        "x2": 321,
+        "y2": 2105
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: of",
+      "confidence": 92.60383605957031,
+      "bounding_box": {
+        "left": 0.9122703671455383,
+        "top": 0.9030296206474304,
+        "width": 0.027560971677303314,
+        "height": 0.01703812927007675
+      },
+      "pixel_coordinates": {
+        "x1": 1550,
+        "y1": 1986,
+        "x2": 1597,
+        "y2": 2024
+      }
+    }
+  ],
+  "form_fields": [
+    {
+      "field_type": "other",
+      "label_text": "Page",
+      "value_text": "",
+      "confidence": 94.70451354980469,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.863334596157074,
+        "top": 0.9022237658500671,
+        "width": 0.02848641388118267,
+        "height": 0.018061697483062744
+      },
+      "pixel_coordinates": {
+        "x1": 1467,
+        "y1": 1984,
+        "x2": 1516,
+        "y2": 2024
+      }
+    },
+    {
+      "field_type": "case_number",
+      "label_text": "CASE NUMBER:",
+      "value_text": "",
+      "confidence": 92.09040069580078,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.6483384966850281,
+        "top": 0.08180290460586548,
+        "width": 0.28998565673828125,
+        "height": 0.034500740468502045
+      },
+      "pixel_coordinates": {
+        "x1": 1102,
+        "y1": 179,
+        "x2": 1595,
+        "y2": 255
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "CONSERVATORSHIP",
+      "value_text": "",
+      "confidence": 94.17503356933594,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.5071980357170105,
+        "top": 0.06930772215127945,
+        "width": 0.03017083927989006,
+        "height": 0.011591073125600815
+      },
+      "pixel_coordinates": {
+        "x1": 862,
+        "y1": 152,
+        "x2": 913,
+        "y2": 177
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "ESTATE",
+      "value_text": "",
+      "confidence": 94.71434020996094,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.1680683195590973,
+        "top": 0.06917410343885422,
+        "width": 0.029978621751070023,
+        "height": 0.01158137060701847
+      },
+      "pixel_coordinates": {
+        "x1": 285,
+        "y1": 152,
+        "x2": 336,
+        "y2": 177
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "GUARDIANSHIP",
+      "value_text": "",
+      "confidence": 94.73573303222656,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.3119667172431946,
+        "top": 0.06925702095031738,
+        "width": 0.02969376929104328,
+        "height": 0.01158859021961689
+      },
+      "pixel_coordinates": {
+        "x1": 530,
+        "y1": 152,
+        "x2": 580,
+        "y2": 177
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "ESTATE",
+      "value_text": "",
+      "confidence": 80.0,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.06219429522752762,
+        "top": 0.06927517801523209,
+        "width": 0.029434142634272575,
+        "height": 0.011498725973069668
+      },
+      "pixel_coordinates": {
+        "x1": 105,
+        "y1": 152,
+        "x2": 155,
+        "y2": 177
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Judicial Council of California",
+      "value_text": "DE-120(MA)/GC-020(MA) [New July 1, 2005]",
+      "confidence": 23.602706909179688,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.0762697085738182,
+        "top": 0.9395025968551636,
+        "width": 0.11296281963586807,
+        "height": 0.017538510262966156
+      },
+      "pixel_coordinates": {
+        "x1": 129,
+        "y1": 2066,
+        "x2": 321,
+        "y2": 2105
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "of",
+      "value_text": "",
+      "confidence": 92.60383605957031,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.9122703671455383,
+        "top": 0.9030296206474304,
+        "width": 0.027560971677303314,
+        "height": 0.01703812927007675
+      },
+      "pixel_coordinates": {
+        "x1": 1550,
+        "y1": 1986,
+        "x2": 1597,
+        "y2": 2024
+      }
+    }
+  ],
+  "total_boxes": 8,
+  "total_form_fields": 8,
+  "created_at": "2026-01-07T12:40:10.941767"
+}

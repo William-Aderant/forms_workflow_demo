@@ -1,0 +1,412 @@
+{
+  "image_path": "7fae7f0d-703d-4704-8241-c607afc9ddc6_De300_20260107_124311.png",
+  "form_id": "7fae7f0d-703d-4704-8241-c607afc9ddc6",
+  "form_name": "De300",
+  "image_dimensions": {
+    "width": 1700,
+    "height": 2200
+  },
+  "boxes": [
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: MAXIMUM VALUES FOR SMALL ESTATE SET-ASIDE",
+      "confidence": 94.5575942993164,
+      "bounding_box": {
+        "left": 0.9152071475982666,
+        "top": 0.9027590155601501,
+        "width": 0.024378163740038872,
+        "height": 0.006758751347661018
+      },
+      "pixel_coordinates": {
+        "x1": 1555,
+        "y1": 1986,
+        "x2": 1597,
+        "y2": 2000
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: an affidavit or declaration furnished under Probate Code section 13601.",
+      "confidence": 94.80156707763672,
+      "bounding_box": {
+        "left": 0.12215189635753632,
+        "top": 0.9376835823059082,
+        "width": 0.06372352689504623,
+        "height": 0.007887647487223148
+      },
+      "pixel_coordinates": {
+        "x1": 207,
+        "y1": 2062,
+        "x2": 315,
+        "y2": 2080
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: 13100-13101, 13151-13154,",
+      "confidence": 74.19091033935547,
+      "bounding_box": {
+        "left": 0.7915764451026917,
+        "top": 0.9192761182785034,
+        "width": 0.14823754131793976,
+        "height": 0.007973814383149147
+      },
+      "pixel_coordinates": {
+        "x1": 1345,
+        "y1": 2022,
+        "x2": 1597,
+        "y2": 2039
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: \u00a7 13200 The gross value of all real property in the decedent's estate located in California-",
+      "confidence": 32.964637756347656,
+      "bounding_box": {
+        "left": 0.7838717699050903,
+        "top": 0.6429568529129028,
+        "width": 0.1540967971086502,
+        "height": 0.011296364478766918
+      },
+      "pixel_coordinates": {
+        "x1": 1332,
+        "y1": 1414,
+        "x2": 1594,
+        "y2": 1439
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: \u00a7\u00a7 13100, The gross value of the decedent's real and personal property in California- excluding",
+      "confidence": 41.210777282714844,
+      "bounding_box": {
+        "left": 0.7844275832176208,
+        "top": 0.5081188082695007,
+        "width": 0.15369732677936554,
+        "height": 0.01132681593298912
+      },
+      "pixel_coordinates": {
+        "x1": 1333,
+        "y1": 1117,
+        "x2": 1594,
+        "y2": 1142
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: \u00a7\u00a7 13100, The gross value of the decedent's real and personal property in California- excluding",
+      "confidence": 52.63189697265625,
+      "bounding_box": {
+        "left": 0.10742917656898499,
+        "top": 0.5489031076431274,
+        "width": 0.06600961834192276,
+        "height": 0.023924652487039566
+      },
+      "pixel_coordinates": {
+        "x1": 182,
+        "y1": 1207,
+        "x2": 294,
+        "y2": 1260
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: an affidavit or declaration furnished under Probate Code section 13601.",
+      "confidence": 64.69893646240234,
+      "bounding_box": {
+        "left": 0.1275424361228943,
+        "top": 0.9282016158103943,
+        "width": 0.05383948236703873,
+        "height": 0.006773357279598713
+      },
+      "pixel_coordinates": {
+        "x1": 216,
+        "y1": 2042,
+        "x2": 308,
+        "y2": 2056
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: \u00a7\u00a7 13600, Net salary or other compensation owed, in aggregate, by one or more employers for",
+      "confidence": 56.36769104003906,
+      "bounding_box": {
+        "left": 0.1325201392173767,
+        "top": 0.6982155442237854,
+        "width": 0.038019027560949326,
+        "height": 0.009218511171638966
+      },
+      "pixel_coordinates": {
+        "x1": 225,
+        "y1": 1536,
+        "x2": 289,
+        "y2": 1556
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: (1) an order setting the estate aside for the decedent's surviving spouse and minor children; or",
+      "confidence": 45.3549690246582,
+      "bounding_box": {
+        "left": 0.6526337265968323,
+        "top": 0.18815681338310242,
+        "width": 0.19406524300575256,
+        "height": 0.01169778872281313
+      },
+      "pixel_coordinates": {
+        "x1": 1109,
+        "y1": 413,
+        "x2": 1439,
+        "y2": 439
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: 13154 The gross value of the decedent's primary residence in California must not exceed:",
+      "confidence": 52.951820373535156,
+      "bounding_box": {
+        "left": 0.7841869592666626,
+        "top": 0.5757524371147156,
+        "width": 0.1540640890598297,
+        "height": 0.011152898892760277
+      },
+      "pixel_coordinates": {
+        "x1": 1333,
+        "y1": 1266,
+        "x2": 1595,
+        "y2": 1291
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: courts.ca.gov",
+      "confidence": 65.38778686523438,
+      "bounding_box": {
+        "left": 0.88166743516922,
+        "top": 0.9377207159996033,
+        "width": 0.058072276413440704,
+        "height": 0.006464485544711351
+      },
+      "pixel_coordinates": {
+        "x1": 1498,
+        "y1": 2062,
+        "x2": 1597,
+        "y2": 2077
+      }
+    }
+  ],
+  "form_fields": [
+    {
+      "field_type": "other",
+      "label_text": "MAXIMUM VALUES FOR SMALL ESTATE SET-ASIDE",
+      "value_text": "1 of 1",
+      "confidence": 94.5575942993164,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.9152071475982666,
+        "top": 0.9027590155601501,
+        "width": 0.024378163740038872,
+        "height": 0.006758751347661018
+      },
+      "pixel_coordinates": {
+        "x1": 1555,
+        "y1": 1986,
+        "x2": 1597,
+        "y2": 2000
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "an affidavit or declaration furnished under Probate Code section 13601.",
+      "value_text": "April 28, 2025]",
+      "confidence": 94.80156707763672,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.12215189635753632,
+        "top": 0.9376835823059082,
+        "width": 0.06372352689504623,
+        "height": 0.007887647487223148
+      },
+      "pixel_coordinates": {
+        "x1": 207,
+        "y1": 2062,
+        "x2": 315,
+        "y2": 2080
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "13100-13101, 13151-13154,",
+      "value_text": "Code, \u00a7\u00a7 890, 6602, 6609, 13050,",
+      "confidence": 74.19091033935547,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.7915764451026917,
+        "top": 0.9192761182785034,
+        "width": 0.14823754131793976,
+        "height": 0.007973814383149147
+      },
+      "pixel_coordinates": {
+        "x1": 1345,
+        "y1": 2022,
+        "x2": 1597,
+        "y2": 2039
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "\u00a7 13200 The gross value of all real property in the decedent's estate located in California-",
+      "value_text": "$ 61,500 $ 69,625",
+      "confidence": 32.964637756347656,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.7838717699050903,
+        "top": 0.6429568529129028,
+        "width": 0.1540967971086502,
+        "height": 0.011296364478766918
+      },
+      "pixel_coordinates": {
+        "x1": 1332,
+        "y1": 1414,
+        "x2": 1594,
+        "y2": 1439
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "\u00a7\u00a7 13100, The gross value of the decedent's real and personal property in California- excluding",
+      "value_text": "$ 184,500 $ 208,850",
+      "confidence": 41.210777282714844,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.7844275832176208,
+        "top": 0.5081188082695007,
+        "width": 0.15369732677936554,
+        "height": 0.01132681593298912
+      },
+      "pixel_coordinates": {
+        "x1": 1333,
+        "y1": 1117,
+        "x2": 1594,
+        "y2": 1142
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "\u00a7\u00a7 13100, The gross value of the decedent's real and personal property in California- excluding",
+      "value_text": "\u00a7\u00a7 13151, 13152,",
+      "confidence": 52.63189697265625,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.10742917656898499,
+        "top": 0.5489031076431274,
+        "width": 0.06600961834192276,
+        "height": 0.023924652487039566
+      },
+      "pixel_coordinates": {
+        "x1": 182,
+        "y1": 1207,
+        "x2": 294,
+        "y2": 1260
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "an affidavit or declaration furnished under Probate Code section 13601.",
+      "value_text": "of California",
+      "confidence": 64.69893646240234,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.1275424361228943,
+        "top": 0.9282016158103943,
+        "width": 0.05383948236703873,
+        "height": 0.006773357279598713
+      },
+      "pixel_coordinates": {
+        "x1": 216,
+        "y1": 2042,
+        "x2": 308,
+        "y2": 2056
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "\u00a7\u00a7 13600, Net salary or other compensation owed, in aggregate, by one or more employers for",
+      "value_text": "13601",
+      "confidence": 56.36769104003906,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.1325201392173767,
+        "top": 0.6982155442237854,
+        "width": 0.038019027560949326,
+        "height": 0.009218511171638966
+      },
+      "pixel_coordinates": {
+        "x1": 225,
+        "y1": 1536,
+        "x2": 289,
+        "y2": 1556
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "(1) an order setting the estate aside for the decedent's surviving spouse and minor children; or",
+      "value_text": "https://selfhelp.courts.ca.gov/",
+      "confidence": 45.3549690246582,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.6526337265968323,
+        "top": 0.18815681338310242,
+        "width": 0.19406524300575256,
+        "height": 0.01169778872281313
+      },
+      "pixel_coordinates": {
+        "x1": 1109,
+        "y1": 413,
+        "x2": 1439,
+        "y2": 439
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "13154 The gross value of the decedent's primary residence in California must not exceed:",
+      "value_text": "$ 184,500 $ 750,000",
+      "confidence": 52.951820373535156,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.7841869592666626,
+        "top": 0.5757524371147156,
+        "width": 0.1540640890598297,
+        "height": 0.011152898892760277
+      },
+      "pixel_coordinates": {
+        "x1": 1333,
+        "y1": 1266,
+        "x2": 1595,
+        "y2": 1291
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "courts.ca.gov",
+      "value_text": "13600-13601",
+      "confidence": 65.38778686523438,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.88166743516922,
+        "top": 0.9377207159996033,
+        "width": 0.058072276413440704,
+        "height": 0.006464485544711351
+      },
+      "pixel_coordinates": {
+        "x1": 1498,
+        "y1": 2062,
+        "x2": 1597,
+        "y2": 2077
+      }
+    }
+  ],
+  "total_boxes": 11,
+  "total_form_fields": 11,
+  "created_at": "2026-01-07T12:43:11.809271"
+}

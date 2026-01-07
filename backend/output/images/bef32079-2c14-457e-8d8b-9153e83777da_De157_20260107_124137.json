@@ -1,0 +1,592 @@
+{
+  "image_path": "bef32079-2c14-457e-8d8b-9153e83777da_De157_20260107_124137.png",
+  "form_id": "bef32079-2c14-457e-8d8b-9153e83777da",
+  "form_name": "De157",
+  "image_dimensions": {
+    "width": 1700,
+    "height": 2200
+  },
+  "boxes": [
+    {
+      "block_type": "FORM_FIELD",
+      "text": "address: MAILING ADDRESS:",
+      "confidence": 96.70367431640625,
+      "bounding_box": {
+        "left": 0.21112069487571716,
+        "top": 0.42019355297088623,
+        "width": 0.0010006100637838244,
+        "height": 0.0010004517389461398
+      },
+      "pixel_coordinates": {
+        "x1": 358,
+        "y1": 924,
+        "x2": 360,
+        "y2": 926
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "address: MAILING ADDRESS:",
+      "confidence": 95.0186996459961,
+      "bounding_box": {
+        "left": 0.21112021803855896,
+        "top": 0.45921140909194946,
+        "width": 0.0010006098309531808,
+        "height": 0.0010004517389461398
+      },
+      "pixel_coordinates": {
+        "x1": 358,
+        "y1": 1010,
+        "x2": 360,
+        "y2": 1012
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: a. SUPERIOR COURT OF CALIFORNIA, COUNTY OF (specify):",
+      "confidence": 96.01107025146484,
+      "bounding_box": {
+        "left": 0.6854065656661987,
+        "top": 0.3841795325279236,
+        "width": 0.00100061041302979,
+        "height": 0.0010004577925428748
+      },
+      "pixel_coordinates": {
+        "x1": 1165,
+        "y1": 845,
+        "x2": 1166,
+        "y2": 847
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: b. Case number (specify):",
+      "confidence": 81.69393920898438,
+      "bounding_box": {
+        "left": 0.2621555030345917,
+        "top": 0.4907830059528351,
+        "width": 0.6535956859588623,
+        "height": 0.01461867243051529
+      },
+      "pixel_coordinates": {
+        "x1": 445,
+        "y1": 1079,
+        "x2": 1556,
+        "y2": 1111
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "unknown: ",
+      "confidence": 84.48243713378906,
+      "bounding_box": {
+        "left": 0.1882019191980362,
+        "top": 0.13377292454242706,
+        "width": 0.6383193135261536,
+        "height": 0.02398795261979103
+      },
+      "pixel_coordinates": {
+        "x1": 319,
+        "y1": 294,
+        "x2": 1405,
+        "y2": 347
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "phone: (Telephone):",
+      "confidence": 86.23922729492188,
+      "bounding_box": {
+        "left": 0.17460617423057556,
+        "top": 0.3211875855922699,
+        "width": 0.7551345825195312,
+        "height": 0.024022234603762627
+      },
+      "pixel_coordinates": {
+        "x1": 296,
+        "y1": 706,
+        "x2": 1580,
+        "y2": 759
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Judicial Council of California",
+      "confidence": 72.09746551513672,
+      "bounding_box": {
+        "left": 0.1304193139076233,
+        "top": 0.9320672750473022,
+        "width": 0.07338342815637589,
+        "height": 0.007986989803612232
+      },
+      "pixel_coordinates": {
+        "x1": 221,
+        "y1": 2050,
+        "x2": 346,
+        "y2": 2068
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: CITY AND ZIP CODE:",
+      "confidence": 38.15621566772461,
+      "bounding_box": {
+        "left": 0.21509014070034027,
+        "top": 0.4727202355861664,
+        "width": 0.7086483240127563,
+        "height": 0.01039213314652443
+      },
+      "pixel_coordinates": {
+        "x1": 365,
+        "y1": 1039,
+        "x2": 1570,
+        "y2": 1062
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "address: MAILING ADDRESS:",
+      "confidence": 32.688926696777344,
+      "bounding_box": {
+        "left": 0.21373987197875977,
+        "top": 0.4336259961128235,
+        "width": 0.2523531913757324,
+        "height": 0.00927393976598978
+      },
+      "pixel_coordinates": {
+        "x1": 363,
+        "y1": 953,
+        "x2": 792,
+        "y2": 974
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: NOTICE OF ADMINISTRATION TO CREDITORS",
+      "confidence": 72.14852142333984,
+      "bounding_box": {
+        "left": 0.914036214351654,
+        "top": 0.8994443416595459,
+        "width": 0.02538023330271244,
+        "height": 0.006540871225297451
+      },
+      "pixel_coordinates": {
+        "x1": 1553,
+        "y1": 1978,
+        "x2": 1597,
+        "y2": 1993
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: representative, you should also use certified mail.",
+      "confidence": 70.68278503417969,
+      "bounding_box": {
+        "left": 0.11704226583242416,
+        "top": 0.8558098077774048,
+        "width": 0.7451764345169067,
+        "height": 0.011823666281998158
+      },
+      "pixel_coordinates": {
+        "x1": 198,
+        "y1": 1882,
+        "x2": 1465,
+        "y2": 1908
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: 2. The personal representative HAS BEGUN ADMINISTRATION of the decedent's estate in the",
+      "confidence": 91.5479507446289,
+      "bounding_box": {
+        "left": 0.8171449899673462,
+        "top": 0.35381558537483215,
+        "width": 0.11321818828582764,
+        "height": 0.009348740801215172
+      },
+      "pixel_coordinates": {
+        "x1": 1389,
+        "y1": 778,
+        "x2": 1581,
+        "y2": 798
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: b. 60 days after (date):",
+      "confidence": 60.000003814697266,
+      "bounding_box": {
+        "left": 0.24674755334854126,
+        "top": 0.5854536890983582,
+        "width": 0.22944575548171997,
+        "height": 0.014194222167134285
+      },
+      "pixel_coordinates": {
+        "x1": 419,
+        "y1": 1287,
+        "x2": 809,
+        "y2": 1319
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "name: (Name):",
+      "confidence": 56.62459182739258,
+      "bounding_box": {
+        "left": 0.16549356281757355,
+        "top": 0.2587778568267822,
+        "width": 0.7710326910018921,
+        "height": 0.0661296397447586
+      },
+      "pixel_coordinates": {
+        "x1": 281,
+        "y1": 569,
+        "x2": 1592,
+        "y2": 714
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: before the last to occur of the following dates:",
+      "confidence": 52.583473205566406,
+      "bounding_box": {
+        "left": 0.5151457786560059,
+        "top": 0.5557695031166077,
+        "width": 0.003485805355012417,
+        "height": 0.0037411062512546778
+      },
+      "pixel_coordinates": {
+        "x1": 875,
+        "y1": 1222,
+        "x2": 881,
+        "y2": 1230
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: www.courts.ca.gov",
+      "confidence": 48.33726501464844,
+      "bounding_box": {
+        "left": 0.8764553666114807,
+        "top": 0.914617121219635,
+        "width": 0.0634659081697464,
+        "height": 0.007900702767074108
+      },
+      "pixel_coordinates": {
+        "x1": 1489,
+        "y1": 2012,
+        "x2": 1597,
+        "y2": 2029
+      }
+    }
+  ],
+  "form_fields": [
+    {
+      "field_type": "address",
+      "label_text": "MAILING ADDRESS:",
+      "value_text": "",
+      "confidence": 96.70367431640625,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.21112069487571716,
+        "top": 0.42019355297088623,
+        "width": 0.0010006100637838244,
+        "height": 0.0010004517389461398
+      },
+      "pixel_coordinates": {
+        "x1": 358,
+        "y1": 924,
+        "x2": 360,
+        "y2": 926
+      }
+    },
+    {
+      "field_type": "address",
+      "label_text": "MAILING ADDRESS:",
+      "value_text": "",
+      "confidence": 95.0186996459961,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.21112021803855896,
+        "top": 0.45921140909194946,
+        "width": 0.0010006098309531808,
+        "height": 0.0010004517389461398
+      },
+      "pixel_coordinates": {
+        "x1": 358,
+        "y1": 1010,
+        "x2": 360,
+        "y2": 1012
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "a. SUPERIOR COURT OF CALIFORNIA, COUNTY OF (specify):",
+      "value_text": "",
+      "confidence": 96.01107025146484,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.6854065656661987,
+        "top": 0.3841795325279236,
+        "width": 0.00100061041302979,
+        "height": 0.0010004577925428748
+      },
+      "pixel_coordinates": {
+        "x1": 1165,
+        "y1": 845,
+        "x2": 1166,
+        "y2": 847
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "b. Case number (specify):",
+      "value_text": "",
+      "confidence": 81.69393920898438,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.2621555030345917,
+        "top": 0.4907830059528351,
+        "width": 0.6535956859588623,
+        "height": 0.01461867243051529
+      },
+      "pixel_coordinates": {
+        "x1": 445,
+        "y1": 1079,
+        "x2": 1556,
+        "y2": 1111
+      }
+    },
+    {
+      "field_type": "unknown",
+      "label_text": "",
+      "value_text": "",
+      "confidence": 84.48243713378906,
+      "field_confidence": 0.0,
+      "bounding_box": {
+        "left": 0.1882019191980362,
+        "top": 0.13377292454242706,
+        "width": 0.6383193135261536,
+        "height": 0.02398795261979103
+      },
+      "pixel_coordinates": {
+        "x1": 319,
+        "y1": 294,
+        "x2": 1405,
+        "y2": 347
+      }
+    },
+    {
+      "field_type": "phone",
+      "label_text": "(Telephone):",
+      "value_text": "",
+      "confidence": 86.23922729492188,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.17460617423057556,
+        "top": 0.3211875855922699,
+        "width": 0.7551345825195312,
+        "height": 0.024022234603762627
+      },
+      "pixel_coordinates": {
+        "x1": 296,
+        "y1": 706,
+        "x2": 1580,
+        "y2": 759
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Judicial Council of California",
+      "value_text": "January 1, 2013]",
+      "confidence": 72.09746551513672,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.1304193139076233,
+        "top": 0.9320672750473022,
+        "width": 0.07338342815637589,
+        "height": 0.007986989803612232
+      },
+      "pixel_coordinates": {
+        "x1": 221,
+        "y1": 2050,
+        "x2": 346,
+        "y2": 2068
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "CITY AND ZIP CODE:",
+      "value_text": "",
+      "confidence": 38.15621566772461,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.21509014070034027,
+        "top": 0.4727202355861664,
+        "width": 0.7086483240127563,
+        "height": 0.01039213314652443
+      },
+      "pixel_coordinates": {
+        "x1": 365,
+        "y1": 1039,
+        "x2": 1570,
+        "y2": 1062
+      }
+    },
+    {
+      "field_type": "address",
+      "label_text": "MAILING ADDRESS:",
+      "value_text": "",
+      "confidence": 32.688926696777344,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.21373987197875977,
+        "top": 0.4336259961128235,
+        "width": 0.2523531913757324,
+        "height": 0.00927393976598978
+      },
+      "pixel_coordinates": {
+        "x1": 363,
+        "y1": 953,
+        "x2": 792,
+        "y2": 974
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "NOTICE OF ADMINISTRATION TO CREDITORS",
+      "value_text": "1 of 2",
+      "confidence": 72.14852142333984,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.914036214351654,
+        "top": 0.8994443416595459,
+        "width": 0.02538023330271244,
+        "height": 0.006540871225297451
+      },
+      "pixel_coordinates": {
+        "x1": 1553,
+        "y1": 1978,
+        "x2": 1597,
+        "y2": 1993
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "representative, you should also use certified mail.",
+      "value_text": "To assist the creditor and the court, please send a blank copy of the Creditor's Claim form with this notice.",
+      "confidence": 70.68278503417969,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.11704226583242416,
+        "top": 0.8558098077774048,
+        "width": 0.7451764345169067,
+        "height": 0.011823666281998158
+      },
+      "pixel_coordinates": {
+        "x1": 198,
+        "y1": 1882,
+        "x2": 1465,
+        "y2": 1908
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "2. The personal representative HAS BEGUN ADMINISTRATION of the decedent's estate in the",
+      "value_text": "who is deceased.",
+      "confidence": 91.5479507446289,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.8171449899673462,
+        "top": 0.35381558537483215,
+        "width": 0.11321818828582764,
+        "height": 0.009348740801215172
+      },
+      "pixel_coordinates": {
+        "x1": 1389,
+        "y1": 778,
+        "x2": 1581,
+        "y2": 798
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "b. 60 days after (date):",
+      "value_text": "",
+      "confidence": 60.000003814697266,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.24674755334854126,
+        "top": 0.5854536890983582,
+        "width": 0.22944575548171997,
+        "height": 0.014194222167134285
+      },
+      "pixel_coordinates": {
+        "x1": 419,
+        "y1": 1287,
+        "x2": 809,
+        "y2": 1319
+      }
+    },
+    {
+      "field_type": "name",
+      "label_text": "(Name):",
+      "value_text": "",
+      "confidence": 56.62459182739258,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.16549356281757355,
+        "top": 0.2587778568267822,
+        "width": 0.7710326910018921,
+        "height": 0.0661296397447586
+      },
+      "pixel_coordinates": {
+        "x1": 281,
+        "y1": 569,
+        "x2": 1592,
+        "y2": 714
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "before the last to occur of the following dates:",
+      "value_text": ",",
+      "confidence": 52.583473205566406,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.5151457786560059,
+        "top": 0.5557695031166077,
+        "width": 0.003485805355012417,
+        "height": 0.0037411062512546778
+      },
+      "pixel_coordinates": {
+        "x1": 875,
+        "y1": 1222,
+        "x2": 881,
+        "y2": 1230
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "www.courts.ca.gov",
+      "value_text": "$$ 9050, 9052",
+      "confidence": 48.33726501464844,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.8764553666114807,
+        "top": 0.914617121219635,
+        "width": 0.0634659081697464,
+        "height": 0.007900702767074108
+      },
+      "pixel_coordinates": {
+        "x1": 1489,
+        "y1": 2012,
+        "x2": 1597,
+        "y2": 2029
+      }
+    }
+  ],
+  "total_boxes": 16,
+  "total_form_fields": 16,
+  "created_at": "2026-01-07T12:41:37.955059"
+}

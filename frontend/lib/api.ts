@@ -3,7 +3,7 @@
  */
 import axios from 'axios'
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8001'
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'
 
 // #region agent log
 fetch('http://127.0.0.1:7252/ingest/564ebba2-2403-423b-931f-138186fce4fd',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'api.ts:6',message:'API_URL configured',data:{apiUrl:API_URL,envUrl:process.env.NEXT_PUBLIC_API_URL},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'B'})}).catch(()=>{});
@@ -94,6 +94,99 @@ export interface ScrapeResponse {
   estimated_forms?: number
 }
 
+// ============================================================================
+// Comparison Pipeline Types
+// ============================================================================
+
+export interface ModeStatistics {
+  total_fields: number
+  high_confidence_count: number
+  medium_confidence_count: number
+  low_confidence_count: number
+  unknown_field_count: number
+  average_confidence: number
+}
+
+export interface ModeField {
+  field_id: string
+  field_type: string
+  bounding_box: number[]
+  semantic_label: string
+  confidence: number
+  supporting_text: string
+  detection_method: string
+  classification_method: string
+  was_adjudicated: boolean
+  adjudication_reason?: string
+}
+
+export interface ModeResult {
+  mode: string
+  mode_description: string
+  components_used: string[]
+  fields: ModeField[]
+  processing_time_ms: number
+  statistics: ModeStatistics
+  annotated_image?: string  // Base64 encoded PNG
+}
+
+export interface FieldModeResult {
+  semantic_label: string
+  confidence: number
+  classification_method: string
+  was_adjudicated: boolean
+}
+
+export interface FieldComparison {
+  field_id: string
+  field_type: string
+  bounding_box: number[]
+  supporting_text: string
+  results_by_mode: Record<string, FieldModeResult>
+  analysis: {
+    label_changed: boolean
+    confidence_improved: boolean
+    best_mode: string
+  }
+}
+
+export interface ImprovementSummary {
+  confidence_progression: Array<{ mode: string; average_confidence: number }>
+  unknown_reduction: Array<{ mode: string; unknown_count: number; unknown_rate: number }>
+  high_confidence_increase: Array<{ mode: string; high_confidence_count: number; high_confidence_rate: number }>
+  mode_comparison: Record<string, {
+    confidence_change: number
+    unknown_change: number
+    high_confidence_change: number
+    time_added_ms: number
+  }>
+  overall_improvement?: {
+    confidence_gain: number
+    confidence_gain_percent: number
+    unknown_reduction: number
+    high_confidence_gain: number
+    total_time_ms: number
+  }
+}
+
+export interface ComparisonResponse {
+  success: boolean
+  document_id?: string
+  page_number: number
+  mode_results: Record<string, ModeResult>
+  field_comparisons: FieldComparison[]
+  improvement_summary: ImprovementSummary
+  total_processing_time_ms: number
+  error?: string
+}
+
+export interface ComparisonMode {
+  mode: string
+  name: string
+  description: string
+  components: string[]
+}
+
 // API functions
 export const api = {
   // Health check
@@ -142,6 +235,35 @@ export const api = {
   // Get rate limit status
   async getRateLimitStatus(): Promise<RateLimitStatus> {
     const response = await apiClient.get('/api/rate-limit')
+    return response.data
+  },
+
+  // =========================================================================
+  // Legal Form Pipeline API
+  // =========================================================================
+
+  // Compare a PDF across different technology configurations
+  async comparePDF(file: File): Promise<ComparisonResponse> {
+    const formData = new FormData()
+    formData.append('file', file)
+    
+    const response = await apiClient.post('/api/v1/legal-forms/compare', formData, {
+      headers: {
+        'Content-Type': 'multipart/form-data',
+      },
+    })
+    return response.data
+  },
+
+  // Get available comparison modes
+  async getComparisonModes(): Promise<{ modes: ComparisonMode[] }> {
+    const response = await apiClient.get('/api/v1/legal-forms/comparison-modes')
+    return response.data
+  },
+
+  // Get pipeline health status
+  async getPipelineHealth(): Promise<any> {
+    const response = await apiClient.get('/api/v1/legal-forms/health')
     return response.data
   },
 

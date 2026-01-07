@@ -1,0 +1,700 @@
+{
+  "image_path": "7888ded3-3cda-4233-8069-bf4561ffebfd_Cr850_20260107_123850.png",
+  "form_id": "7888ded3-3cda-4233-8069-bf4561ffebfd",
+  "form_name": "Cr850",
+  "image_dimensions": {
+    "width": 1700,
+    "height": 2200
+  },
+  "boxes": [
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Is a sworn peace officer and:",
+      "confidence": 47.89227294921875,
+      "bounding_box": {
+        "left": 0.11406677216291428,
+        "top": 0.4512065649032593,
+        "width": 0.0010005900403484702,
+        "height": 0.0010004437062889338
+      },
+      "pixel_coordinates": {
+        "x1": 193,
+        "y1": 992,
+        "x2": 195,
+        "y2": 994
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Is not a sworn peace officer and (check (1) or (2)):",
+      "confidence": 52.7816047668457,
+      "bounding_box": {
+        "left": 0.11206553876399994,
+        "top": 0.6022752523422241,
+        "width": 0.0010005891090258956,
+        "height": 0.0010004411451518536
+      },
+      "pixel_coordinates": {
+        "x1": 190,
+        "y1": 1325,
+        "x2": 192,
+        "y2": 1327
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: 1",
+      "confidence": 72.9075698852539,
+      "bounding_box": {
+        "left": 0.24214239418506622,
+        "top": 0.17307911813259125,
+        "width": 0.0010005936492234468,
+        "height": 0.0010004639625549316
+      },
+      "pixel_coordinates": {
+        "x1": 411,
+        "y1": 380,
+        "x2": 413,
+        "y2": 382
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Code Civ. Proc., $ 527.9(f)",
+      "confidence": 34.670738220214844,
+      "bounding_box": {
+        "left": 0.08104729652404785,
+        "top": 0.9264217019081116,
+        "width": 0.07304272055625916,
+        "height": 0.009004173800349236
+      },
+      "pixel_coordinates": {
+        "x1": 137,
+        "y1": 2038,
+        "x2": 261,
+        "y2": 2057
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: (1) The court ordered and reviewed a completed psychological evaluation of the restrained person by a",
+      "confidence": 66.20043182373047,
+      "bounding_box": {
+        "left": 0.8765174746513367,
+        "top": 0.5042301416397095,
+        "width": 0.0010005873627960682,
+        "height": 0.001000446849502623
+      },
+      "pixel_coordinates": {
+        "x1": 1490,
+        "y1": 1109,
+        "x2": 1491,
+        "y2": 1111
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: (2)",
+      "confidence": 92.80210876464844,
+      "bounding_box": {
+        "left": 0.16125041246414185,
+        "top": 0.6518910527229309,
+        "width": 0.015379921533167362,
+        "height": 0.011202827095985413
+      },
+      "pixel_coordinates": {
+        "x1": 274,
+        "y1": 1434,
+        "x2": 300,
+        "y2": 1458
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: The court finds that the restrained person/defendant (name):",
+      "confidence": 92.05721282958984,
+      "bounding_box": {
+        "left": 0.5378806591033936,
+        "top": 0.18275541067123413,
+        "width": 0.40472570061683655,
+        "height": 0.020541325211524963
+      },
+      "pixel_coordinates": {
+        "x1": 914,
+        "y1": 402,
+        "x2": 1602,
+        "y2": 447
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "case_number: Case Number:",
+      "confidence": 91.96131896972656,
+      "bounding_box": {
+        "left": 0.6504866480827332,
+        "top": 0.06025976315140724,
+        "width": 0.2887749969959259,
+        "height": 0.021758297458291054
+      },
+      "pixel_coordinates": {
+        "x1": 1105,
+        "y1": 132,
+        "x2": 1596,
+        "y2": 180
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Form CR-161",
+      "confidence": 94.81120300292969,
+      "bounding_box": {
+        "left": 0.6272351741790771,
+        "top": 0.1076919436454773,
+        "width": 0.015226696617901325,
+        "height": 0.01147490181028843
+      },
+      "pixel_coordinates": {
+        "x1": 1066,
+        "y1": 236,
+        "x2": 1092,
+        "y2": 262
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: f.",
+      "confidence": 93.27891540527344,
+      "bounding_box": {
+        "left": 0.12884506583213806,
+        "top": 0.5900937914848328,
+        "width": 0.014589022845029831,
+        "height": 0.011491152457892895
+      },
+      "pixel_coordinates": {
+        "x1": 219,
+        "y1": 1298,
+        "x2": 243,
+        "y2": 1323
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: (1)",
+      "confidence": 91.49386596679688,
+      "bounding_box": {
+        "left": 0.16171236336231232,
+        "top": 0.618188202381134,
+        "width": 0.015133791603147984,
+        "height": 0.011568908579647541
+      },
+      "pixel_coordinates": {
+        "x1": 274,
+        "y1": 1360,
+        "x2": 300,
+        "y2": 1385
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Form CR-160",
+      "confidence": 94.87677764892578,
+      "bounding_box": {
+        "left": 0.4775022566318512,
+        "top": 0.10765829682350159,
+        "width": 0.014839598909020424,
+        "height": 0.011500115506350994
+      },
+      "pixel_coordinates": {
+        "x1": 811,
+        "y1": 236,
+        "x2": 836,
+        "y2": 262
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: This form is attached to (check one):",
+      "confidence": 94.81763458251953,
+      "bounding_box": {
+        "left": 0.330394446849823,
+        "top": 0.12934596836566925,
+        "width": 0.01546038594096899,
+        "height": 0.011713393032550812
+      },
+      "pixel_coordinates": {
+        "x1": 561,
+        "y1": 284,
+        "x2": 587,
+        "y2": 310
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: This form is attached to (check one):",
+      "confidence": 94.80712127685547,
+      "bounding_box": {
+        "left": 0.32969075441360474,
+        "top": 0.10710316151380539,
+        "width": 0.015040284022688866,
+        "height": 0.011581535451114178
+      },
+      "pixel_coordinates": {
+        "x1": 560,
+        "y1": 235,
+        "x2": 586,
+        "y2": 261
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Other",
+      "confidence": 60.000003814697266,
+      "bounding_box": {
+        "left": 0.12911123037338257,
+        "top": 0.7451260685920715,
+        "width": 0.7855952382087708,
+        "height": 0.06687771528959274
+      },
+      "pixel_coordinates": {
+        "x1": 219,
+        "y1": 1639,
+        "x2": 1555,
+        "y2": 1786
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Permission to Have Firearm or Ammunition for Work",
+      "confidence": 71.3154525756836,
+      "bounding_box": {
+        "left": 0.909135639667511,
+        "top": 0.9176723957061768,
+        "width": 0.03257208690047264,
+        "height": 0.008703542873263359
+      },
+      "pixel_coordinates": {
+        "x1": 1545,
+        "y1": 2018,
+        "x2": 1600,
+        "y2": 2038
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: e.",
+      "confidence": 93.27651977539062,
+      "bounding_box": {
+        "left": 0.12875095009803772,
+        "top": 0.4406304955482483,
+        "width": 0.0147485863417387,
+        "height": 0.011582539416849613
+      },
+      "pixel_coordinates": {
+        "x1": 218,
+        "y1": 969,
+        "x2": 243,
+        "y2": 994
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Code Civ. Proc., $ 527.9(f)",
+      "confidence": 52.543968200683594,
+      "bounding_box": {
+        "left": 0.08160147815942764,
+        "top": 0.9449030160903931,
+        "width": 0.08510541915893555,
+        "height": 0.008433825336396694
+      },
+      "pixel_coordinates": {
+        "x1": 138,
+        "y1": 2078,
+        "x2": 283,
+        "y2": 2097
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Code Civ. Proc., $ 527.9(f)",
+      "confidence": 55.427188873291016,
+      "bounding_box": {
+        "left": 0.1891811043024063,
+        "top": 0.9180475473403931,
+        "width": 0.05905463919043541,
+        "height": 0.007097257301211357
+      },
+      "pixel_coordinates": {
+        "x1": 321,
+        "y1": 2019,
+        "x2": 422,
+        "y2": 2035
+      }
+    }
+  ],
+  "form_fields": [
+    {
+      "field_type": "other",
+      "label_text": "Is a sworn peace officer and:",
+      "value_text": "",
+      "confidence": 47.89227294921875,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.11406677216291428,
+        "top": 0.4512065649032593,
+        "width": 0.0010005900403484702,
+        "height": 0.0010004437062889338
+      },
+      "pixel_coordinates": {
+        "x1": 193,
+        "y1": 992,
+        "x2": 195,
+        "y2": 994
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Is not a sworn peace officer and (check (1) or (2)):",
+      "value_text": "",
+      "confidence": 52.7816047668457,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.11206553876399994,
+        "top": 0.6022752523422241,
+        "width": 0.0010005891090258956,
+        "height": 0.0010004411451518536
+      },
+      "pixel_coordinates": {
+        "x1": 190,
+        "y1": 1325,
+        "x2": 192,
+        "y2": 1327
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "1",
+      "value_text": "",
+      "confidence": 72.9075698852539,
+      "field_confidence": 0.3,
+      "bounding_box": {
+        "left": 0.24214239418506622,
+        "top": 0.17307911813259125,
+        "width": 0.0010005936492234468,
+        "height": 0.0010004639625549316
+      },
+      "pixel_coordinates": {
+        "x1": 411,
+        "y1": 380,
+        "x2": 413,
+        "y2": 382
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Code Civ. Proc., $ 527.9(f)",
+      "value_text": "January 1, 2026,",
+      "confidence": 34.670738220214844,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.08104729652404785,
+        "top": 0.9264217019081116,
+        "width": 0.07304272055625916,
+        "height": 0.009004173800349236
+      },
+      "pixel_coordinates": {
+        "x1": 137,
+        "y1": 2038,
+        "x2": 261,
+        "y2": 2057
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "(1) The court ordered and reviewed a completed psychological evaluation of the restrained person by a",
+      "value_text": "",
+      "confidence": 66.20043182373047,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.8765174746513367,
+        "top": 0.5042301416397095,
+        "width": 0.0010005873627960682,
+        "height": 0.001000446849502623
+      },
+      "pixel_coordinates": {
+        "x1": 1490,
+        "y1": 1109,
+        "x2": 1491,
+        "y2": 1111
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "(2)",
+      "value_text": "",
+      "confidence": 92.80210876464844,
+      "field_confidence": 0.3,
+      "bounding_box": {
+        "left": 0.16125041246414185,
+        "top": 0.6518910527229309,
+        "width": 0.015379921533167362,
+        "height": 0.011202827095985413
+      },
+      "pixel_coordinates": {
+        "x1": 274,
+        "y1": 1434,
+        "x2": 300,
+        "y2": 1458
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "The court finds that the restrained person/defendant (name):",
+      "value_text": "",
+      "confidence": 92.05721282958984,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.5378806591033936,
+        "top": 0.18275541067123413,
+        "width": 0.40472570061683655,
+        "height": 0.020541325211524963
+      },
+      "pixel_coordinates": {
+        "x1": 914,
+        "y1": 402,
+        "x2": 1602,
+        "y2": 447
+      }
+    },
+    {
+      "field_type": "case_number",
+      "label_text": "Case Number:",
+      "value_text": "",
+      "confidence": 91.96131896972656,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.6504866480827332,
+        "top": 0.06025976315140724,
+        "width": 0.2887749969959259,
+        "height": 0.021758297458291054
+      },
+      "pixel_coordinates": {
+        "x1": 1105,
+        "y1": 132,
+        "x2": 1596,
+        "y2": 180
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Form CR-161",
+      "value_text": "",
+      "confidence": 94.81120300292969,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.6272351741790771,
+        "top": 0.1076919436454773,
+        "width": 0.015226696617901325,
+        "height": 0.01147490181028843
+      },
+      "pixel_coordinates": {
+        "x1": 1066,
+        "y1": 236,
+        "x2": 1092,
+        "y2": 262
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "f.",
+      "value_text": "",
+      "confidence": 93.27891540527344,
+      "field_confidence": 0.3,
+      "bounding_box": {
+        "left": 0.12884506583213806,
+        "top": 0.5900937914848328,
+        "width": 0.014589022845029831,
+        "height": 0.011491152457892895
+      },
+      "pixel_coordinates": {
+        "x1": 219,
+        "y1": 1298,
+        "x2": 243,
+        "y2": 1323
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "(1)",
+      "value_text": "",
+      "confidence": 91.49386596679688,
+      "field_confidence": 0.3,
+      "bounding_box": {
+        "left": 0.16171236336231232,
+        "top": 0.618188202381134,
+        "width": 0.015133791603147984,
+        "height": 0.011568908579647541
+      },
+      "pixel_coordinates": {
+        "x1": 274,
+        "y1": 1360,
+        "x2": 300,
+        "y2": 1385
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Form CR-160",
+      "value_text": "",
+      "confidence": 94.87677764892578,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.4775022566318512,
+        "top": 0.10765829682350159,
+        "width": 0.014839598909020424,
+        "height": 0.011500115506350994
+      },
+      "pixel_coordinates": {
+        "x1": 811,
+        "y1": 236,
+        "x2": 836,
+        "y2": 262
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "This form is attached to (check one):",
+      "value_text": "",
+      "confidence": 94.81763458251953,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.330394446849823,
+        "top": 0.12934596836566925,
+        "width": 0.01546038594096899,
+        "height": 0.011713393032550812
+      },
+      "pixel_coordinates": {
+        "x1": 561,
+        "y1": 284,
+        "x2": 587,
+        "y2": 310
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "This form is attached to (check one):",
+      "value_text": "",
+      "confidence": 94.80712127685547,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.32969075441360474,
+        "top": 0.10710316151380539,
+        "width": 0.015040284022688866,
+        "height": 0.011581535451114178
+      },
+      "pixel_coordinates": {
+        "x1": 560,
+        "y1": 235,
+        "x2": 586,
+        "y2": 261
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Other",
+      "value_text": "",
+      "confidence": 60.000003814697266,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.12911123037338257,
+        "top": 0.7451260685920715,
+        "width": 0.7855952382087708,
+        "height": 0.06687771528959274
+      },
+      "pixel_coordinates": {
+        "x1": 219,
+        "y1": 1639,
+        "x2": 1555,
+        "y2": 1786
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Permission to Have Firearm or Ammunition for Work",
+      "value_text": "1 of 2",
+      "confidence": 71.3154525756836,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.909135639667511,
+        "top": 0.9176723957061768,
+        "width": 0.03257208690047264,
+        "height": 0.008703542873263359
+      },
+      "pixel_coordinates": {
+        "x1": 1545,
+        "y1": 2018,
+        "x2": 1600,
+        "y2": 2038
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "e.",
+      "value_text": "",
+      "confidence": 93.27651977539062,
+      "field_confidence": 0.3,
+      "bounding_box": {
+        "left": 0.12875095009803772,
+        "top": 0.4406304955482483,
+        "width": 0.0147485863417387,
+        "height": 0.011582539416849613
+      },
+      "pixel_coordinates": {
+        "x1": 218,
+        "y1": 969,
+        "x2": 243,
+        "y2": 994
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Code Civ. Proc., $ 527.9(f)",
+      "value_text": "Code, $ 29825.5(g)",
+      "confidence": 52.543968200683594,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.08160147815942764,
+        "top": 0.9449030160903931,
+        "width": 0.08510541915893555,
+        "height": 0.008433825336396694
+      },
+      "pixel_coordinates": {
+        "x1": 138,
+        "y1": 2078,
+        "x2": 283,
+        "y2": 2097
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Code Civ. Proc., $ 527.9(f)",
+      "value_text": "courts.ca.gov",
+      "confidence": 55.427188873291016,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.1891811043024063,
+        "top": 0.9180475473403931,
+        "width": 0.05905463919043541,
+        "height": 0.007097257301211357
+      },
+      "pixel_coordinates": {
+        "x1": 321,
+        "y1": 2019,
+        "x2": 422,
+        "y2": 2035
+      }
+    }
+  ],
+  "total_boxes": 19,
+  "total_form_fields": 19,
+  "created_at": "2026-01-07T12:38:50.690145"
+}

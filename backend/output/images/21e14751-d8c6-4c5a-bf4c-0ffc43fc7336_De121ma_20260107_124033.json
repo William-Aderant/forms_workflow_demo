@@ -1,0 +1,304 @@
+{
+  "image_path": "21e14751-d8c6-4c5a-bf4c-0ffc43fc7336_De121ma_20260107_124033.png",
+  "form_id": "21e14751-d8c6-4c5a-bf4c-0ffc43fc7336",
+  "form_name": "De121ma",
+  "image_dimensions": {
+    "width": 1700,
+    "height": 2200
+  },
+  "boxes": [
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: ESTATE OF (Name):",
+      "confidence": 59.60813903808594,
+      "bounding_box": {
+        "left": 0.08103321492671967,
+        "top": 0.20504486560821533,
+        "width": 0.0010004843352362514,
+        "height": 0.0010003867791965604
+      },
+      "pixel_coordinates": {
+        "x1": 137,
+        "y1": 451,
+        "x2": 139,
+        "y2": 453
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "unknown: ",
+      "confidence": 77.99932098388672,
+      "bounding_box": {
+        "left": 0.059014592319726944,
+        "top": 0.5971859097480774,
+        "width": 0.03001430258154869,
+        "height": 0.017006797716021538
+      },
+      "pixel_coordinates": {
+        "x1": 100,
+        "y1": 1313,
+        "x2": 151,
+        "y2": 1351
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: NAME AND ADDRESS OF EACH PERSON TO WHOM NOTICE WAS MAILED",
+      "confidence": 34.80710220336914,
+      "bounding_box": {
+        "left": 0.7913517355918884,
+        "top": 0.20706461369991302,
+        "width": 0.0010004376526921988,
+        "height": 0.001000373624265194
+      },
+      "pixel_coordinates": {
+        "x1": 1345,
+        "y1": 455,
+        "x2": 1346,
+        "y2": 457
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: DECEDENT",
+      "confidence": 92.57682037353516,
+      "bounding_box": {
+        "left": 0.648541271686554,
+        "top": 0.0807020515203476,
+        "width": 0.2909473776817322,
+        "height": 0.03047717548906803
+      },
+      "pixel_coordinates": {
+        "x1": 1102,
+        "y1": 177,
+        "x2": 1597,
+        "y2": 244
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "case_number: CASE NUMBER:",
+      "confidence": 30.87807846069336,
+      "bounding_box": {
+        "left": 0.5671883225440979,
+        "top": 0.10028036683797836,
+        "width": 0.0717262402176857,
+        "height": 0.00860964972525835
+      },
+      "pixel_coordinates": {
+        "x1": 964,
+        "y1": 220,
+        "x2": 1086,
+        "y2": 239
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Page",
+      "confidence": 73.77067565917969,
+      "bounding_box": {
+        "left": 0.8785297274589539,
+        "top": 0.8796277046203613,
+        "width": 0.03476807847619057,
+        "height": 0.01139664277434349
+      },
+      "pixel_coordinates": {
+        "x1": 1493,
+        "y1": 1935,
+        "x2": 1552,
+        "y2": 1960
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "case_number: CASE NUMBER:",
+      "confidence": 75.9841537475586,
+      "bounding_box": {
+        "left": 0.5671883225440979,
+        "top": 0.10028036683797836,
+        "width": 0.0717262402176857,
+        "height": 0.00860964972525835
+      },
+      "pixel_coordinates": {
+        "x1": 964,
+        "y1": 220,
+        "x2": 1086,
+        "y2": 239
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Judicial Council of California",
+      "confidence": 28.09241485595703,
+      "bounding_box": {
+        "left": 0.14457273483276367,
+        "top": 0.8996105194091797,
+        "width": 0.07363396137952805,
+        "height": 0.008163602091372013
+      },
+      "pixel_coordinates": {
+        "x1": 245,
+        "y1": 1979,
+        "x2": 370,
+        "y2": 1997
+      }
+    }
+  ],
+  "form_fields": [
+    {
+      "field_type": "other",
+      "label_text": "ESTATE OF (Name):",
+      "value_text": "",
+      "confidence": 59.60813903808594,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.08103321492671967,
+        "top": 0.20504486560821533,
+        "width": 0.0010004843352362514,
+        "height": 0.0010003867791965604
+      },
+      "pixel_coordinates": {
+        "x1": 137,
+        "y1": 451,
+        "x2": 139,
+        "y2": 453
+      }
+    },
+    {
+      "field_type": "unknown",
+      "label_text": "",
+      "value_text": "",
+      "confidence": 77.99932098388672,
+      "field_confidence": 0.0,
+      "bounding_box": {
+        "left": 0.059014592319726944,
+        "top": 0.5971859097480774,
+        "width": 0.03001430258154869,
+        "height": 0.017006797716021538
+      },
+      "pixel_coordinates": {
+        "x1": 100,
+        "y1": 1313,
+        "x2": 151,
+        "y2": 1351
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "NAME AND ADDRESS OF EACH PERSON TO WHOM NOTICE WAS MAILED",
+      "value_text": "",
+      "confidence": 34.80710220336914,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.7913517355918884,
+        "top": 0.20706461369991302,
+        "width": 0.0010004376526921988,
+        "height": 0.001000373624265194
+      },
+      "pixel_coordinates": {
+        "x1": 1345,
+        "y1": 455,
+        "x2": 1346,
+        "y2": 457
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "DECEDENT",
+      "value_text": "",
+      "confidence": 92.57682037353516,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.648541271686554,
+        "top": 0.0807020515203476,
+        "width": 0.2909473776817322,
+        "height": 0.03047717548906803
+      },
+      "pixel_coordinates": {
+        "x1": 1102,
+        "y1": 177,
+        "x2": 1597,
+        "y2": 244
+      }
+    },
+    {
+      "field_type": "case_number",
+      "label_text": "CASE NUMBER:",
+      "value_text": "",
+      "confidence": 30.87807846069336,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.5671883225440979,
+        "top": 0.10028036683797836,
+        "width": 0.0717262402176857,
+        "height": 0.00860964972525835
+      },
+      "pixel_coordinates": {
+        "x1": 964,
+        "y1": 220,
+        "x2": 1086,
+        "y2": 239
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Page",
+      "value_text": "of",
+      "confidence": 73.77067565917969,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.8785297274589539,
+        "top": 0.8796277046203613,
+        "width": 0.03476807847619057,
+        "height": 0.01139664277434349
+      },
+      "pixel_coordinates": {
+        "x1": 1493,
+        "y1": 1935,
+        "x2": 1552,
+        "y2": 1960
+      }
+    },
+    {
+      "field_type": "case_number",
+      "label_text": "CASE NUMBER:",
+      "value_text": "",
+      "confidence": 75.9841537475586,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.5671883225440979,
+        "top": 0.10028036683797836,
+        "width": 0.0717262402176857,
+        "height": 0.00860964972525835
+      },
+      "pixel_coordinates": {
+        "x1": 964,
+        "y1": 220,
+        "x2": 1086,
+        "y2": 239
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Judicial Council of California",
+      "value_text": "January 1, 2006]",
+      "confidence": 28.09241485595703,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.14457273483276367,
+        "top": 0.8996105194091797,
+        "width": 0.07363396137952805,
+        "height": 0.008163602091372013
+      },
+      "pixel_coordinates": {
+        "x1": 245,
+        "y1": 1979,
+        "x2": 370,
+        "y2": 1997
+      }
+    }
+  ],
+  "total_boxes": 8,
+  "total_form_fields": 8,
+  "created_at": "2026-01-07T12:40:33.312246"
+}

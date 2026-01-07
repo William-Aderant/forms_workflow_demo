@@ -1,0 +1,1204 @@
+{
+  "image_path": "195d6558-70ff-44ef-aec1-2a31be9bc202_De120pa_20260107_124022.png",
+  "form_id": "195d6558-70ff-44ef-aec1-2a31be9bc202",
+  "form_name": "De120pa",
+  "image_dimensions": {
+    "width": 1700,
+    "height": 2200
+  },
+  "boxes": [
+    {
+      "block_type": "FORM_FIELD",
+      "text": "case_number: CASE NUMBER:",
+      "confidence": 96.21062469482422,
+      "bounding_box": {
+        "left": 0.7553289532661438,
+        "top": 0.08203469961881638,
+        "width": 0.001000411226414144,
+        "height": 0.0010003347415477037
+      },
+      "pixel_coordinates": {
+        "x1": 1284,
+        "y1": 180,
+        "x2": 1285,
+        "y2": 182
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Time:",
+      "confidence": 92.2872314453125,
+      "bounding_box": {
+        "left": 0.7626166343688965,
+        "top": 0.5045981407165527,
+        "width": 0.1796099692583084,
+        "height": 0.017279908061027527
+      },
+      "pixel_coordinates": {
+        "x1": 1296,
+        "y1": 1110,
+        "x2": 1601,
+        "y2": 1148
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Time:",
+      "confidence": 92.862548828125,
+      "bounding_box": {
+        "left": 0.76265549659729,
+        "top": 0.8153553605079651,
+        "width": 0.17906774580478668,
+        "height": 0.01716819405555725
+      },
+      "pixel_coordinates": {
+        "x1": 1296,
+        "y1": 1793,
+        "x2": 1600,
+        "y2": 1831
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Time:",
+      "confidence": 91.8446044921875,
+      "bounding_box": {
+        "left": 0.7624661326408386,
+        "top": 0.41953805088996887,
+        "width": 0.11274845898151398,
+        "height": 0.017946813255548477
+      },
+      "pixel_coordinates": {
+        "x1": 1296,
+        "y1": 922,
+        "x2": 1487,
+        "y2": 962
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Time:",
+      "confidence": 92.82593536376953,
+      "bounding_box": {
+        "left": 0.7624003291130066,
+        "top": 0.6597380042076111,
+        "width": 0.1792515069246292,
+        "height": 0.01766328513622284
+      },
+      "pixel_coordinates": {
+        "x1": 1296,
+        "y1": 1451,
+        "x2": 1600,
+        "y2": 1490
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Time:",
+      "confidence": 92.3899917602539,
+      "bounding_box": {
+        "left": 0.7622694373130798,
+        "top": 0.6070266962051392,
+        "width": 0.17996245622634888,
+        "height": 0.018100762739777565
+      },
+      "pixel_coordinates": {
+        "x1": 1295,
+        "y1": 1335,
+        "x2": 1601,
+        "y2": 1375
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Time:",
+      "confidence": 91.20869445800781,
+      "bounding_box": {
+        "left": 0.7621729373931885,
+        "top": 0.2652394473552704,
+        "width": 0.11289584636688232,
+        "height": 0.018097225576639175
+      },
+      "pixel_coordinates": {
+        "x1": 1295,
+        "y1": 583,
+        "x2": 1487,
+        "y2": 623
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Time:",
+      "confidence": 90.85426330566406,
+      "bounding_box": {
+        "left": 0.7626502513885498,
+        "top": 0.4524822235107422,
+        "width": 0.17969344556331635,
+        "height": 0.018729936331510544
+      },
+      "pixel_coordinates": {
+        "x1": 1296,
+        "y1": 995,
+        "x2": 1601,
+        "y2": 1036
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Time:",
+      "confidence": 92.25350952148438,
+      "bounding_box": {
+        "left": 0.7625548839569092,
+        "top": 0.7630809545516968,
+        "width": 0.17905499041080475,
+        "height": 0.018042972311377525
+      },
+      "pixel_coordinates": {
+        "x1": 1296,
+        "y1": 1678,
+        "x2": 1600,
+        "y2": 1718
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Time:",
+      "confidence": 90.93067169189453,
+      "bounding_box": {
+        "left": 0.7622600197792053,
+        "top": 0.3155743479728699,
+        "width": 0.11195584386587143,
+        "height": 0.017648737877607346
+      },
+      "pixel_coordinates": {
+        "x1": 1295,
+        "y1": 694,
+        "x2": 1486,
+        "y2": 733
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: ESTATE",
+      "confidence": 90.59556579589844,
+      "bounding_box": {
+        "left": 0.06678325682878494,
+        "top": 0.07152500003576279,
+        "width": 0.030262526124715805,
+        "height": 0.012074526399374008
+      },
+      "pixel_coordinates": {
+        "x1": 113,
+        "y1": 157,
+        "x2": 164,
+        "y2": 183
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Time:",
+      "confidence": 90.63029479980469,
+      "bounding_box": {
+        "left": 0.7617067098617554,
+        "top": 0.2965927720069885,
+        "width": 0.17922650277614594,
+        "height": 0.017592206597328186
+      },
+      "pixel_coordinates": {
+        "x1": 1294,
+        "y1": 652,
+        "x2": 1599,
+        "y2": 691
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Time:",
+      "confidence": 92.25436401367188,
+      "bounding_box": {
+        "left": 0.7618871927261353,
+        "top": 0.52293461561203,
+        "width": 0.11333665251731873,
+        "height": 0.017740586772561073
+      },
+      "pixel_coordinates": {
+        "x1": 1295,
+        "y1": 1150,
+        "x2": 1487,
+        "y2": 1189
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Time:",
+      "confidence": 92.34346771240234,
+      "bounding_box": {
+        "left": 0.7621214985847473,
+        "top": 0.5555766224861145,
+        "width": 0.1798042505979538,
+        "height": 0.018138770014047623
+      },
+      "pixel_coordinates": {
+        "x1": 1295,
+        "y1": 1222,
+        "x2": 1601,
+        "y2": 1262
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Time:",
+      "confidence": 92.07494354248047,
+      "bounding_box": {
+        "left": 0.7621339559555054,
+        "top": 0.4725566804409027,
+        "width": 0.11313879489898682,
+        "height": 0.01761632226407528
+      },
+      "pixel_coordinates": {
+        "x1": 1295,
+        "y1": 1039,
+        "x2": 1487,
+        "y2": 1078
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: CONSERVATORSHIP",
+      "confidence": 92.60460662841797,
+      "bounding_box": {
+        "left": 0.5251558423042297,
+        "top": 0.071431003510952,
+        "width": 0.029863769188523293,
+        "height": 0.012243804521858692
+      },
+      "pixel_coordinates": {
+        "x1": 892,
+        "y1": 157,
+        "x2": 943,
+        "y2": 184
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Time:",
+      "confidence": 92.64280700683594,
+      "bounding_box": {
+        "left": 0.7624651193618774,
+        "top": 0.782599151134491,
+        "width": 0.11283674836158752,
+        "height": 0.018080521374940872
+      },
+      "pixel_coordinates": {
+        "x1": 1296,
+        "y1": 1721,
+        "x2": 1488,
+        "y2": 1761
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: GUARDIANSHIP",
+      "confidence": 94.31832885742188,
+      "bounding_box": {
+        "left": 0.33711862564086914,
+        "top": 0.07162770628929138,
+        "width": 0.030367108061909676,
+        "height": 0.011952552013099194
+      },
+      "pixel_coordinates": {
+        "x1": 573,
+        "y1": 157,
+        "x2": 624,
+        "y2": 183
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Time:",
+      "confidence": 91.81796264648438,
+      "bounding_box": {
+        "left": 0.7617872953414917,
+        "top": 0.241972416639328,
+        "width": 0.1791965812444687,
+        "height": 0.021443407982587814
+      },
+      "pixel_coordinates": {
+        "x1": 1295,
+        "y1": 532,
+        "x2": 1599,
+        "y2": 579
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Time:",
+      "confidence": 92.49429321289062,
+      "bounding_box": {
+        "left": 0.7619814872741699,
+        "top": 0.6263371706008911,
+        "width": 0.11299117654561996,
+        "height": 0.01850094273686409
+      },
+      "pixel_coordinates": {
+        "x1": 1295,
+        "y1": 1377,
+        "x2": 1487,
+        "y2": 1418
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Time:",
+      "confidence": 86.06803131103516,
+      "bounding_box": {
+        "left": 0.7623846530914307,
+        "top": 0.34909412264823914,
+        "width": 0.1789601445198059,
+        "height": 0.016794167459011078
+      },
+      "pixel_coordinates": {
+        "x1": 1296,
+        "y1": 768,
+        "x2": 1600,
+        "y2": 804
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: ESTATE",
+      "confidence": 94.07694244384766,
+      "bounding_box": {
+        "left": 0.18097414076328278,
+        "top": 0.07157883048057556,
+        "width": 0.03000706620514393,
+        "height": 0.01203159336000681
+      },
+      "pixel_coordinates": {
+        "x1": 307,
+        "y1": 157,
+        "x2": 358,
+        "y2": 183
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Time:",
+      "confidence": 90.33438110351562,
+      "bounding_box": {
+        "left": 0.7623065114021301,
+        "top": 0.3991493582725525,
+        "width": 0.17993779480457306,
+        "height": 0.018903471529483795
+      },
+      "pixel_coordinates": {
+        "x1": 1295,
+        "y1": 878,
+        "x2": 1601,
+        "y2": 919
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Time:",
+      "confidence": 92.61698913574219,
+      "bounding_box": {
+        "left": 0.7622089982032776,
+        "top": 0.5747986435890198,
+        "width": 0.11280941963195801,
+        "height": 0.01800919882953167
+      },
+      "pixel_coordinates": {
+        "x1": 1295,
+        "y1": 1264,
+        "x2": 1487,
+        "y2": 1304
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Time:",
+      "confidence": 90.98332214355469,
+      "bounding_box": {
+        "left": 0.7619486451148987,
+        "top": 0.3672487437725067,
+        "width": 0.11220809072256088,
+        "height": 0.018606368452310562
+      },
+      "pixel_coordinates": {
+        "x1": 1295,
+        "y1": 807,
+        "x2": 1486,
+        "y2": 848
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Time:",
+      "confidence": 92.38536071777344,
+      "bounding_box": {
+        "left": 0.7623338103294373,
+        "top": 0.8335933685302734,
+        "width": 0.11421027034521103,
+        "height": 0.018753143027424812
+      },
+      "pixel_coordinates": {
+        "x1": 1295,
+        "y1": 1833,
+        "x2": 1490,
+        "y2": 1875
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Time:",
+      "confidence": 92.54776000976562,
+      "bounding_box": {
+        "left": 0.7620970010757446,
+        "top": 0.67841637134552,
+        "width": 0.11292368173599243,
+        "height": 0.01861666887998581
+      },
+      "pixel_coordinates": {
+        "x1": 1295,
+        "y1": 1492,
+        "x2": 1487,
+        "y2": 1533
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "name: (Name):",
+      "confidence": 69.34815216064453,
+      "bounding_box": {
+        "left": 0.06132449582219124,
+        "top": 0.12139960378408432,
+        "width": 0.011661570519208908,
+        "height": 0.0030805484857410192
+      },
+      "pixel_coordinates": {
+        "x1": 104,
+        "y1": 267,
+        "x2": 124,
+        "y2": 273
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Time:",
+      "confidence": 74.11260986328125,
+      "bounding_box": {
+        "left": 0.7622026205062866,
+        "top": 0.7115013003349304,
+        "width": 0.18005412817001343,
+        "height": 0.017868006601929665
+      },
+      "pixel_coordinates": {
+        "x1": 1295,
+        "y1": 1565,
+        "x2": 1601,
+        "y2": 1604
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Time:",
+      "confidence": 74.13021850585938,
+      "bounding_box": {
+        "left": 0.7620247006416321,
+        "top": 0.7299438118934631,
+        "width": 0.11314443498849869,
+        "height": 0.018871260806918144
+      },
+      "pixel_coordinates": {
+        "x1": 1295,
+        "y1": 1605,
+        "x2": 1487,
+        "y2": 1647
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Page",
+      "confidence": 62.83766555786133,
+      "bounding_box": {
+        "left": 0.8589484691619873,
+        "top": 0.9090303182601929,
+        "width": 0.07636236399412155,
+        "height": 0.01654035784304142
+      },
+      "pixel_coordinates": {
+        "x1": 1460,
+        "y1": 1999,
+        "x2": 1590,
+        "y2": 2036
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: MATTER OF",
+      "confidence": 87.29603576660156,
+      "bounding_box": {
+        "left": 0.6729996204376221,
+        "top": 0.08274571597576141,
+        "width": 0.26592862606048584,
+        "height": 0.045064568519592285
+      },
+      "pixel_coordinates": {
+        "x1": 1144,
+        "y1": 182,
+        "x2": 1596,
+        "y2": 281
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Page",
+      "confidence": 75.23529815673828,
+      "bounding_box": {
+        "left": 0.9030475616455078,
+        "top": 0.8869077563285828,
+        "width": 0.009999837726354599,
+        "height": 0.0059349131770431995
+      },
+      "pixel_coordinates": {
+        "x1": 1535,
+        "y1": 1951,
+        "x2": 1552,
+        "y2": 1964
+      }
+    }
+  ],
+  "form_fields": [
+    {
+      "field_type": "case_number",
+      "label_text": "CASE NUMBER:",
+      "value_text": "",
+      "confidence": 96.21062469482422,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.7553289532661438,
+        "top": 0.08203469961881638,
+        "width": 0.001000411226414144,
+        "height": 0.0010003347415477037
+      },
+      "pixel_coordinates": {
+        "x1": 1284,
+        "y1": 180,
+        "x2": 1285,
+        "y2": 182
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Time:",
+      "value_text": "",
+      "confidence": 92.2872314453125,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.7626166343688965,
+        "top": 0.5045981407165527,
+        "width": 0.1796099692583084,
+        "height": 0.017279908061027527
+      },
+      "pixel_coordinates": {
+        "x1": 1296,
+        "y1": 1110,
+        "x2": 1601,
+        "y2": 1148
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Time:",
+      "value_text": "",
+      "confidence": 92.862548828125,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.76265549659729,
+        "top": 0.8153553605079651,
+        "width": 0.17906774580478668,
+        "height": 0.01716819405555725
+      },
+      "pixel_coordinates": {
+        "x1": 1296,
+        "y1": 1793,
+        "x2": 1600,
+        "y2": 1831
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Time:",
+      "value_text": "",
+      "confidence": 91.8446044921875,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.7624661326408386,
+        "top": 0.41953805088996887,
+        "width": 0.11274845898151398,
+        "height": 0.017946813255548477
+      },
+      "pixel_coordinates": {
+        "x1": 1296,
+        "y1": 922,
+        "x2": 1487,
+        "y2": 962
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Time:",
+      "value_text": "",
+      "confidence": 92.82593536376953,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.7624003291130066,
+        "top": 0.6597380042076111,
+        "width": 0.1792515069246292,
+        "height": 0.01766328513622284
+      },
+      "pixel_coordinates": {
+        "x1": 1296,
+        "y1": 1451,
+        "x2": 1600,
+        "y2": 1490
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Time:",
+      "value_text": "",
+      "confidence": 92.3899917602539,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.7622694373130798,
+        "top": 0.6070266962051392,
+        "width": 0.17996245622634888,
+        "height": 0.018100762739777565
+      },
+      "pixel_coordinates": {
+        "x1": 1295,
+        "y1": 1335,
+        "x2": 1601,
+        "y2": 1375
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Time:",
+      "value_text": "",
+      "confidence": 91.20869445800781,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.7621729373931885,
+        "top": 0.2652394473552704,
+        "width": 0.11289584636688232,
+        "height": 0.018097225576639175
+      },
+      "pixel_coordinates": {
+        "x1": 1295,
+        "y1": 583,
+        "x2": 1487,
+        "y2": 623
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Time:",
+      "value_text": "",
+      "confidence": 90.85426330566406,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.7626502513885498,
+        "top": 0.4524822235107422,
+        "width": 0.17969344556331635,
+        "height": 0.018729936331510544
+      },
+      "pixel_coordinates": {
+        "x1": 1296,
+        "y1": 995,
+        "x2": 1601,
+        "y2": 1036
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Time:",
+      "value_text": "",
+      "confidence": 92.25350952148438,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.7625548839569092,
+        "top": 0.7630809545516968,
+        "width": 0.17905499041080475,
+        "height": 0.018042972311377525
+      },
+      "pixel_coordinates": {
+        "x1": 1296,
+        "y1": 1678,
+        "x2": 1600,
+        "y2": 1718
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Time:",
+      "value_text": "",
+      "confidence": 90.93067169189453,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.7622600197792053,
+        "top": 0.3155743479728699,
+        "width": 0.11195584386587143,
+        "height": 0.017648737877607346
+      },
+      "pixel_coordinates": {
+        "x1": 1295,
+        "y1": 694,
+        "x2": 1486,
+        "y2": 733
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "ESTATE",
+      "value_text": "",
+      "confidence": 90.59556579589844,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.06678325682878494,
+        "top": 0.07152500003576279,
+        "width": 0.030262526124715805,
+        "height": 0.012074526399374008
+      },
+      "pixel_coordinates": {
+        "x1": 113,
+        "y1": 157,
+        "x2": 164,
+        "y2": 183
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Time:",
+      "value_text": "",
+      "confidence": 90.63029479980469,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.7617067098617554,
+        "top": 0.2965927720069885,
+        "width": 0.17922650277614594,
+        "height": 0.017592206597328186
+      },
+      "pixel_coordinates": {
+        "x1": 1294,
+        "y1": 652,
+        "x2": 1599,
+        "y2": 691
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Time:",
+      "value_text": "",
+      "confidence": 92.25436401367188,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.7618871927261353,
+        "top": 0.52293461561203,
+        "width": 0.11333665251731873,
+        "height": 0.017740586772561073
+      },
+      "pixel_coordinates": {
+        "x1": 1295,
+        "y1": 1150,
+        "x2": 1487,
+        "y2": 1189
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Time:",
+      "value_text": "",
+      "confidence": 92.34346771240234,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.7621214985847473,
+        "top": 0.5555766224861145,
+        "width": 0.1798042505979538,
+        "height": 0.018138770014047623
+      },
+      "pixel_coordinates": {
+        "x1": 1295,
+        "y1": 1222,
+        "x2": 1601,
+        "y2": 1262
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Time:",
+      "value_text": "",
+      "confidence": 92.07494354248047,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.7621339559555054,
+        "top": 0.4725566804409027,
+        "width": 0.11313879489898682,
+        "height": 0.01761632226407528
+      },
+      "pixel_coordinates": {
+        "x1": 1295,
+        "y1": 1039,
+        "x2": 1487,
+        "y2": 1078
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "CONSERVATORSHIP",
+      "value_text": "",
+      "confidence": 92.60460662841797,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.5251558423042297,
+        "top": 0.071431003510952,
+        "width": 0.029863769188523293,
+        "height": 0.012243804521858692
+      },
+      "pixel_coordinates": {
+        "x1": 892,
+        "y1": 157,
+        "x2": 943,
+        "y2": 184
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Time:",
+      "value_text": "",
+      "confidence": 92.64280700683594,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.7624651193618774,
+        "top": 0.782599151134491,
+        "width": 0.11283674836158752,
+        "height": 0.018080521374940872
+      },
+      "pixel_coordinates": {
+        "x1": 1296,
+        "y1": 1721,
+        "x2": 1488,
+        "y2": 1761
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "GUARDIANSHIP",
+      "value_text": "",
+      "confidence": 94.31832885742188,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.33711862564086914,
+        "top": 0.07162770628929138,
+        "width": 0.030367108061909676,
+        "height": 0.011952552013099194
+      },
+      "pixel_coordinates": {
+        "x1": 573,
+        "y1": 157,
+        "x2": 624,
+        "y2": 183
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Time:",
+      "value_text": "",
+      "confidence": 91.81796264648438,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.7617872953414917,
+        "top": 0.241972416639328,
+        "width": 0.1791965812444687,
+        "height": 0.021443407982587814
+      },
+      "pixel_coordinates": {
+        "x1": 1295,
+        "y1": 532,
+        "x2": 1599,
+        "y2": 579
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Time:",
+      "value_text": "",
+      "confidence": 92.49429321289062,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.7619814872741699,
+        "top": 0.6263371706008911,
+        "width": 0.11299117654561996,
+        "height": 0.01850094273686409
+      },
+      "pixel_coordinates": {
+        "x1": 1295,
+        "y1": 1377,
+        "x2": 1487,
+        "y2": 1418
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Time:",
+      "value_text": "",
+      "confidence": 86.06803131103516,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.7623846530914307,
+        "top": 0.34909412264823914,
+        "width": 0.1789601445198059,
+        "height": 0.016794167459011078
+      },
+      "pixel_coordinates": {
+        "x1": 1296,
+        "y1": 768,
+        "x2": 1600,
+        "y2": 804
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "ESTATE",
+      "value_text": "",
+      "confidence": 94.07694244384766,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.18097414076328278,
+        "top": 0.07157883048057556,
+        "width": 0.03000706620514393,
+        "height": 0.01203159336000681
+      },
+      "pixel_coordinates": {
+        "x1": 307,
+        "y1": 157,
+        "x2": 358,
+        "y2": 183
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Time:",
+      "value_text": "",
+      "confidence": 90.33438110351562,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.7623065114021301,
+        "top": 0.3991493582725525,
+        "width": 0.17993779480457306,
+        "height": 0.018903471529483795
+      },
+      "pixel_coordinates": {
+        "x1": 1295,
+        "y1": 878,
+        "x2": 1601,
+        "y2": 919
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Time:",
+      "value_text": "",
+      "confidence": 92.61698913574219,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.7622089982032776,
+        "top": 0.5747986435890198,
+        "width": 0.11280941963195801,
+        "height": 0.01800919882953167
+      },
+      "pixel_coordinates": {
+        "x1": 1295,
+        "y1": 1264,
+        "x2": 1487,
+        "y2": 1304
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Time:",
+      "value_text": "",
+      "confidence": 90.98332214355469,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.7619486451148987,
+        "top": 0.3672487437725067,
+        "width": 0.11220809072256088,
+        "height": 0.018606368452310562
+      },
+      "pixel_coordinates": {
+        "x1": 1295,
+        "y1": 807,
+        "x2": 1486,
+        "y2": 848
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Time:",
+      "value_text": "",
+      "confidence": 92.38536071777344,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.7623338103294373,
+        "top": 0.8335933685302734,
+        "width": 0.11421027034521103,
+        "height": 0.018753143027424812
+      },
+      "pixel_coordinates": {
+        "x1": 1295,
+        "y1": 1833,
+        "x2": 1490,
+        "y2": 1875
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Time:",
+      "value_text": "",
+      "confidence": 92.54776000976562,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.7620970010757446,
+        "top": 0.67841637134552,
+        "width": 0.11292368173599243,
+        "height": 0.01861666887998581
+      },
+      "pixel_coordinates": {
+        "x1": 1295,
+        "y1": 1492,
+        "x2": 1487,
+        "y2": 1533
+      }
+    },
+    {
+      "field_type": "name",
+      "label_text": "(Name):",
+      "value_text": "",
+      "confidence": 69.34815216064453,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.06132449582219124,
+        "top": 0.12139960378408432,
+        "width": 0.011661570519208908,
+        "height": 0.0030805484857410192
+      },
+      "pixel_coordinates": {
+        "x1": 104,
+        "y1": 267,
+        "x2": 124,
+        "y2": 273
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Time:",
+      "value_text": "",
+      "confidence": 74.11260986328125,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.7622026205062866,
+        "top": 0.7115013003349304,
+        "width": 0.18005412817001343,
+        "height": 0.017868006601929665
+      },
+      "pixel_coordinates": {
+        "x1": 1295,
+        "y1": 1565,
+        "x2": 1601,
+        "y2": 1604
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Time:",
+      "value_text": "",
+      "confidence": 74.13021850585938,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.7620247006416321,
+        "top": 0.7299438118934631,
+        "width": 0.11314443498849869,
+        "height": 0.018871260806918144
+      },
+      "pixel_coordinates": {
+        "x1": 1295,
+        "y1": 1605,
+        "x2": 1487,
+        "y2": 1647
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Page",
+      "value_text": "Code, \u00a7\u00a7 851, 1211, 1216, 1264",
+      "confidence": 62.83766555786133,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.8589484691619873,
+        "top": 0.9090303182601929,
+        "width": 0.07636236399412155,
+        "height": 0.01654035784304142
+      },
+      "pixel_coordinates": {
+        "x1": 1460,
+        "y1": 1999,
+        "x2": 1590,
+        "y2": 2036
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "MATTER OF",
+      "value_text": "",
+      "confidence": 87.29603576660156,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.6729996204376221,
+        "top": 0.08274571597576141,
+        "width": 0.26592862606048584,
+        "height": 0.045064568519592285
+      },
+      "pixel_coordinates": {
+        "x1": 1144,
+        "y1": 182,
+        "x2": 1596,
+        "y2": 281
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Page",
+      "value_text": "of",
+      "confidence": 75.23529815673828,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.9030475616455078,
+        "top": 0.8869077563285828,
+        "width": 0.009999837726354599,
+        "height": 0.0059349131770431995
+      },
+      "pixel_coordinates": {
+        "x1": 1535,
+        "y1": 1951,
+        "x2": 1552,
+        "y2": 1964
+      }
+    }
+  ],
+  "total_boxes": 33,
+  "total_form_fields": 33,
+  "created_at": "2026-01-07T12:40:22.453598"
+}

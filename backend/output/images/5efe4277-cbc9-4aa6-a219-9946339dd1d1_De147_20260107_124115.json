@@ -1,0 +1,592 @@
+{
+  "image_path": "5efe4277-cbc9-4aa6-a219-9946339dd1d1_De147_20260107_124115.png",
+  "form_id": "5efe4277-cbc9-4aa6-a219-9946339dd1d1",
+  "form_name": "De147",
+  "image_dimensions": {
+    "width": 1700,
+    "height": 2200
+  },
+  "boxes": [
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: DECEDENT",
+      "confidence": 95.88505554199219,
+      "bounding_box": {
+        "left": 0.6443843245506287,
+        "top": 0.2891356945037842,
+        "width": 0.001000583521090448,
+        "height": 0.0010004406794905663
+      },
+      "pixel_coordinates": {
+        "x1": 1095,
+        "y1": 636,
+        "x2": 1097,
+        "y2": 638
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: CITY AND ZIP CODE:",
+      "confidence": 80.75775146484375,
+      "bounding_box": {
+        "left": 0.16329176723957062,
+        "top": 0.24143296480178833,
+        "width": 0.48181480169296265,
+        "height": 0.01061928365379572
+      },
+      "pixel_coordinates": {
+        "x1": 277,
+        "y1": 531,
+        "x2": 1096,
+        "y2": 554
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: CITY AND ZIP CODE:",
+      "confidence": 80.0,
+      "bounding_box": {
+        "left": 0.16129061579704285,
+        "top": 0.20023660361766815,
+        "width": 0.48264390230178833,
+        "height": 0.009107360616326332
+      },
+      "pixel_coordinates": {
+        "x1": 274,
+        "y1": 440,
+        "x2": 1094,
+        "y2": 460
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: E-MAIL ADDRESS (Optional):",
+      "confidence": 89.58733367919922,
+      "bounding_box": {
+        "left": 0.19331498444080353,
+        "top": 0.14246734976768494,
+        "width": 0.19288772344589233,
+        "height": 0.007509924471378326
+      },
+      "pixel_coordinates": {
+        "x1": 328,
+        "y1": 313,
+        "x2": 656,
+        "y2": 329
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: SUPERIOR COURT OF CALIFORNIA, COUNTY OF",
+      "confidence": 88.58712005615234,
+      "bounding_box": {
+        "left": 0.6484488844871521,
+        "top": 0.07560218870639801,
+        "width": 0.291640043258667,
+        "height": 0.22614258527755737
+      },
+      "pixel_coordinates": {
+        "x1": 1102,
+        "y1": 166,
+        "x2": 1598,
+        "y2": 663
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: CITY AND ZIP CODE:",
+      "confidence": 80.54802703857422,
+      "bounding_box": {
+        "left": 0.16107378900051117,
+        "top": 0.2281121462583542,
+        "width": 0.4835318624973297,
+        "height": 0.008563239127397537
+      },
+      "pixel_coordinates": {
+        "x1": 273,
+        "y1": 501,
+        "x2": 1095,
+        "y2": 520
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: ATTORNEY OR PARTY WITHOUT ATTORNEY (Name, State Bar number, and address):",
+      "confidence": 85.75505065917969,
+      "bounding_box": {
+        "left": 0.06051192060112953,
+        "top": 0.07458338886499405,
+        "width": 0.5838037729263306,
+        "height": 0.05975056067109108
+      },
+      "pixel_coordinates": {
+        "x1": 102,
+        "y1": 164,
+        "x2": 1095,
+        "y2": 295
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: FAX NO. (Optional):",
+      "confidence": 88.00588989257812,
+      "bounding_box": {
+        "left": 0.4802813231945038,
+        "top": 0.1422744244337082,
+        "width": 0.16376787424087524,
+        "height": 0.008312521502375603
+      },
+      "pixel_coordinates": {
+        "x1": 816,
+        "y1": 313,
+        "x2": 1094,
+        "y2": 331
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: CITY AND ZIP CODE:",
+      "confidence": 60.000003814697266,
+      "bounding_box": {
+        "left": 0.16129177808761597,
+        "top": 0.21415479481220245,
+        "width": 0.48291686177253723,
+        "height": 0.008511924184858799
+      },
+      "pixel_coordinates": {
+        "x1": 274,
+        "y1": 471,
+        "x2": 1095,
+        "y2": 489
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: ESTATE OF (Name):",
+      "confidence": 60.16380310058594,
+      "bounding_box": {
+        "left": 0.18810096383094788,
+        "top": 0.2601759433746338,
+        "width": 0.45751309394836426,
+        "height": 0.014253218658268452
+      },
+      "pixel_coordinates": {
+        "x1": 319,
+        "y1": 572,
+        "x2": 1097,
+        "y2": 603
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: E-MAIL ADDRESS (Optional):",
+      "confidence": 62.81914138793945,
+      "bounding_box": {
+        "left": 0.19570860266685486,
+        "top": 0.157169908285141,
+        "width": 0.1844913512468338,
+        "height": 0.007996981032192707
+      },
+      "pixel_coordinates": {
+        "x1": 332,
+        "y1": 345,
+        "x2": 646,
+        "y2": 363
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "case_number: CASE NUMBER:",
+      "confidence": 60.14535903930664,
+      "bounding_box": {
+        "left": 0.6479975581169128,
+        "top": 0.3195892572402954,
+        "width": 0.29175055027008057,
+        "height": 0.02391568198800087
+      },
+      "pixel_coordinates": {
+        "x1": 1101,
+        "y1": 703,
+        "x2": 1597,
+        "y2": 755
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: E-MAIL ADDRESS (Optional):",
+      "confidence": 51.13507080078125,
+      "bounding_box": {
+        "left": 0.19547729194164276,
+        "top": 0.17067378759384155,
+        "width": 0.18438228964805603,
+        "height": 0.009221208281815052
+      },
+      "pixel_coordinates": {
+        "x1": 332,
+        "y1": 375,
+        "x2": 645,
+        "y2": 395
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Judicial Council of California",
+      "confidence": 75.17635345458984,
+      "bounding_box": {
+        "left": 0.13253189623355865,
+        "top": 0.9544407725334167,
+        "width": 0.07327254861593246,
+        "height": 0.007908542640507221
+      },
+      "pixel_coordinates": {
+        "x1": 225,
+        "y1": 2099,
+        "x2": 349,
+        "y2": 2117
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Page 1 of 2",
+      "confidence": 66.33696746826172,
+      "bounding_box": {
+        "left": 0.8807318806648254,
+        "top": 0.9362122416496277,
+        "width": 0.05891837552189827,
+        "height": 0.007923782803118229
+      },
+      "pixel_coordinates": {
+        "x1": 1497,
+        "y1": 2059,
+        "x2": 1597,
+        "y2": 2077
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Within four months after Letters are first issued to you as personal representative, you must file with the court an",
+      "confidence": 69.44593811035156,
+      "bounding_box": {
+        "left": 0.9152337908744812,
+        "top": 0.924142062664032,
+        "width": 0.025974616408348083,
+        "height": 0.006850716192275286
+      },
+      "pixel_coordinates": {
+        "x1": 1555,
+        "y1": 2033,
+        "x2": 1600,
+        "y2": 2048
+      }
+    }
+  ],
+  "form_fields": [
+    {
+      "field_type": "other",
+      "label_text": "DECEDENT",
+      "value_text": "",
+      "confidence": 95.88505554199219,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.6443843245506287,
+        "top": 0.2891356945037842,
+        "width": 0.001000583521090448,
+        "height": 0.0010004406794905663
+      },
+      "pixel_coordinates": {
+        "x1": 1095,
+        "y1": 636,
+        "x2": 1097,
+        "y2": 638
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "CITY AND ZIP CODE:",
+      "value_text": "",
+      "confidence": 80.75775146484375,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.16329176723957062,
+        "top": 0.24143296480178833,
+        "width": 0.48181480169296265,
+        "height": 0.01061928365379572
+      },
+      "pixel_coordinates": {
+        "x1": 277,
+        "y1": 531,
+        "x2": 1096,
+        "y2": 554
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "CITY AND ZIP CODE:",
+      "value_text": "",
+      "confidence": 80.0,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.16129061579704285,
+        "top": 0.20023660361766815,
+        "width": 0.48264390230178833,
+        "height": 0.009107360616326332
+      },
+      "pixel_coordinates": {
+        "x1": 274,
+        "y1": 440,
+        "x2": 1094,
+        "y2": 460
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "E-MAIL ADDRESS (Optional):",
+      "value_text": "",
+      "confidence": 89.58733367919922,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.19331498444080353,
+        "top": 0.14246734976768494,
+        "width": 0.19288772344589233,
+        "height": 0.007509924471378326
+      },
+      "pixel_coordinates": {
+        "x1": 328,
+        "y1": 313,
+        "x2": 656,
+        "y2": 329
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "SUPERIOR COURT OF CALIFORNIA, COUNTY OF",
+      "value_text": "",
+      "confidence": 88.58712005615234,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.6484488844871521,
+        "top": 0.07560218870639801,
+        "width": 0.291640043258667,
+        "height": 0.22614258527755737
+      },
+      "pixel_coordinates": {
+        "x1": 1102,
+        "y1": 166,
+        "x2": 1598,
+        "y2": 663
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "CITY AND ZIP CODE:",
+      "value_text": "",
+      "confidence": 80.54802703857422,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.16107378900051117,
+        "top": 0.2281121462583542,
+        "width": 0.4835318624973297,
+        "height": 0.008563239127397537
+      },
+      "pixel_coordinates": {
+        "x1": 273,
+        "y1": 501,
+        "x2": 1095,
+        "y2": 520
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "ATTORNEY OR PARTY WITHOUT ATTORNEY (Name, State Bar number, and address):",
+      "value_text": "",
+      "confidence": 85.75505065917969,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.06051192060112953,
+        "top": 0.07458338886499405,
+        "width": 0.5838037729263306,
+        "height": 0.05975056067109108
+      },
+      "pixel_coordinates": {
+        "x1": 102,
+        "y1": 164,
+        "x2": 1095,
+        "y2": 295
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "FAX NO. (Optional):",
+      "value_text": "",
+      "confidence": 88.00588989257812,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.4802813231945038,
+        "top": 0.1422744244337082,
+        "width": 0.16376787424087524,
+        "height": 0.008312521502375603
+      },
+      "pixel_coordinates": {
+        "x1": 816,
+        "y1": 313,
+        "x2": 1094,
+        "y2": 331
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "CITY AND ZIP CODE:",
+      "value_text": "",
+      "confidence": 60.000003814697266,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.16129177808761597,
+        "top": 0.21415479481220245,
+        "width": 0.48291686177253723,
+        "height": 0.008511924184858799
+      },
+      "pixel_coordinates": {
+        "x1": 274,
+        "y1": 471,
+        "x2": 1095,
+        "y2": 489
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "ESTATE OF (Name):",
+      "value_text": "",
+      "confidence": 60.16380310058594,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.18810096383094788,
+        "top": 0.2601759433746338,
+        "width": 0.45751309394836426,
+        "height": 0.014253218658268452
+      },
+      "pixel_coordinates": {
+        "x1": 319,
+        "y1": 572,
+        "x2": 1097,
+        "y2": 603
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "E-MAIL ADDRESS (Optional):",
+      "value_text": "",
+      "confidence": 62.81914138793945,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.19570860266685486,
+        "top": 0.157169908285141,
+        "width": 0.1844913512468338,
+        "height": 0.007996981032192707
+      },
+      "pixel_coordinates": {
+        "x1": 332,
+        "y1": 345,
+        "x2": 646,
+        "y2": 363
+      }
+    },
+    {
+      "field_type": "case_number",
+      "label_text": "CASE NUMBER:",
+      "value_text": "",
+      "confidence": 60.14535903930664,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.6479975581169128,
+        "top": 0.3195892572402954,
+        "width": 0.29175055027008057,
+        "height": 0.02391568198800087
+      },
+      "pixel_coordinates": {
+        "x1": 1101,
+        "y1": 703,
+        "x2": 1597,
+        "y2": 755
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "E-MAIL ADDRESS (Optional):",
+      "value_text": "",
+      "confidence": 51.13507080078125,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.19547729194164276,
+        "top": 0.17067378759384155,
+        "width": 0.18438228964805603,
+        "height": 0.009221208281815052
+      },
+      "pixel_coordinates": {
+        "x1": 332,
+        "y1": 375,
+        "x2": 645,
+        "y2": 395
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Judicial Council of California",
+      "value_text": "January 1, 2002]",
+      "confidence": 75.17635345458984,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.13253189623355865,
+        "top": 0.9544407725334167,
+        "width": 0.07327254861593246,
+        "height": 0.007908542640507221
+      },
+      "pixel_coordinates": {
+        "x1": 225,
+        "y1": 2099,
+        "x2": 349,
+        "y2": 2117
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Page 1 of 2",
+      "value_text": "Code, \u00a7 8404",
+      "confidence": 66.33696746826172,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.8807318806648254,
+        "top": 0.9362122416496277,
+        "width": 0.05891837552189827,
+        "height": 0.007923782803118229
+      },
+      "pixel_coordinates": {
+        "x1": 1497,
+        "y1": 2059,
+        "x2": 1597,
+        "y2": 2077
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Within four months after Letters are first issued to you as personal representative, you must file with the court an",
+      "value_text": "1 of 2",
+      "confidence": 69.44593811035156,
+      "field_confidence": 0.3,
+      "bounding_box": {
+        "left": 0.9152337908744812,
+        "top": 0.924142062664032,
+        "width": 0.025974616408348083,
+        "height": 0.006850716192275286
+      },
+      "pixel_coordinates": {
+        "x1": 1555,
+        "y1": 2033,
+        "x2": 1600,
+        "y2": 2048
+      }
+    }
+  ],
+  "total_boxes": 16,
+  "total_form_fields": 16,
+  "created_at": "2026-01-07T12:41:15.271135"
+}

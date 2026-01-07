@@ -1,0 +1,1060 @@
+{
+  "image_path": "0e28f204-7598-4278-94a9-24006792421c_De135_20260107_124056.png",
+  "form_id": "0e28f204-7598-4278-94a9-24006792421c",
+  "form_name": "De135",
+  "image_dimensions": {
+    "width": 1700,
+    "height": 2200
+  },
+  "boxes": [
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Form Approved by the",
+      "confidence": 64.2955551147461,
+      "bounding_box": {
+        "left": 0.16206929087638855,
+        "top": 0.9513195157051086,
+        "width": 0.0070030647329986095,
+        "height": 0.007002356927841902
+      },
+      "pixel_coordinates": {
+        "x1": 275,
+        "y1": 2092,
+        "x2": 287,
+        "y2": 2108
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "date: Date:",
+      "confidence": 89.07136535644531,
+      "bounding_box": {
+        "left": 0.09643426537513733,
+        "top": 0.6492065191268921,
+        "width": 0.3591046929359436,
+        "height": 0.01767422817647457
+      },
+      "pixel_coordinates": {
+        "x1": 163,
+        "y1": 1428,
+        "x2": 774,
+        "y2": 1467
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "date: Date:",
+      "confidence": 89.50537109375,
+      "bounding_box": {
+        "left": 0.05443532019853592,
+        "top": 0.7237566113471985,
+        "width": 0.40758195519447327,
+        "height": 0.019557716324925423
+      },
+      "pixel_coordinates": {
+        "x1": 92,
+        "y1": 1592,
+        "x2": 785,
+        "y2": 1635
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "date: Date:",
+      "confidence": 88.9176025390625,
+      "bounding_box": {
+        "left": 0.05716882646083832,
+        "top": 0.892928957939148,
+        "width": 0.40171870589256287,
+        "height": 0.018690351396799088
+      },
+      "pixel_coordinates": {
+        "x1": 97,
+        "y1": 1964,
+        "x2": 780,
+        "y2": 2005
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Other (specify other means of obtaining knowledge):",
+      "confidence": 80.13101959228516,
+      "bounding_box": {
+        "left": 0.14441637694835663,
+        "top": 0.5170406699180603,
+        "width": 0.7965584993362427,
+        "height": 0.057755403220653534
+      },
+      "pixel_coordinates": {
+        "x1": 245,
+        "y1": 1137,
+        "x2": 1599,
+        "y2": 1264
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: C.",
+      "confidence": 84.30782318115234,
+      "bounding_box": {
+        "left": 0.10750231146812439,
+        "top": 0.4715604782104492,
+        "width": 0.029005244374275208,
+        "height": 0.012481220066547394
+      },
+      "pixel_coordinates": {
+        "x1": 182,
+        "y1": 1037,
+        "x2": 232,
+        "y2": 1064
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "date: Date:",
+      "confidence": 87.62076568603516,
+      "bounding_box": {
+        "left": 0.09704311937093735,
+        "top": 0.8643556833267212,
+        "width": 0.3572916090488434,
+        "height": 0.018477221950888634
+      },
+      "pixel_coordinates": {
+        "x1": 164,
+        "y1": 1901,
+        "x2": 772,
+        "y2": 1942
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "address: STREET ADDRESS:",
+      "confidence": 88.98469543457031,
+      "bounding_box": {
+        "left": 0.18195980787277222,
+        "top": 0.18238772451877594,
+        "width": 0.47861629724502563,
+        "height": 0.012828470207750797
+      },
+      "pixel_coordinates": {
+        "x1": 309,
+        "y1": 401,
+        "x2": 1122,
+        "y2": 429
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "name: (TYPE OR PRINT NAME)",
+      "confidence": 88.91683959960938,
+      "bounding_box": {
+        "left": 0.5365155339241028,
+        "top": 0.8846278786659241,
+        "width": 0.4056778848171234,
+        "height": 0.02613021247088909
+      },
+      "pixel_coordinates": {
+        "x1": 912,
+        "y1": 1946,
+        "x2": 1601,
+        "y2": 2003
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: 1. I was acquainted with the decedent for the following number of years (specify):",
+      "confidence": 89.53971099853516,
+      "bounding_box": {
+        "left": 0.6019564270973206,
+        "top": 0.3005293011665344,
+        "width": 0.33908724784851074,
+        "height": 0.018447203561663628
+      },
+      "pixel_coordinates": {
+        "x1": 1023,
+        "y1": 661,
+        "x2": 1599,
+        "y2": 701
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: TELEPHONE AND FAX NOS.:",
+      "confidence": 87.9268569946289,
+      "bounding_box": {
+        "left": 0.5392072200775146,
+        "top": 0.065917007625103,
+        "width": 0.11897487193346024,
+        "height": 0.05186532437801361
+      },
+      "pixel_coordinates": {
+        "x1": 916,
+        "y1": 145,
+        "x2": 1118,
+        "y2": 259
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: ATTORNEY FOR (Name):",
+      "confidence": 88.6258773803711,
+      "bounding_box": {
+        "left": 0.1818758100271225,
+        "top": 0.12400227040052414,
+        "width": 0.4776642918586731,
+        "height": 0.012638096697628498
+      },
+      "pixel_coordinates": {
+        "x1": 309,
+        "y1": 272,
+        "x2": 1121,
+        "y2": 300
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: DECEDENT",
+      "confidence": 88.00856018066406,
+      "bounding_box": {
+        "left": 0.6619338393211365,
+        "top": 0.27044060826301575,
+        "width": 0.27919715642929077,
+        "height": 0.017769087105989456
+      },
+      "pixel_coordinates": {
+        "x1": 1125,
+        "y1": 594,
+        "x2": 1599,
+        "y2": 634
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: ATTORNEY OR PARTY WITHOUT ATTORNEY (Name, state bar number, and address):",
+      "confidence": 82.3993911743164,
+      "bounding_box": {
+        "left": 0.07034090161323547,
+        "top": 0.07589155435562134,
+        "width": 0.4672347605228424,
+        "height": 0.04704703390598297
+      },
+      "pixel_coordinates": {
+        "x1": 119,
+        "y1": 166,
+        "x2": 913,
+        "y2": 270
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "date: Date:",
+      "confidence": 89.84779357910156,
+      "bounding_box": {
+        "left": 0.058459218591451645,
+        "top": 0.6797412633895874,
+        "width": 0.4012349843978882,
+        "height": 0.019476426765322685
+      },
+      "pixel_coordinates": {
+        "x1": 99,
+        "y1": 1495,
+        "x2": 781,
+        "y2": 1538
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "address: STREET ADDRESS:",
+      "confidence": 89.22736358642578,
+      "bounding_box": {
+        "left": 0.18185025453567505,
+        "top": 0.16805942356586456,
+        "width": 0.47825390100479126,
+        "height": 0.011986736208200455
+      },
+      "pixel_coordinates": {
+        "x1": 309,
+        "y1": 369,
+        "x2": 1122,
+        "y2": 396
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "address: STREET ADDRESS:",
+      "confidence": 88.8012466430664,
+      "bounding_box": {
+        "left": 0.1818443387746811,
+        "top": 0.15415821969509125,
+        "width": 0.4779561161994934,
+        "height": 0.011128232814371586
+      },
+      "pixel_coordinates": {
+        "x1": 309,
+        "y1": 339,
+        "x2": 1121,
+        "y2": 363
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: ESTATE OF (Name):",
+      "confidence": 88.19377136230469,
+      "bounding_box": {
+        "left": 0.1814926415681839,
+        "top": 0.1977490782737732,
+        "width": 0.47913625836372375,
+        "height": 0.013243230059742928
+      },
+      "pixel_coordinates": {
+        "x1": 308,
+        "y1": 435,
+        "x2": 1123,
+        "y2": 464
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "name: (TYPE OR PRINT NAME)",
+      "confidence": 89.97478485107422,
+      "bounding_box": {
+        "left": 0.5378723740577698,
+        "top": 0.6708288192749023,
+        "width": 0.4035020172595978,
+        "height": 0.027515649795532227
+      },
+      "pixel_coordinates": {
+        "x1": 914,
+        "y1": 1475,
+        "x2": 1600,
+        "y2": 1536
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: b.",
+      "confidence": 85.25724792480469,
+      "bounding_box": {
+        "left": 0.10780619829893112,
+        "top": 0.3816128373146057,
+        "width": 0.02813064493238926,
+        "height": 0.01254840288311243
+      },
+      "pixel_coordinates": {
+        "x1": 183,
+        "y1": 839,
+        "x2": 231,
+        "y2": 867
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: b.",
+      "confidence": 69.92391967773438,
+      "bounding_box": {
+        "left": 0.10734343528747559,
+        "top": 0.39676669239997864,
+        "width": 0.02914639562368393,
+        "height": 0.012460428290069103
+      },
+      "pixel_coordinates": {
+        "x1": 182,
+        "y1": 872,
+        "x2": 232,
+        "y2": 900
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: ESTATE OF (Name):",
+      "confidence": 64.06758880615234,
+      "bounding_box": {
+        "left": 0.06036588177084923,
+        "top": 0.22610752284526825,
+        "width": 0.6002269983291626,
+        "height": 0.030565723776817322
+      },
+      "pixel_coordinates": {
+        "x1": 102,
+        "y1": 497,
+        "x2": 1123,
+        "y2": 564
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Other (specify other means of obtaining knowledge):",
+      "confidence": 63.507225036621094,
+      "bounding_box": {
+        "left": 0.14214995503425598,
+        "top": 0.5036308765411377,
+        "width": 0.7988249063491821,
+        "height": 0.07125188410282135
+      },
+      "pixel_coordinates": {
+        "x1": 241,
+        "y1": 1107,
+        "x2": 1599,
+        "y2": 1264
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: ESTATE OF (Name):",
+      "confidence": 47.65678787231445,
+      "bounding_box": {
+        "left": 0.060811739414930344,
+        "top": 0.22610752284526825,
+        "width": 0.5997810959815979,
+        "height": 0.0217838604003191
+      },
+      "pixel_coordinates": {
+        "x1": 103,
+        "y1": 497,
+        "x2": 1123,
+        "y2": 545
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: 2.",
+      "confidence": 51.48339080810547,
+      "bounding_box": {
+        "left": 0.08800318837165833,
+        "top": 0.33517342805862427,
+        "width": 0.029158756136894226,
+        "height": 0.012654162012040615
+      },
+      "pixel_coordinates": {
+        "x1": 149,
+        "y1": 737,
+        "x2": 199,
+        "y2": 765
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: b.",
+      "confidence": 82.6321029663086,
+      "bounding_box": {
+        "left": 0.10566429793834686,
+        "top": 0.39676323533058167,
+        "width": 0.8329077363014221,
+        "height": 0.07419318705797195
+      },
+      "pixel_coordinates": {
+        "x1": 179,
+        "y1": 872,
+        "x2": 1595,
+        "y2": 1036
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: d.",
+      "confidence": 60.45361328125,
+      "bounding_box": {
+        "left": 0.10750231146812439,
+        "top": 0.4715571403503418,
+        "width": 0.8375391364097595,
+        "height": 0.027109136804938316
+      },
+      "pixel_coordinates": {
+        "x1": 182,
+        "y1": 1037,
+        "x2": 1606,
+        "y2": 1097
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: b.",
+      "confidence": 54.9412841796875,
+      "bounding_box": {
+        "left": 0.10658535361289978,
+        "top": 0.381612092256546,
+        "width": 0.2011852115392685,
+        "height": 0.013327138498425484
+      },
+      "pixel_coordinates": {
+        "x1": 181,
+        "y1": 839,
+        "x2": 523,
+        "y2": 868
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: (SIGNATURE OF ATTORNEY)",
+      "confidence": 72.466796875,
+      "bounding_box": {
+        "left": 0.8807594776153564,
+        "top": 0.9346016645431519,
+        "width": 0.0588897205889225,
+        "height": 0.007891756482422352
+      },
+      "pixel_coordinates": {
+        "x1": 1497,
+        "y1": 2056,
+        "x2": 1597,
+        "y2": 2073
+      }
+    }
+  ],
+  "form_fields": [
+    {
+      "field_type": "other",
+      "label_text": "Form Approved by the",
+      "value_text": "1,",
+      "confidence": 64.2955551147461,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.16206929087638855,
+        "top": 0.9513195157051086,
+        "width": 0.0070030647329986095,
+        "height": 0.007002356927841902
+      },
+      "pixel_coordinates": {
+        "x1": 275,
+        "y1": 2092,
+        "x2": 287,
+        "y2": 2108
+      }
+    },
+    {
+      "field_type": "date",
+      "label_text": "Date:",
+      "value_text": "",
+      "confidence": 89.07136535644531,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.09643426537513733,
+        "top": 0.6492065191268921,
+        "width": 0.3591046929359436,
+        "height": 0.01767422817647457
+      },
+      "pixel_coordinates": {
+        "x1": 163,
+        "y1": 1428,
+        "x2": 774,
+        "y2": 1467
+      }
+    },
+    {
+      "field_type": "date",
+      "label_text": "Date:",
+      "value_text": "",
+      "confidence": 89.50537109375,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.05443532019853592,
+        "top": 0.7237566113471985,
+        "width": 0.40758195519447327,
+        "height": 0.019557716324925423
+      },
+      "pixel_coordinates": {
+        "x1": 92,
+        "y1": 1592,
+        "x2": 785,
+        "y2": 1635
+      }
+    },
+    {
+      "field_type": "date",
+      "label_text": "Date:",
+      "value_text": "",
+      "confidence": 88.9176025390625,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.05716882646083832,
+        "top": 0.892928957939148,
+        "width": 0.40171870589256287,
+        "height": 0.018690351396799088
+      },
+      "pixel_coordinates": {
+        "x1": 97,
+        "y1": 1964,
+        "x2": 780,
+        "y2": 2005
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Other (specify other means of obtaining knowledge):",
+      "value_text": "",
+      "confidence": 80.13101959228516,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.14441637694835663,
+        "top": 0.5170406699180603,
+        "width": 0.7965584993362427,
+        "height": 0.057755403220653534
+      },
+      "pixel_coordinates": {
+        "x1": 245,
+        "y1": 1137,
+        "x2": 1599,
+        "y2": 1264
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "C.",
+      "value_text": "",
+      "confidence": 84.30782318115234,
+      "field_confidence": 0.3,
+      "bounding_box": {
+        "left": 0.10750231146812439,
+        "top": 0.4715604782104492,
+        "width": 0.029005244374275208,
+        "height": 0.012481220066547394
+      },
+      "pixel_coordinates": {
+        "x1": 182,
+        "y1": 1037,
+        "x2": 232,
+        "y2": 1064
+      }
+    },
+    {
+      "field_type": "date",
+      "label_text": "Date:",
+      "value_text": "",
+      "confidence": 87.62076568603516,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.09704311937093735,
+        "top": 0.8643556833267212,
+        "width": 0.3572916090488434,
+        "height": 0.018477221950888634
+      },
+      "pixel_coordinates": {
+        "x1": 164,
+        "y1": 1901,
+        "x2": 772,
+        "y2": 1942
+      }
+    },
+    {
+      "field_type": "address",
+      "label_text": "STREET ADDRESS:",
+      "value_text": "",
+      "confidence": 88.98469543457031,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.18195980787277222,
+        "top": 0.18238772451877594,
+        "width": 0.47861629724502563,
+        "height": 0.012828470207750797
+      },
+      "pixel_coordinates": {
+        "x1": 309,
+        "y1": 401,
+        "x2": 1122,
+        "y2": 429
+      }
+    },
+    {
+      "field_type": "name",
+      "label_text": "(TYPE OR PRINT NAME)",
+      "value_text": "",
+      "confidence": 88.91683959960938,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.5365155339241028,
+        "top": 0.8846278786659241,
+        "width": 0.4056778848171234,
+        "height": 0.02613021247088909
+      },
+      "pixel_coordinates": {
+        "x1": 912,
+        "y1": 1946,
+        "x2": 1601,
+        "y2": 2003
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "1. I was acquainted with the decedent for the following number of years (specify):",
+      "value_text": "",
+      "confidence": 89.53971099853516,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.6019564270973206,
+        "top": 0.3005293011665344,
+        "width": 0.33908724784851074,
+        "height": 0.018447203561663628
+      },
+      "pixel_coordinates": {
+        "x1": 1023,
+        "y1": 661,
+        "x2": 1599,
+        "y2": 701
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "TELEPHONE AND FAX NOS.:",
+      "value_text": "",
+      "confidence": 87.9268569946289,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.5392072200775146,
+        "top": 0.065917007625103,
+        "width": 0.11897487193346024,
+        "height": 0.05186532437801361
+      },
+      "pixel_coordinates": {
+        "x1": 916,
+        "y1": 145,
+        "x2": 1118,
+        "y2": 259
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "ATTORNEY FOR (Name):",
+      "value_text": "",
+      "confidence": 88.6258773803711,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.1818758100271225,
+        "top": 0.12400227040052414,
+        "width": 0.4776642918586731,
+        "height": 0.012638096697628498
+      },
+      "pixel_coordinates": {
+        "x1": 309,
+        "y1": 272,
+        "x2": 1121,
+        "y2": 300
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "DECEDENT",
+      "value_text": "",
+      "confidence": 88.00856018066406,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.6619338393211365,
+        "top": 0.27044060826301575,
+        "width": 0.27919715642929077,
+        "height": 0.017769087105989456
+      },
+      "pixel_coordinates": {
+        "x1": 1125,
+        "y1": 594,
+        "x2": 1599,
+        "y2": 634
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "ATTORNEY OR PARTY WITHOUT ATTORNEY (Name, state bar number, and address):",
+      "value_text": "",
+      "confidence": 82.3993911743164,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.07034090161323547,
+        "top": 0.07589155435562134,
+        "width": 0.4672347605228424,
+        "height": 0.04704703390598297
+      },
+      "pixel_coordinates": {
+        "x1": 119,
+        "y1": 166,
+        "x2": 913,
+        "y2": 270
+      }
+    },
+    {
+      "field_type": "date",
+      "label_text": "Date:",
+      "value_text": "",
+      "confidence": 89.84779357910156,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.058459218591451645,
+        "top": 0.6797412633895874,
+        "width": 0.4012349843978882,
+        "height": 0.019476426765322685
+      },
+      "pixel_coordinates": {
+        "x1": 99,
+        "y1": 1495,
+        "x2": 781,
+        "y2": 1538
+      }
+    },
+    {
+      "field_type": "address",
+      "label_text": "STREET ADDRESS:",
+      "value_text": "",
+      "confidence": 89.22736358642578,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.18185025453567505,
+        "top": 0.16805942356586456,
+        "width": 0.47825390100479126,
+        "height": 0.011986736208200455
+      },
+      "pixel_coordinates": {
+        "x1": 309,
+        "y1": 369,
+        "x2": 1122,
+        "y2": 396
+      }
+    },
+    {
+      "field_type": "address",
+      "label_text": "STREET ADDRESS:",
+      "value_text": "",
+      "confidence": 88.8012466430664,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.1818443387746811,
+        "top": 0.15415821969509125,
+        "width": 0.4779561161994934,
+        "height": 0.011128232814371586
+      },
+      "pixel_coordinates": {
+        "x1": 309,
+        "y1": 339,
+        "x2": 1121,
+        "y2": 363
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "ESTATE OF (Name):",
+      "value_text": "",
+      "confidence": 88.19377136230469,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.1814926415681839,
+        "top": 0.1977490782737732,
+        "width": 0.47913625836372375,
+        "height": 0.013243230059742928
+      },
+      "pixel_coordinates": {
+        "x1": 308,
+        "y1": 435,
+        "x2": 1123,
+        "y2": 464
+      }
+    },
+    {
+      "field_type": "name",
+      "label_text": "(TYPE OR PRINT NAME)",
+      "value_text": "",
+      "confidence": 89.97478485107422,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.5378723740577698,
+        "top": 0.6708288192749023,
+        "width": 0.4035020172595978,
+        "height": 0.027515649795532227
+      },
+      "pixel_coordinates": {
+        "x1": 914,
+        "y1": 1475,
+        "x2": 1600,
+        "y2": 1536
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "b.",
+      "value_text": "",
+      "confidence": 85.25724792480469,
+      "field_confidence": 0.3,
+      "bounding_box": {
+        "left": 0.10780619829893112,
+        "top": 0.3816128373146057,
+        "width": 0.02813064493238926,
+        "height": 0.01254840288311243
+      },
+      "pixel_coordinates": {
+        "x1": 183,
+        "y1": 839,
+        "x2": 231,
+        "y2": 867
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "b.",
+      "value_text": "",
+      "confidence": 69.92391967773438,
+      "field_confidence": 0.3,
+      "bounding_box": {
+        "left": 0.10734343528747559,
+        "top": 0.39676669239997864,
+        "width": 0.02914639562368393,
+        "height": 0.012460428290069103
+      },
+      "pixel_coordinates": {
+        "x1": 182,
+        "y1": 872,
+        "x2": 232,
+        "y2": 900
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "ESTATE OF (Name):",
+      "value_text": "",
+      "confidence": 64.06758880615234,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.06036588177084923,
+        "top": 0.22610752284526825,
+        "width": 0.6002269983291626,
+        "height": 0.030565723776817322
+      },
+      "pixel_coordinates": {
+        "x1": 102,
+        "y1": 497,
+        "x2": 1123,
+        "y2": 564
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Other (specify other means of obtaining knowledge):",
+      "value_text": "",
+      "confidence": 63.507225036621094,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.14214995503425598,
+        "top": 0.5036308765411377,
+        "width": 0.7988249063491821,
+        "height": 0.07125188410282135
+      },
+      "pixel_coordinates": {
+        "x1": 241,
+        "y1": 1107,
+        "x2": 1599,
+        "y2": 1264
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "ESTATE OF (Name):",
+      "value_text": "",
+      "confidence": 47.65678787231445,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.060811739414930344,
+        "top": 0.22610752284526825,
+        "width": 0.5997810959815979,
+        "height": 0.0217838604003191
+      },
+      "pixel_coordinates": {
+        "x1": 103,
+        "y1": 497,
+        "x2": 1123,
+        "y2": 545
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "2.",
+      "value_text": "",
+      "confidence": 51.48339080810547,
+      "field_confidence": 0.3,
+      "bounding_box": {
+        "left": 0.08800318837165833,
+        "top": 0.33517342805862427,
+        "width": 0.029158756136894226,
+        "height": 0.012654162012040615
+      },
+      "pixel_coordinates": {
+        "x1": 149,
+        "y1": 737,
+        "x2": 199,
+        "y2": 765
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "b.",
+      "value_text": "",
+      "confidence": 82.6321029663086,
+      "field_confidence": 0.3,
+      "bounding_box": {
+        "left": 0.10566429793834686,
+        "top": 0.39676323533058167,
+        "width": 0.8329077363014221,
+        "height": 0.07419318705797195
+      },
+      "pixel_coordinates": {
+        "x1": 179,
+        "y1": 872,
+        "x2": 1595,
+        "y2": 1036
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "d.",
+      "value_text": "",
+      "confidence": 60.45361328125,
+      "field_confidence": 0.3,
+      "bounding_box": {
+        "left": 0.10750231146812439,
+        "top": 0.4715571403503418,
+        "width": 0.8375391364097595,
+        "height": 0.027109136804938316
+      },
+      "pixel_coordinates": {
+        "x1": 182,
+        "y1": 1037,
+        "x2": 1606,
+        "y2": 1097
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "b.",
+      "value_text": "",
+      "confidence": 54.9412841796875,
+      "field_confidence": 0.3,
+      "bounding_box": {
+        "left": 0.10658535361289978,
+        "top": 0.381612092256546,
+        "width": 0.2011852115392685,
+        "height": 0.013327138498425484
+      },
+      "pixel_coordinates": {
+        "x1": 181,
+        "y1": 839,
+        "x2": 523,
+        "y2": 868
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "(SIGNATURE OF ATTORNEY)",
+      "value_text": "Code, \u00a7 8222",
+      "confidence": 72.466796875,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.8807594776153564,
+        "top": 0.9346016645431519,
+        "width": 0.0588897205889225,
+        "height": 0.007891756482422352
+      },
+      "pixel_coordinates": {
+        "x1": 1497,
+        "y1": 2056,
+        "x2": 1597,
+        "y2": 2073
+      }
+    }
+  ],
+  "total_boxes": 29,
+  "total_form_fields": 29,
+  "created_at": "2026-01-07T12:40:56.834094"
+}

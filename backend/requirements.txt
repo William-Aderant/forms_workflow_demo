@@ -9,3 +9,15 @@ pydantic>=2.10.0
 requests==2.31.0
 pypdf2==3.0.1
 
+# Legal Form Pipeline Dependencies
+# ================================
+# LayoutLMv3 for layout-aware semantic classification
+transformers>=4.36.0
+torch>=2.0.0
+# For LayoutLMv3 image processing
+torchvision>=0.15.0
+# Sentencepiece for tokenization (required by some transformer models)
+sentencepiece>=0.1.99
+# NumPy for numerical operations
+numpy>=1.24.0
+

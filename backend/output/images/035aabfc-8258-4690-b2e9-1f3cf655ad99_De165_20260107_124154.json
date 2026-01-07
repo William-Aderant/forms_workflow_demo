@@ -1,0 +1,952 @@
+{
+  "image_path": "035aabfc-8258-4690-b2e9-1f3cf655ad99_De165_20260107_124154.png",
+  "form_id": "035aabfc-8258-4690-b2e9-1f3cf655ad99",
+  "form_name": "De165",
+  "image_dimensions": {
+    "width": 1700,
+    "height": 2200
+  },
+  "boxes": [
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: b.",
+      "confidence": 96.28598022460938,
+      "bounding_box": {
+        "left": 0.10706178098917007,
+        "top": 0.5132365822792053,
+        "width": 0.2551526725292206,
+        "height": 0.013006921857595444
+      },
+      "pixel_coordinates": {
+        "x1": 182,
+        "y1": 1129,
+        "x2": 615,
+        "y2": 1157
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: ATTORNEY OR PARTY WITHOUT ATTORNEY (Name, state bar number, and address):",
+      "confidence": 97.13470458984375,
+      "bounding_box": {
+        "left": 0.45027074217796326,
+        "top": 0.06703013926744461,
+        "width": 0.0010005967924371362,
+        "height": 0.0010004707146435976
+      },
+      "pixel_coordinates": {
+        "x1": 765,
+        "y1": 147,
+        "x2": 767,
+        "y2": 149
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: a. The material terms of the transaction are specified in item 3, including any sale price and the amount of or method of",
+      "confidence": 88.69226837158203,
+      "bounding_box": {
+        "left": 0.870513916015625,
+        "top": 0.825376570224762,
+        "width": 0.0010005920194089413,
+        "height": 0.00100044347345829
+      },
+      "pixel_coordinates": {
+        "x1": 1479,
+        "y1": 1815,
+        "x2": 1481,
+        "y2": 1818
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: b.",
+      "confidence": 71.22273254394531,
+      "bounding_box": {
+        "left": 0.10706153512001038,
+        "top": 0.5302422642707825,
+        "width": 0.825492799282074,
+        "height": 0.042022332549095154
+      },
+      "pixel_coordinates": {
+        "x1": 182,
+        "y1": 1166,
+        "x2": 1585,
+        "y2": 1258
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: 1. The personal representative (executor or administrator) of the estate of the deceased is (names):",
+      "confidence": 87.6279296875,
+      "bounding_box": {
+        "left": 0.059676144272089005,
+        "top": 0.44249364733695984,
+        "width": 0.8733336925506592,
+        "height": 0.03445695340633392
+      },
+      "pixel_coordinates": {
+        "x1": 101,
+        "y1": 973,
+        "x2": 1586,
+        "y2": 1049
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "case_number: CASE NUMBER:",
+      "confidence": 87.03945922851562,
+      "bounding_box": {
+        "left": 0.6481044888496399,
+        "top": 0.32459232211112976,
+        "width": 0.2926810085773468,
+        "height": 0.02989155799150467
+      },
+      "pixel_coordinates": {
+        "x1": 1101,
+        "y1": 714,
+        "x2": 1599,
+        "y2": 779
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: CITY AND ZIP CODE:",
+      "confidence": 85.89393615722656,
+      "bounding_box": {
+        "left": 0.16058853268623352,
+        "top": 0.19515728950500488,
+        "width": 0.4842175841331482,
+        "height": 0.010881220921874046
+      },
+      "pixel_coordinates": {
+        "x1": 273,
+        "y1": 429,
+        "x2": 1096,
+        "y2": 453
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: NOTICE OF PROPOSED ACTION",
+      "confidence": 94.06202697753906,
+      "bounding_box": {
+        "left": 0.24035382270812988,
+        "top": 0.34007424116134644,
+        "width": 0.029646016657352448,
+        "height": 0.011172779835760593
+      },
+      "pixel_coordinates": {
+        "x1": 408,
+        "y1": 748,
+        "x2": 458,
+        "y2": 772
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: CITY AND ZIP CODE:",
+      "confidence": 83.23136138916016,
+      "bounding_box": {
+        "left": 0.16124778985977173,
+        "top": 0.22372135519981384,
+        "width": 0.4835030138492584,
+        "height": 0.009599448181688786
+      },
+      "pixel_coordinates": {
+        "x1": 274,
+        "y1": 492,
+        "x2": 1096,
+        "y2": 513
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: CITY AND ZIP CODE:",
+      "confidence": 80.0,
+      "bounding_box": {
+        "left": 0.16250641644001007,
+        "top": 0.23709779977798462,
+        "width": 0.4817264676094055,
+        "height": 0.009362490847706795
+      },
+      "pixel_coordinates": {
+        "x1": 276,
+        "y1": 521,
+        "x2": 1095,
+        "y2": 542
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: ATTORNEY FOR (Name):",
+      "confidence": 83.36514282226562,
+      "bounding_box": {
+        "left": 0.19717523455619812,
+        "top": 0.15992991626262665,
+        "width": 0.44808003306388855,
+        "height": 0.013942250981926918
+      },
+      "pixel_coordinates": {
+        "x1": 335,
+        "y1": 351,
+        "x2": 1096,
+        "y2": 382
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: SUPERIOR COURT OF CALIFORNIA, COUNTY OF",
+      "confidence": 88.16661834716797,
+      "bounding_box": {
+        "left": 0.648663341999054,
+        "top": 0.07252172380685806,
+        "width": 0.29166772961616516,
+        "height": 0.23373885452747345
+      },
+      "pixel_coordinates": {
+        "x1": 1102,
+        "y1": 159,
+        "x2": 1598,
+        "y2": 673
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Objection",
+      "confidence": 93.44298553466797,
+      "bounding_box": {
+        "left": 0.37179508805274963,
+        "top": 0.3400474786758423,
+        "width": 0.029853159561753273,
+        "height": 0.011344995349645615
+      },
+      "pixel_coordinates": {
+        "x1": 632,
+        "y1": 748,
+        "x2": 682,
+        "y2": 773
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: 4.",
+      "confidence": 91.09493255615234,
+      "bounding_box": {
+        "left": 0.08234888315200806,
+        "top": 0.7683463096618652,
+        "width": 0.029562128707766533,
+        "height": 0.011736010201275349
+      },
+      "pixel_coordinates": {
+        "x1": 139,
+        "y1": 1690,
+        "x2": 190,
+        "y2": 1716
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: supervision (describe in specific terms here or in Attachment 3):",
+      "confidence": 92.77622985839844,
+      "bounding_box": {
+        "left": 0.08266400545835495,
+        "top": 0.6162301301956177,
+        "width": 0.02982567995786667,
+        "height": 0.011744976975023746
+      },
+      "pixel_coordinates": {
+        "x1": 140,
+        "y1": 1355,
+        "x2": 191,
+        "y2": 1381
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: is the value of the subject property in the probate inventory.",
+      "confidence": 87.9714584350586,
+      "bounding_box": {
+        "left": 0.7642062306404114,
+        "top": 0.8325461745262146,
+        "width": 0.029395736753940582,
+        "height": 0.011909153312444687
+      },
+      "pixel_coordinates": {
+        "x1": 1299,
+        "y1": 1831,
+        "x2": 1349,
+        "y2": 1857
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: CITY AND ZIP CODE:",
+      "confidence": 86.46261596679688,
+      "bounding_box": {
+        "left": 0.16098205745220184,
+        "top": 0.210091695189476,
+        "width": 0.48364293575286865,
+        "height": 0.009458495303988457
+      },
+      "pixel_coordinates": {
+        "x1": 273,
+        "y1": 462,
+        "x2": 1095,
+        "y2": 483
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: NOTICE OF PROPOSED ACTION",
+      "confidence": 64.30961608886719,
+      "bounding_box": {
+        "left": 0.5710919499397278,
+        "top": 0.2925083339214325,
+        "width": 0.07106224447488785,
+        "height": 0.008230302482843399
+      },
+      "pixel_coordinates": {
+        "x1": 970,
+        "y1": 643,
+        "x2": 1091,
+        "y2": 661
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: $",
+      "confidence": 64.41128540039062,
+      "bounding_box": {
+        "left": 0.12427859753370285,
+        "top": 0.8319714665412903,
+        "width": 0.20858556032180786,
+        "height": 0.011502317152917385
+      },
+      "pixel_coordinates": {
+        "x1": 211,
+        "y1": 1830,
+        "x2": 565,
+        "y2": 1855
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: is the value of the subject property in the probate inventory.",
+      "confidence": 60.000003814697266,
+      "bounding_box": {
+        "left": 0.7642062306404114,
+        "top": 0.8325456976890564,
+        "width": 0.14785654842853546,
+        "height": 0.012135379947721958
+      },
+      "pixel_coordinates": {
+        "x1": 1299,
+        "y1": 1831,
+        "x2": 1550,
+        "y2": 1858
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: highest bidder.",
+      "confidence": 72.05781555175781,
+      "bounding_box": {
+        "left": 0.12289149314165115,
+        "top": 0.929349422454834,
+        "width": 0.07389837503433228,
+        "height": 0.008091689087450504
+      },
+      "pixel_coordinates": {
+        "x1": 208,
+        "y1": 2044,
+        "x2": 334,
+        "y2": 2062
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: TELEPHONE AND FAX NOS.:",
+      "confidence": 55.553794860839844,
+      "bounding_box": {
+        "left": 0.47335001826286316,
+        "top": 0.07034891843795776,
+        "width": 0.17073602974414825,
+        "height": 0.09257479757070541
+      },
+      "pixel_coordinates": {
+        "x1": 804,
+        "y1": 154,
+        "x2": 1094,
+        "y2": 358
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: confirmation at a hearing at which higher bids for the property may be presented and the property sold to the",
+      "confidence": 58.13690948486328,
+      "bounding_box": {
+        "left": 0.9139255881309509,
+        "top": 0.8999462127685547,
+        "width": 0.025966234505176544,
+        "height": 0.006675089243799448
+      },
+      "pixel_coordinates": {
+        "x1": 1553,
+        "y1": 1979,
+        "x2": 1597,
+        "y2": 1994
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: b.",
+      "confidence": 93.73480224609375,
+      "bounding_box": {
+        "left": 0.10746076703071594,
+        "top": 0.514519214630127,
+        "width": 0.029913486912846565,
+        "height": 0.011272347532212734
+      },
+      "pixel_coordinates": {
+        "x1": 182,
+        "y1": 1131,
+        "x2": 233,
+        "y2": 1156
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: b.",
+      "confidence": 92.09996795654297,
+      "bounding_box": {
+        "left": 0.10740700364112854,
+        "top": 0.5320585370063782,
+        "width": 0.030000997707247734,
+        "height": 0.011496919207274914
+      },
+      "pixel_coordinates": {
+        "x1": 182,
+        "y1": 1170,
+        "x2": 233,
+        "y2": 1195
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: property).",
+      "confidence": 61.84639358520508,
+      "bounding_box": {
+        "left": 0.2109413594007492,
+        "top": 0.579009473323822,
+        "width": 0.23084671795368195,
+        "height": 0.014927352778613567
+      },
+      "pixel_coordinates": {
+        "x1": 358,
+        "y1": 1273,
+        "x2": 751,
+        "y2": 1306
+      }
+    }
+  ],
+  "form_fields": [
+    {
+      "field_type": "other",
+      "label_text": "b.",
+      "value_text": "",
+      "confidence": 96.28598022460938,
+      "field_confidence": 0.3,
+      "bounding_box": {
+        "left": 0.10706178098917007,
+        "top": 0.5132365822792053,
+        "width": 0.2551526725292206,
+        "height": 0.013006921857595444
+      },
+      "pixel_coordinates": {
+        "x1": 182,
+        "y1": 1129,
+        "x2": 615,
+        "y2": 1157
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "ATTORNEY OR PARTY WITHOUT ATTORNEY (Name, state bar number, and address):",
+      "value_text": "",
+      "confidence": 97.13470458984375,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.45027074217796326,
+        "top": 0.06703013926744461,
+        "width": 0.0010005967924371362,
+        "height": 0.0010004707146435976
+      },
+      "pixel_coordinates": {
+        "x1": 765,
+        "y1": 147,
+        "x2": 767,
+        "y2": 149
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "a. The material terms of the transaction are specified in item 3, including any sale price and the amount of or method of",
+      "value_text": "",
+      "confidence": 88.69226837158203,
+      "field_confidence": 0.3,
+      "bounding_box": {
+        "left": 0.870513916015625,
+        "top": 0.825376570224762,
+        "width": 0.0010005920194089413,
+        "height": 0.00100044347345829
+      },
+      "pixel_coordinates": {
+        "x1": 1479,
+        "y1": 1815,
+        "x2": 1481,
+        "y2": 1818
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "b.",
+      "value_text": "",
+      "confidence": 71.22273254394531,
+      "field_confidence": 0.3,
+      "bounding_box": {
+        "left": 0.10706153512001038,
+        "top": 0.5302422642707825,
+        "width": 0.825492799282074,
+        "height": 0.042022332549095154
+      },
+      "pixel_coordinates": {
+        "x1": 182,
+        "y1": 1166,
+        "x2": 1585,
+        "y2": 1258
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "1. The personal representative (executor or administrator) of the estate of the deceased is (names):",
+      "value_text": "",
+      "confidence": 87.6279296875,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.059676144272089005,
+        "top": 0.44249364733695984,
+        "width": 0.8733336925506592,
+        "height": 0.03445695340633392
+      },
+      "pixel_coordinates": {
+        "x1": 101,
+        "y1": 973,
+        "x2": 1586,
+        "y2": 1049
+      }
+    },
+    {
+      "field_type": "case_number",
+      "label_text": "CASE NUMBER:",
+      "value_text": "",
+      "confidence": 87.03945922851562,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.6481044888496399,
+        "top": 0.32459232211112976,
+        "width": 0.2926810085773468,
+        "height": 0.02989155799150467
+      },
+      "pixel_coordinates": {
+        "x1": 1101,
+        "y1": 714,
+        "x2": 1599,
+        "y2": 779
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "CITY AND ZIP CODE:",
+      "value_text": "",
+      "confidence": 85.89393615722656,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.16058853268623352,
+        "top": 0.19515728950500488,
+        "width": 0.4842175841331482,
+        "height": 0.010881220921874046
+      },
+      "pixel_coordinates": {
+        "x1": 273,
+        "y1": 429,
+        "x2": 1096,
+        "y2": 453
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "NOTICE OF PROPOSED ACTION",
+      "value_text": "",
+      "confidence": 94.06202697753906,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.24035382270812988,
+        "top": 0.34007424116134644,
+        "width": 0.029646016657352448,
+        "height": 0.011172779835760593
+      },
+      "pixel_coordinates": {
+        "x1": 408,
+        "y1": 748,
+        "x2": 458,
+        "y2": 772
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "CITY AND ZIP CODE:",
+      "value_text": "",
+      "confidence": 83.23136138916016,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.16124778985977173,
+        "top": 0.22372135519981384,
+        "width": 0.4835030138492584,
+        "height": 0.009599448181688786
+      },
+      "pixel_coordinates": {
+        "x1": 274,
+        "y1": 492,
+        "x2": 1096,
+        "y2": 513
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "CITY AND ZIP CODE:",
+      "value_text": "",
+      "confidence": 80.0,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.16250641644001007,
+        "top": 0.23709779977798462,
+        "width": 0.4817264676094055,
+        "height": 0.009362490847706795
+      },
+      "pixel_coordinates": {
+        "x1": 276,
+        "y1": 521,
+        "x2": 1095,
+        "y2": 542
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "ATTORNEY FOR (Name):",
+      "value_text": "",
+      "confidence": 83.36514282226562,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.19717523455619812,
+        "top": 0.15992991626262665,
+        "width": 0.44808003306388855,
+        "height": 0.013942250981926918
+      },
+      "pixel_coordinates": {
+        "x1": 335,
+        "y1": 351,
+        "x2": 1096,
+        "y2": 382
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "SUPERIOR COURT OF CALIFORNIA, COUNTY OF",
+      "value_text": "",
+      "confidence": 88.16661834716797,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.648663341999054,
+        "top": 0.07252172380685806,
+        "width": 0.29166772961616516,
+        "height": 0.23373885452747345
+      },
+      "pixel_coordinates": {
+        "x1": 1102,
+        "y1": 159,
+        "x2": 1598,
+        "y2": 673
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Objection",
+      "value_text": "",
+      "confidence": 93.44298553466797,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.37179508805274963,
+        "top": 0.3400474786758423,
+        "width": 0.029853159561753273,
+        "height": 0.011344995349645615
+      },
+      "pixel_coordinates": {
+        "x1": 632,
+        "y1": 748,
+        "x2": 682,
+        "y2": 773
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "4.",
+      "value_text": "",
+      "confidence": 91.09493255615234,
+      "field_confidence": 0.3,
+      "bounding_box": {
+        "left": 0.08234888315200806,
+        "top": 0.7683463096618652,
+        "width": 0.029562128707766533,
+        "height": 0.011736010201275349
+      },
+      "pixel_coordinates": {
+        "x1": 139,
+        "y1": 1690,
+        "x2": 190,
+        "y2": 1716
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "supervision (describe in specific terms here or in Attachment 3):",
+      "value_text": "",
+      "confidence": 92.77622985839844,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.08266400545835495,
+        "top": 0.6162301301956177,
+        "width": 0.02982567995786667,
+        "height": 0.011744976975023746
+      },
+      "pixel_coordinates": {
+        "x1": 140,
+        "y1": 1355,
+        "x2": 191,
+        "y2": 1381
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "is the value of the subject property in the probate inventory.",
+      "value_text": "",
+      "confidence": 87.9714584350586,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.7642062306404114,
+        "top": 0.8325461745262146,
+        "width": 0.029395736753940582,
+        "height": 0.011909153312444687
+      },
+      "pixel_coordinates": {
+        "x1": 1299,
+        "y1": 1831,
+        "x2": 1349,
+        "y2": 1857
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "CITY AND ZIP CODE:",
+      "value_text": "",
+      "confidence": 86.46261596679688,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.16098205745220184,
+        "top": 0.210091695189476,
+        "width": 0.48364293575286865,
+        "height": 0.009458495303988457
+      },
+      "pixel_coordinates": {
+        "x1": 273,
+        "y1": 462,
+        "x2": 1095,
+        "y2": 483
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "NOTICE OF PROPOSED ACTION",
+      "value_text": "DECEDENT",
+      "confidence": 64.30961608886719,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.5710919499397278,
+        "top": 0.2925083339214325,
+        "width": 0.07106224447488785,
+        "height": 0.008230302482843399
+      },
+      "pixel_coordinates": {
+        "x1": 970,
+        "y1": 643,
+        "x2": 1091,
+        "y2": 661
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "$",
+      "value_text": "",
+      "confidence": 64.41128540039062,
+      "field_confidence": 0.3,
+      "bounding_box": {
+        "left": 0.12427859753370285,
+        "top": 0.8319714665412903,
+        "width": 0.20858556032180786,
+        "height": 0.011502317152917385
+      },
+      "pixel_coordinates": {
+        "x1": 211,
+        "y1": 1830,
+        "x2": 565,
+        "y2": 1855
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "is the value of the subject property in the probate inventory.",
+      "value_text": "",
+      "confidence": 60.000003814697266,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.7642062306404114,
+        "top": 0.8325456976890564,
+        "width": 0.14785654842853546,
+        "height": 0.012135379947721958
+      },
+      "pixel_coordinates": {
+        "x1": 1299,
+        "y1": 1831,
+        "x2": 1550,
+        "y2": 1858
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "highest bidder.",
+      "value_text": "January 1, 1998]",
+      "confidence": 72.05781555175781,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.12289149314165115,
+        "top": 0.929349422454834,
+        "width": 0.07389837503433228,
+        "height": 0.008091689087450504
+      },
+      "pixel_coordinates": {
+        "x1": 208,
+        "y1": 2044,
+        "x2": 334,
+        "y2": 2062
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "TELEPHONE AND FAX NOS.:",
+      "value_text": "",
+      "confidence": 55.553794860839844,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.47335001826286316,
+        "top": 0.07034891843795776,
+        "width": 0.17073602974414825,
+        "height": 0.09257479757070541
+      },
+      "pixel_coordinates": {
+        "x1": 804,
+        "y1": 154,
+        "x2": 1094,
+        "y2": 358
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "confirmation at a hearing at which higher bids for the property may be presented and the property sold to the",
+      "value_text": "1 of 2",
+      "confidence": 58.13690948486328,
+      "field_confidence": 0.3,
+      "bounding_box": {
+        "left": 0.9139255881309509,
+        "top": 0.8999462127685547,
+        "width": 0.025966234505176544,
+        "height": 0.006675089243799448
+      },
+      "pixel_coordinates": {
+        "x1": 1553,
+        "y1": 1979,
+        "x2": 1597,
+        "y2": 1994
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "b.",
+      "value_text": "",
+      "confidence": 93.73480224609375,
+      "field_confidence": 0.3,
+      "bounding_box": {
+        "left": 0.10746076703071594,
+        "top": 0.514519214630127,
+        "width": 0.029913486912846565,
+        "height": 0.011272347532212734
+      },
+      "pixel_coordinates": {
+        "x1": 182,
+        "y1": 1131,
+        "x2": 233,
+        "y2": 1156
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "b.",
+      "value_text": "",
+      "confidence": 92.09996795654297,
+      "field_confidence": 0.3,
+      "bounding_box": {
+        "left": 0.10740700364112854,
+        "top": 0.5320585370063782,
+        "width": 0.030000997707247734,
+        "height": 0.011496919207274914
+      },
+      "pixel_coordinates": {
+        "x1": 182,
+        "y1": 1170,
+        "x2": 233,
+        "y2": 1195
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "property).",
+      "value_text": "",
+      "confidence": 61.84639358520508,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.2109413594007492,
+        "top": 0.579009473323822,
+        "width": 0.23084671795368195,
+        "height": 0.014927352778613567
+      },
+      "pixel_coordinates": {
+        "x1": 358,
+        "y1": 1273,
+        "x2": 751,
+        "y2": 1306
+      }
+    }
+  ],
+  "total_boxes": 26,
+  "total_form_fields": 26,
+  "created_at": "2026-01-07T12:41:54.459595"
+}

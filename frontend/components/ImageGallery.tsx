@@ -100,7 +100,7 @@ export default function ImageGallery({ images, formName }: ImageGalleryProps) {
                   onClick={() => handleImageClick(image)}
                 >
                   <img
-                    src={`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8001'}/api/images/${image.image_path.split('/').pop()}`}
+                    src={`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'}/api/images/${image.image_path.split('/').pop()}`}
                     alt={`Annotated form ${index + 1}`}
                     style={{ width: '100%', height: '100%', objectFit: 'contain' }}
                   />
@@ -162,7 +162,7 @@ export default function ImageGallery({ images, formName }: ImageGalleryProps) {
             <DialogContent>
               <Box mb={2}>
                 <img
-                  src={`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8001'}/api/images/${selectedImage.image_path.split('/').pop()}`}
+                  src={`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'}/api/images/${selectedImage.image_path.split('/').pop()}`}
                   alt={selectedImage.form_name}
                   style={{ width: '100%', height: 'auto' }}
                 />

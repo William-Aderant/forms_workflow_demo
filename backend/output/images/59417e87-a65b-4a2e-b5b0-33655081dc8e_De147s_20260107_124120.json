@@ -1,0 +1,376 @@
+{
+  "image_path": "59417e87-a65b-4a2e-b5b0-33655081dc8e_De147s_20260107_124120.png",
+  "form_id": "59417e87-a65b-4a2e-b5b0-33655081dc8e",
+  "form_name": "De147s",
+  "image_dimensions": {
+    "width": 1700,
+    "height": 2200
+  },
+  "boxes": [
+    {
+      "block_type": "FORM_FIELD",
+      "text": "case_number: CASE NUMBER:",
+      "confidence": 98.8677978515625,
+      "bounding_box": {
+        "left": 0.6522855162620544,
+        "top": 0.12104038149118423,
+        "width": 0.0010004357900470495,
+        "height": 0.00100034661591053
+      },
+      "pixel_coordinates": {
+        "x1": 1108,
+        "y1": 266,
+        "x2": 1110,
+        "y2": 268
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: DECEDENT",
+      "confidence": 92.19596099853516,
+      "bounding_box": {
+        "left": 0.665397584438324,
+        "top": 0.09411351382732391,
+        "width": 0.2742694020271301,
+        "height": 0.02950902096927166
+      },
+      "pixel_coordinates": {
+        "x1": 1131,
+        "y1": 207,
+        "x2": 1597,
+        "y2": 271
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: 1. Name:",
+      "confidence": 86.37407684326172,
+      "bounding_box": {
+        "left": 0.13666753470897675,
+        "top": 0.40057429671287537,
+        "width": 0.8008612394332886,
+        "height": 0.014648483134806156
+      },
+      "pixel_coordinates": {
+        "x1": 232,
+        "y1": 881,
+        "x2": 1593,
+        "y2": 913
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: 3. Driver's license number:",
+      "confidence": 90.55415344238281,
+      "bounding_box": {
+        "left": 0.25177061557769775,
+        "top": 0.4745236933231354,
+        "width": 0.3242507576942444,
+        "height": 0.014463502913713455
+      },
+      "pixel_coordinates": {
+        "x1": 428,
+        "y1": 1043,
+        "x2": 979,
+        "y2": 1075
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: 2. Date of birth:",
+      "confidence": 87.6523666381836,
+      "bounding_box": {
+        "left": 0.1773870587348938,
+        "top": 0.44010600447654724,
+        "width": 0.7547392845153809,
+        "height": 0.01245858147740364
+      },
+      "pixel_coordinates": {
+        "x1": 301,
+        "y1": 968,
+        "x2": 1584,
+        "y2": 995
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "address: State:",
+      "confidence": 90.64300537109375,
+      "bounding_box": {
+        "left": 0.6310615539550781,
+        "top": 0.47524771094322205,
+        "width": 0.30530938506126404,
+        "height": 0.013767997734248638
+      },
+      "pixel_coordinates": {
+        "x1": 1072,
+        "y1": 1045,
+        "x2": 1591,
+        "y2": 1075
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Judicial Council of California",
+      "confidence": 62.574623107910156,
+      "bounding_box": {
+        "left": 0.1317584365606308,
+        "top": 0.8934738636016846,
+        "width": 0.07341969013214111,
+        "height": 0.008203916251659393
+      },
+      "pixel_coordinates": {
+        "x1": 223,
+        "y1": 1965,
+        "x2": 348,
+        "y2": 1983
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: CONFIDENTIAL",
+      "confidence": 75.92194366455078,
+      "bounding_box": {
+        "left": 0.5810942053794861,
+        "top": 0.11383189260959625,
+        "width": 0.07134521752595901,
+        "height": 0.00825758557766676
+      },
+      "pixel_coordinates": {
+        "x1": 987,
+        "y1": 250,
+        "x2": 1109,
+        "y2": 268
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "unknown: ",
+      "confidence": 62.37921905517578,
+      "bounding_box": {
+        "left": 0.2613397240638733,
+        "top": 0.5509740114212036,
+        "width": 0.4753296971321106,
+        "height": 0.025981029495596886
+      },
+      "pixel_coordinates": {
+        "x1": 444,
+        "y1": 1212,
+        "x2": 1252,
+        "y2": 1269
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: CONFIDENTIAL SUPPLEMENT TO DUTIES AND",
+      "confidence": 74.64496612548828,
+      "bounding_box": {
+        "left": 0.8821263313293457,
+        "top": 0.8823989629745483,
+        "width": 0.05872857943177223,
+        "height": 0.007894214242696762
+      },
+      "pixel_coordinates": {
+        "x1": 1499,
+        "y1": 1941,
+        "x2": 1599,
+        "y2": 1958
+      }
+    }
+  ],
+  "form_fields": [
+    {
+      "field_type": "case_number",
+      "label_text": "CASE NUMBER:",
+      "value_text": "",
+      "confidence": 98.8677978515625,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.6522855162620544,
+        "top": 0.12104038149118423,
+        "width": 0.0010004357900470495,
+        "height": 0.00100034661591053
+      },
+      "pixel_coordinates": {
+        "x1": 1108,
+        "y1": 266,
+        "x2": 1110,
+        "y2": 268
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "DECEDENT",
+      "value_text": "",
+      "confidence": 92.19596099853516,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.665397584438324,
+        "top": 0.09411351382732391,
+        "width": 0.2742694020271301,
+        "height": 0.02950902096927166
+      },
+      "pixel_coordinates": {
+        "x1": 1131,
+        "y1": 207,
+        "x2": 1597,
+        "y2": 271
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "1. Name:",
+      "value_text": "",
+      "confidence": 86.37407684326172,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.13666753470897675,
+        "top": 0.40057429671287537,
+        "width": 0.8008612394332886,
+        "height": 0.014648483134806156
+      },
+      "pixel_coordinates": {
+        "x1": 232,
+        "y1": 881,
+        "x2": 1593,
+        "y2": 913
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "3. Driver's license number:",
+      "value_text": "",
+      "confidence": 90.55415344238281,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.25177061557769775,
+        "top": 0.4745236933231354,
+        "width": 0.3242507576942444,
+        "height": 0.014463502913713455
+      },
+      "pixel_coordinates": {
+        "x1": 428,
+        "y1": 1043,
+        "x2": 979,
+        "y2": 1075
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "2. Date of birth:",
+      "value_text": "",
+      "confidence": 87.6523666381836,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.1773870587348938,
+        "top": 0.44010600447654724,
+        "width": 0.7547392845153809,
+        "height": 0.01245858147740364
+      },
+      "pixel_coordinates": {
+        "x1": 301,
+        "y1": 968,
+        "x2": 1584,
+        "y2": 995
+      }
+    },
+    {
+      "field_type": "address",
+      "label_text": "State:",
+      "value_text": "",
+      "confidence": 90.64300537109375,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.6310615539550781,
+        "top": 0.47524771094322205,
+        "width": 0.30530938506126404,
+        "height": 0.013767997734248638
+      },
+      "pixel_coordinates": {
+        "x1": 1072,
+        "y1": 1045,
+        "x2": 1591,
+        "y2": 1075
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Judicial Council of California",
+      "value_text": "January 1, 2001]",
+      "confidence": 62.574623107910156,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.1317584365606308,
+        "top": 0.8934738636016846,
+        "width": 0.07341969013214111,
+        "height": 0.008203916251659393
+      },
+      "pixel_coordinates": {
+        "x1": 223,
+        "y1": 1965,
+        "x2": 348,
+        "y2": 1983
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "CONFIDENTIAL",
+      "value_text": "",
+      "confidence": 75.92194366455078,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.5810942053794861,
+        "top": 0.11383189260959625,
+        "width": 0.07134521752595901,
+        "height": 0.00825758557766676
+      },
+      "pixel_coordinates": {
+        "x1": 987,
+        "y1": 250,
+        "x2": 1109,
+        "y2": 268
+      }
+    },
+    {
+      "field_type": "unknown",
+      "label_text": "",
+      "value_text": "THIS STATEMENT IS CONFIDENTIAL. DO NOT FILE THIS CONFIDENTIAL STATEMENT IN A PUBLIC COURT FILE.",
+      "confidence": 62.37921905517578,
+      "field_confidence": 0.0,
+      "bounding_box": {
+        "left": 0.2613397240638733,
+        "top": 0.5509740114212036,
+        "width": 0.4753296971321106,
+        "height": 0.025981029495596886
+      },
+      "pixel_coordinates": {
+        "x1": 444,
+        "y1": 1212,
+        "x2": 1252,
+        "y2": 1269
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "CONFIDENTIAL SUPPLEMENT TO DUTIES AND",
+      "value_text": "Code, \u00a7 8404",
+      "confidence": 74.64496612548828,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.8821263313293457,
+        "top": 0.8823989629745483,
+        "width": 0.05872857943177223,
+        "height": 0.007894214242696762
+      },
+      "pixel_coordinates": {
+        "x1": 1499,
+        "y1": 1941,
+        "x2": 1599,
+        "y2": 1958
+      }
+    }
+  ],
+  "total_boxes": 10,
+  "total_form_fields": 10,
+  "created_at": "2026-01-07T12:41:20.126325"
+}

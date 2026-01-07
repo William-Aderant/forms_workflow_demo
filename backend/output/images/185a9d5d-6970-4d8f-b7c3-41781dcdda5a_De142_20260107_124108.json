@@ -1,0 +1,1024 @@
+{
+  "image_path": "185a9d5d-6970-4d8f-b7c3-41781dcdda5a_De142_20260107_124108.png",
+  "form_id": "185a9d5d-6970-4d8f-b7c3-41781dcdda5a",
+  "form_name": "De142",
+  "image_dimensions": {
+    "width": 1700,
+    "height": 2200
+  },
+  "boxes": [
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: WAIVER OF BOND BY HEIR OR BENEFICIARY",
+      "confidence": 90.5988540649414,
+      "bounding_box": {
+        "left": 0.5632405877113342,
+        "top": 0.2791061997413635,
+        "width": 0.002000803593546152,
+        "height": 0.0030009483452886343
+      },
+      "pixel_coordinates": {
+        "x1": 957,
+        "y1": 614,
+        "x2": 960,
+        "y2": 620
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: CITY AND ZIP CODE:",
+      "confidence": 88.45246887207031,
+      "bounding_box": {
+        "left": 0.16032369434833527,
+        "top": 0.23558594286441803,
+        "width": 0.4852222800254822,
+        "height": 0.013960151001811028
+      },
+      "pixel_coordinates": {
+        "x1": 272,
+        "y1": 518,
+        "x2": 1097,
+        "y2": 549
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Judicial Council of California",
+      "confidence": 93.1065673828125,
+      "bounding_box": {
+        "left": 0.1827109456062317,
+        "top": 0.9443808794021606,
+        "width": 0.056199800223112106,
+        "height": 0.008452164009213448
+      },
+      "pixel_coordinates": {
+        "x1": 310,
+        "y1": 2077,
+        "x2": 406,
+        "y2": 2096
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: 4. I WAIVE the posting of bond in this estate by (name of personal representative):",
+      "confidence": 86.99407958984375,
+      "bounding_box": {
+        "left": 0.6347131729125977,
+        "top": 0.7772206664085388,
+        "width": 0.2946643829345703,
+        "height": 0.01226762030273676
+      },
+      "pixel_coordinates": {
+        "x1": 1079,
+        "y1": 1709,
+        "x2": 1579,
+        "y2": 1736
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "date: Date:",
+      "confidence": 88.83696746826172,
+      "bounding_box": {
+        "left": 0.05872195214033127,
+        "top": 0.8215005993843079,
+        "width": 0.4121604859828949,
+        "height": 0.03090832754969597
+      },
+      "pixel_coordinates": {
+        "x1": 99,
+        "y1": 1807,
+        "x2": 800,
+        "y2": 1875
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "name: NAME:",
+      "confidence": 89.5943603515625,
+      "bounding_box": {
+        "left": 0.09384853392839432,
+        "top": 0.07388070225715637,
+        "width": 0.5501433610916138,
+        "height": 0.011830952018499374
+      },
+      "pixel_coordinates": {
+        "x1": 159,
+        "y1": 162,
+        "x2": 1094,
+        "y2": 188
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "address: CITY:",
+      "confidence": 90.59978485107422,
+      "bounding_box": {
+        "left": 0.08766582608222961,
+        "top": 0.11806237697601318,
+        "width": 0.3036416172981262,
+        "height": 0.010852294974029064
+      },
+      "pixel_coordinates": {
+        "x1": 149,
+        "y1": 259,
+        "x2": 665,
+        "y2": 283
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "case_number: CASE NUMBER:",
+      "confidence": 85.46012878417969,
+      "bounding_box": {
+        "left": 0.6505568623542786,
+        "top": 0.3017091751098633,
+        "width": 0.2893569767475128,
+        "height": 0.029574507847428322
+      },
+      "pixel_coordinates": {
+        "x1": 1105,
+        "y1": 663,
+        "x2": 1597,
+        "y2": 728
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: (TYPE OR PRINT NAME OF BENEFICIARY (AND AUTHORIZED",
+      "confidence": 90.16858673095703,
+      "bounding_box": {
+        "left": 0.5521470904350281,
+        "top": 0.8201842308044434,
+        "width": 0.3878503739833832,
+        "height": 0.03174976631999016
+      },
+      "pixel_coordinates": {
+        "x1": 938,
+        "y1": 1804,
+        "x2": 1597,
+        "y2": 1874
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "address: ZIP CODE:",
+      "confidence": 89.25989532470703,
+      "bounding_box": {
+        "left": 0.5340438485145569,
+        "top": 0.11806605011224747,
+        "width": 0.11066339910030365,
+        "height": 0.01096043549478054
+      },
+      "pixel_coordinates": {
+        "x1": 907,
+        "y1": 259,
+        "x2": 1096,
+        "y2": 283
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "date: Date:",
+      "confidence": 88.67703247070312,
+      "bounding_box": {
+        "left": 0.10059478878974915,
+        "top": 0.7993712425231934,
+        "width": 0.2501212954521179,
+        "height": 0.014230817556381226
+      },
+      "pixel_coordinates": {
+        "x1": 171,
+        "y1": 1758,
+        "x2": 596,
+        "y2": 1789
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: CITY AND ZIP CODE:",
+      "confidence": 88.72372436523438,
+      "bounding_box": {
+        "left": 0.15889772772789001,
+        "top": 0.19451497495174408,
+        "width": 0.48597976565361023,
+        "height": 0.012041822075843811
+      },
+      "pixel_coordinates": {
+        "x1": 270,
+        "y1": 427,
+        "x2": 1096,
+        "y2": 454
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: WAIVER OF BOND BY HEIR OR BENEFICIARY",
+      "confidence": 90.1646957397461,
+      "bounding_box": {
+        "left": 0.20109796524047852,
+        "top": 0.31443655490875244,
+        "width": 0.03008934110403061,
+        "height": 0.011436354368925095
+      },
+      "pixel_coordinates": {
+        "x1": 341,
+        "y1": 691,
+        "x2": 393,
+        "y2": 716
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: CITY AND ZIP CODE:",
+      "confidence": 89.5001449584961,
+      "bounding_box": {
+        "left": 0.15956878662109375,
+        "top": 0.2226492166519165,
+        "width": 0.485682874917984,
+        "height": 0.010854950174689293
+      },
+      "pixel_coordinates": {
+        "x1": 271,
+        "y1": 489,
+        "x2": 1096,
+        "y2": 513
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: STATE BAR NO.:",
+      "confidence": 88.66410064697266,
+      "bounding_box": {
+        "left": 0.44586634635925293,
+        "top": 0.05902456119656563,
+        "width": 0.19798913598060608,
+        "height": 0.012004275806248188
+      },
+      "pixel_coordinates": {
+        "x1": 757,
+        "y1": 129,
+        "x2": 1094,
+        "y2": 156
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: CITY AND ZIP CODE:",
+      "confidence": 89.49658966064453,
+      "bounding_box": {
+        "left": 0.15795013308525085,
+        "top": 0.2088894098997116,
+        "width": 0.48668432235717773,
+        "height": 0.01131858117878437
+      },
+      "pixel_coordinates": {
+        "x1": 268,
+        "y1": 459,
+        "x2": 1095,
+        "y2": 484
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: FAX NO.:",
+      "confidence": 90.57909393310547,
+      "bounding_box": {
+        "left": 0.4324076175689697,
+        "top": 0.11715120822191238,
+        "width": 0.04831678792834282,
+        "height": 0.012284338474273682
+      },
+      "pixel_coordinates": {
+        "x1": 735,
+        "y1": 257,
+        "x2": 817,
+        "y2": 284
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: FIRM NAME:",
+      "confidence": 89.37264251708984,
+      "bounding_box": {
+        "left": 0.12017352133989334,
+        "top": 0.08841191977262497,
+        "width": 0.5239132642745972,
+        "height": 0.012809530831873417
+      },
+      "pixel_coordinates": {
+        "x1": 204,
+        "y1": 194,
+        "x2": 1094,
+        "y2": 222
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: SUPERIOR COURT OF CALIFORNIA, COUNTY OF",
+      "confidence": 87.07209014892578,
+      "bounding_box": {
+        "left": 0.6496352553367615,
+        "top": 0.0745883509516716,
+        "width": 0.2900916337966919,
+        "height": 0.21297769248485565
+      },
+      "pixel_coordinates": {
+        "x1": 1104,
+        "y1": 164,
+        "x2": 1597,
+        "y2": 632
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "address: STREET ADDRESS:",
+      "confidence": 89.45339965820312,
+      "bounding_box": {
+        "left": 0.15438644587993622,
+        "top": 0.10379361361265182,
+        "width": 0.4902227818965912,
+        "height": 0.011951823718845844
+      },
+      "pixel_coordinates": {
+        "x1": 262,
+        "y1": 228,
+        "x2": 1095,
+        "y2": 254
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: E-MAIL ADDRESS:",
+      "confidence": 89.84136962890625,
+      "bounding_box": {
+        "left": 0.14811386168003082,
+        "top": 0.14644375443458557,
+        "width": 0.49710097908973694,
+        "height": 0.012904023751616478
+      },
+      "pixel_coordinates": {
+        "x1": 251,
+        "y1": 322,
+        "x2": 1096,
+        "y2": 350
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: ATTORNEY FOR (name):",
+      "confidence": 89.8555908203125,
+      "bounding_box": {
+        "left": 0.17682570219039917,
+        "top": 0.16222096979618073,
+        "width": 0.4688255488872528,
+        "height": 0.014190354384481907
+      },
+      "pixel_coordinates": {
+        "x1": 300,
+        "y1": 356,
+        "x2": 1097,
+        "y2": 388
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "address: STREET ADDRESS:",
+      "confidence": 90.81651306152344,
+      "bounding_box": {
+        "left": 0.14526496827602386,
+        "top": 0.13145047426223755,
+        "width": 0.20735949277877808,
+        "height": 0.011912308633327484
+      },
+      "pixel_coordinates": {
+        "x1": 246,
+        "y1": 289,
+        "x2": 599,
+        "y2": 315
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: FAX NO.:",
+      "confidence": 89.48285675048828,
+      "bounding_box": {
+        "left": 0.4343259036540985,
+        "top": 0.13177968561649323,
+        "width": 0.2104829102754593,
+        "height": 0.011583677493035793
+      },
+      "pixel_coordinates": {
+        "x1": 738,
+        "y1": 289,
+        "x2": 1096,
+        "y2": 315
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Page",
+      "confidence": 48.8021240234375,
+      "bounding_box": {
+        "left": 0.9005262851715088,
+        "top": 0.9452041387557983,
+        "width": 0.009776369668543339,
+        "height": 0.0070100631564855576
+      },
+      "pixel_coordinates": {
+        "x1": 1530,
+        "y1": 2079,
+        "x2": 1547,
+        "y2": 2094
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: Page",
+      "confidence": 49.947601318359375,
+      "bounding_box": {
+        "left": 0.8564808368682861,
+        "top": 0.9347410202026367,
+        "width": 0.08349151909351349,
+        "height": 0.007196094840764999
+      },
+      "pixel_coordinates": {
+        "x1": 1456,
+        "y1": 2056,
+        "x2": 1597,
+        "y2": 2072
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: ATTORNEY OR PARTY WITHOUT ATTORNEY:",
+      "confidence": 80.0,
+      "bounding_box": {
+        "left": 0.27750733494758606,
+        "top": 0.060519758611917496,
+        "width": 0.08450273424386978,
+        "height": 0.010919922031462193
+      },
+      "pixel_coordinates": {
+        "x1": 471,
+        "y1": 133,
+        "x2": 615,
+        "y2": 157
+      }
+    },
+    {
+      "block_type": "FORM_FIELD",
+      "text": "other: WAIVER OF BOND BY HEIR OR BENEFICIARY",
+      "confidence": 83.101806640625,
+      "bounding_box": {
+        "left": 0.19916439056396484,
+        "top": 0.31443655490875244,
+        "width": 0.30988144874572754,
+        "height": 0.011837022379040718
+      },
+      "pixel_coordinates": {
+        "x1": 338,
+        "y1": 691,
+        "x2": 865,
+        "y2": 717
+      }
+    }
+  ],
+  "form_fields": [
+    {
+      "field_type": "other",
+      "label_text": "WAIVER OF BOND BY HEIR OR BENEFICIARY",
+      "value_text": ",",
+      "confidence": 90.5988540649414,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.5632405877113342,
+        "top": 0.2791061997413635,
+        "width": 0.002000803593546152,
+        "height": 0.0030009483452886343
+      },
+      "pixel_coordinates": {
+        "x1": 957,
+        "y1": 614,
+        "x2": 960,
+        "y2": 620
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "CITY AND ZIP CODE:",
+      "value_text": "",
+      "confidence": 88.45246887207031,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.16032369434833527,
+        "top": 0.23558594286441803,
+        "width": 0.4852222800254822,
+        "height": 0.013960151001811028
+      },
+      "pixel_coordinates": {
+        "x1": 272,
+        "y1": 518,
+        "x2": 1097,
+        "y2": 549
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Judicial Council of California",
+      "value_text": "July 1, 2017]",
+      "confidence": 93.1065673828125,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.1827109456062317,
+        "top": 0.9443808794021606,
+        "width": 0.056199800223112106,
+        "height": 0.008452164009213448
+      },
+      "pixel_coordinates": {
+        "x1": 310,
+        "y1": 2077,
+        "x2": 406,
+        "y2": 2096
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "4. I WAIVE the posting of bond in this estate by (name of personal representative):",
+      "value_text": "",
+      "confidence": 86.99407958984375,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.6347131729125977,
+        "top": 0.7772206664085388,
+        "width": 0.2946643829345703,
+        "height": 0.01226762030273676
+      },
+      "pixel_coordinates": {
+        "x1": 1079,
+        "y1": 1709,
+        "x2": 1579,
+        "y2": 1736
+      }
+    },
+    {
+      "field_type": "date",
+      "label_text": "Date:",
+      "value_text": "",
+      "confidence": 88.83696746826172,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.05872195214033127,
+        "top": 0.8215005993843079,
+        "width": 0.4121604859828949,
+        "height": 0.03090832754969597
+      },
+      "pixel_coordinates": {
+        "x1": 99,
+        "y1": 1807,
+        "x2": 800,
+        "y2": 1875
+      }
+    },
+    {
+      "field_type": "name",
+      "label_text": "NAME:",
+      "value_text": "",
+      "confidence": 89.5943603515625,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.09384853392839432,
+        "top": 0.07388070225715637,
+        "width": 0.5501433610916138,
+        "height": 0.011830952018499374
+      },
+      "pixel_coordinates": {
+        "x1": 159,
+        "y1": 162,
+        "x2": 1094,
+        "y2": 188
+      }
+    },
+    {
+      "field_type": "address",
+      "label_text": "CITY:",
+      "value_text": "",
+      "confidence": 90.59978485107422,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.08766582608222961,
+        "top": 0.11806237697601318,
+        "width": 0.3036416172981262,
+        "height": 0.010852294974029064
+      },
+      "pixel_coordinates": {
+        "x1": 149,
+        "y1": 259,
+        "x2": 665,
+        "y2": 283
+      }
+    },
+    {
+      "field_type": "case_number",
+      "label_text": "CASE NUMBER:",
+      "value_text": "",
+      "confidence": 85.46012878417969,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.6505568623542786,
+        "top": 0.3017091751098633,
+        "width": 0.2893569767475128,
+        "height": 0.029574507847428322
+      },
+      "pixel_coordinates": {
+        "x1": 1105,
+        "y1": 663,
+        "x2": 1597,
+        "y2": 728
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "(TYPE OR PRINT NAME OF BENEFICIARY (AND AUTHORIZED",
+      "value_text": "",
+      "confidence": 90.16858673095703,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.5521470904350281,
+        "top": 0.8201842308044434,
+        "width": 0.3878503739833832,
+        "height": 0.03174976631999016
+      },
+      "pixel_coordinates": {
+        "x1": 938,
+        "y1": 1804,
+        "x2": 1597,
+        "y2": 1874
+      }
+    },
+    {
+      "field_type": "address",
+      "label_text": "ZIP CODE:",
+      "value_text": "",
+      "confidence": 89.25989532470703,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.5340438485145569,
+        "top": 0.11806605011224747,
+        "width": 0.11066339910030365,
+        "height": 0.01096043549478054
+      },
+      "pixel_coordinates": {
+        "x1": 907,
+        "y1": 259,
+        "x2": 1096,
+        "y2": 283
+      }
+    },
+    {
+      "field_type": "date",
+      "label_text": "Date:",
+      "value_text": "",
+      "confidence": 88.67703247070312,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.10059478878974915,
+        "top": 0.7993712425231934,
+        "width": 0.2501212954521179,
+        "height": 0.014230817556381226
+      },
+      "pixel_coordinates": {
+        "x1": 171,
+        "y1": 1758,
+        "x2": 596,
+        "y2": 1789
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "CITY AND ZIP CODE:",
+      "value_text": "",
+      "confidence": 88.72372436523438,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.15889772772789001,
+        "top": 0.19451497495174408,
+        "width": 0.48597976565361023,
+        "height": 0.012041822075843811
+      },
+      "pixel_coordinates": {
+        "x1": 270,
+        "y1": 427,
+        "x2": 1096,
+        "y2": 454
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "WAIVER OF BOND BY HEIR OR BENEFICIARY",
+      "value_text": "",
+      "confidence": 90.1646957397461,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.20109796524047852,
+        "top": 0.31443655490875244,
+        "width": 0.03008934110403061,
+        "height": 0.011436354368925095
+      },
+      "pixel_coordinates": {
+        "x1": 341,
+        "y1": 691,
+        "x2": 393,
+        "y2": 716
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "CITY AND ZIP CODE:",
+      "value_text": "",
+      "confidence": 89.5001449584961,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.15956878662109375,
+        "top": 0.2226492166519165,
+        "width": 0.485682874917984,
+        "height": 0.010854950174689293
+      },
+      "pixel_coordinates": {
+        "x1": 271,
+        "y1": 489,
+        "x2": 1096,
+        "y2": 513
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "STATE BAR NO.:",
+      "value_text": "",
+      "confidence": 88.66410064697266,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.44586634635925293,
+        "top": 0.05902456119656563,
+        "width": 0.19798913598060608,
+        "height": 0.012004275806248188
+      },
+      "pixel_coordinates": {
+        "x1": 757,
+        "y1": 129,
+        "x2": 1094,
+        "y2": 156
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "CITY AND ZIP CODE:",
+      "value_text": "",
+      "confidence": 89.49658966064453,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.15795013308525085,
+        "top": 0.2088894098997116,
+        "width": 0.48668432235717773,
+        "height": 0.01131858117878437
+      },
+      "pixel_coordinates": {
+        "x1": 268,
+        "y1": 459,
+        "x2": 1095,
+        "y2": 484
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "FAX NO.:",
+      "value_text": "",
+      "confidence": 90.57909393310547,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.4324076175689697,
+        "top": 0.11715120822191238,
+        "width": 0.04831678792834282,
+        "height": 0.012284338474273682
+      },
+      "pixel_coordinates": {
+        "x1": 735,
+        "y1": 257,
+        "x2": 817,
+        "y2": 284
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "FIRM NAME:",
+      "value_text": "",
+      "confidence": 89.37264251708984,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.12017352133989334,
+        "top": 0.08841191977262497,
+        "width": 0.5239132642745972,
+        "height": 0.012809530831873417
+      },
+      "pixel_coordinates": {
+        "x1": 204,
+        "y1": 194,
+        "x2": 1094,
+        "y2": 222
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "SUPERIOR COURT OF CALIFORNIA, COUNTY OF",
+      "value_text": "",
+      "confidence": 87.07209014892578,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.6496352553367615,
+        "top": 0.0745883509516716,
+        "width": 0.2900916337966919,
+        "height": 0.21297769248485565
+      },
+      "pixel_coordinates": {
+        "x1": 1104,
+        "y1": 164,
+        "x2": 1597,
+        "y2": 632
+      }
+    },
+    {
+      "field_type": "address",
+      "label_text": "STREET ADDRESS:",
+      "value_text": "",
+      "confidence": 89.45339965820312,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.15438644587993622,
+        "top": 0.10379361361265182,
+        "width": 0.4902227818965912,
+        "height": 0.011951823718845844
+      },
+      "pixel_coordinates": {
+        "x1": 262,
+        "y1": 228,
+        "x2": 1095,
+        "y2": 254
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "E-MAIL ADDRESS:",
+      "value_text": "",
+      "confidence": 89.84136962890625,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.14811386168003082,
+        "top": 0.14644375443458557,
+        "width": 0.49710097908973694,
+        "height": 0.012904023751616478
+      },
+      "pixel_coordinates": {
+        "x1": 251,
+        "y1": 322,
+        "x2": 1096,
+        "y2": 350
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "ATTORNEY FOR (name):",
+      "value_text": "",
+      "confidence": 89.8555908203125,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.17682570219039917,
+        "top": 0.16222096979618073,
+        "width": 0.4688255488872528,
+        "height": 0.014190354384481907
+      },
+      "pixel_coordinates": {
+        "x1": 300,
+        "y1": 356,
+        "x2": 1097,
+        "y2": 388
+      }
+    },
+    {
+      "field_type": "address",
+      "label_text": "STREET ADDRESS:",
+      "value_text": "",
+      "confidence": 90.81651306152344,
+      "field_confidence": 0.95,
+      "bounding_box": {
+        "left": 0.14526496827602386,
+        "top": 0.13145047426223755,
+        "width": 0.20735949277877808,
+        "height": 0.011912308633327484
+      },
+      "pixel_coordinates": {
+        "x1": 246,
+        "y1": 289,
+        "x2": 599,
+        "y2": 315
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "FAX NO.:",
+      "value_text": "",
+      "confidence": 89.48285675048828,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.4343259036540985,
+        "top": 0.13177968561649323,
+        "width": 0.2104829102754593,
+        "height": 0.011583677493035793
+      },
+      "pixel_coordinates": {
+        "x1": 738,
+        "y1": 289,
+        "x2": 1096,
+        "y2": 315
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Page",
+      "value_text": "of",
+      "confidence": 48.8021240234375,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.9005262851715088,
+        "top": 0.9452041387557983,
+        "width": 0.009776369668543339,
+        "height": 0.0070100631564855576
+      },
+      "pixel_coordinates": {
+        "x1": 1530,
+        "y1": 2079,
+        "x2": 1547,
+        "y2": 2094
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "Page",
+      "value_text": "www.courts.ca.gov",
+      "confidence": 49.947601318359375,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.8564808368682861,
+        "top": 0.9347410202026367,
+        "width": 0.08349151909351349,
+        "height": 0.007196094840764999
+      },
+      "pixel_coordinates": {
+        "x1": 1456,
+        "y1": 2056,
+        "x2": 1597,
+        "y2": 2072
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "ATTORNEY OR PARTY WITHOUT ATTORNEY:",
+      "value_text": "",
+      "confidence": 80.0,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.27750733494758606,
+        "top": 0.060519758611917496,
+        "width": 0.08450273424386978,
+        "height": 0.010919922031462193
+      },
+      "pixel_coordinates": {
+        "x1": 471,
+        "y1": 133,
+        "x2": 615,
+        "y2": 157
+      }
+    },
+    {
+      "field_type": "other",
+      "label_text": "WAIVER OF BOND BY HEIR OR BENEFICIARY",
+      "value_text": "",
+      "confidence": 83.101806640625,
+      "field_confidence": 0.4,
+      "bounding_box": {
+        "left": 0.19916439056396484,
+        "top": 0.31443655490875244,
+        "width": 0.30988144874572754,
+        "height": 0.011837022379040718
+      },
+      "pixel_coordinates": {
+        "x1": 338,
+        "y1": 691,
+        "x2": 865,
+        "y2": 717
+      }
+    }
+  ],
+  "total_boxes": 28,
+  "total_form_fields": 28,
+  "created_at": "2026-01-07T12:41:08.770151"
+}

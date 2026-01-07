@@ -9,12 +9,31 @@ import {
   Grid,
   Alert,
   CircularProgress,
+  Tabs,
+  Tab,
+  Paper,
 } from '@mui/material'
-import { PlayArrow, Refresh } from '@mui/icons-material'
+import { PlayArrow, Refresh, Compare } from '@mui/icons-material'
 import api, { FormInfo, RateLimitStatus } from '@/lib/api'
 import RateLimitStatusComponent from '@/components/RateLimitStatus'
 import FormList from '@/components/FormList'
+import TechStackComparison from '@/components/TechStackComparison'
 import { useRouter } from 'next/navigation'
+
+interface TabPanelProps {
+  children?: React.ReactNode
+  index: number
+  value: number
+}
+
+function TabPanel(props: TabPanelProps) {
+  const { children, value, index, ...other } = props
+  return (
+    <div role="tabpanel" hidden={value !== index} {...other}>
+      {value === index && <Box>{children}</Box>}
+    </div>
+  )
+}
 
 export default function HomePage() {
   const [forms, setForms] = useState<FormInfo[]>([])
@@ -24,6 +43,7 @@ export default function HomePage() {
   const [error, setError] = useState<string | null>(null)
   const [progress, setProgress] = useState<{ current?: number; total?: number; message?: string } | null>(null)
   const [currentForm, setCurrentForm] = useState<string | null>(null)
+  const [activeTab, setActiveTab] = useState(0)
   const router = useRouter()
 
   const fetchForms = async () => {
@@ -181,79 +201,108 @@ export default function HomePage() {
   }, [scraping])
 
   return (
-    <Container maxWidth="lg" sx={{ py: 4 }}>
+    <Container maxWidth="xl" sx={{ py: 4 }}>
       <Box mb={4}>
         <Typography variant="h4" component="h1" gutterBottom>
           Court Forms OCR Workflow
         </Typography>
         <Typography variant="body1" color="text.secondary" paragraph>
-          Scrape and process court forms from California Courts website with OCR
+          Scrape and process court forms from California Courts website with OCR.
+          Compare results across different technology configurations.
         </Typography>
       </Box>
 
-      {error && (
-        <Alert severity="error" sx={{ mb: 3 }} onClose={() => setError(null)}>
-          {error}
-        </Alert>
-      )}
-
-      {progress && (
-        <Alert severity="info" sx={{ mb: 3 }}>
-          {progress.message}
-          {progress.current !== undefined && progress.total !== undefined && (
-            <Typography variant="body2" sx={{ mt: 1 }}>
-              Progress: {progress.current} / {progress.total} forms
-            </Typography>
-          )}
-          {currentForm && (
-            <Typography variant="body2" sx={{ mt: 1, fontWeight: 'bold' }}>
-              Current: {currentForm}
-            </Typography>
-          )}
-        </Alert>
-      )}
-
-      <Grid container spacing={3}>
-        <Grid item xs={12} md={4}>
-          <Box mb={2}>
-            <Button
-              variant="contained"
-              startIcon={scraping ? <CircularProgress size={20} /> : <PlayArrow />}
-              onClick={handleScrape}
-              disabled={scraping}
-              fullWidth
-              size="large"
-            >
-              {scraping ? 'Scraping...' : 'Scrape Forms'}
-            </Button>
-          </Box>
-          <Button
-            variant="outlined"
-            startIcon={<Refresh />}
-            onClick={() => {
-              fetchForms()
-              fetchRateLimitStatus()
-            }}
-            fullWidth
-            disabled={loading}
-          >
-            Refresh
-          </Button>
-          {rateLimitStatus && (
-            <Box mt={3}>
-              <RateLimitStatusComponent status={rateLimitStatus} />
-            </Box>
-          )}
-        </Grid>
-
-        <Grid item xs={12} md={8}>
-          <FormList
-            forms={forms}
-            onFormClick={handleFormClick}
-            loading={loading}
+      {/* Main Navigation Tabs */}
+      <Paper sx={{ mb: 3 }}>
+        <Tabs 
+          value={activeTab} 
+          onChange={(_, v) => setActiveTab(v)}
+          variant="fullWidth"
+        >
+          <Tab 
+            icon={<PlayArrow />} 
+            label="Form Scraping" 
+            iconPosition="start"
           />
+          <Tab 
+            icon={<Compare />} 
+            label="Technology Stack Comparison" 
+            iconPosition="start"
+          />
+        </Tabs>
+      </Paper>
+
+      {/* Tab Panel: Form Scraping */}
+      <TabPanel value={activeTab} index={0}>
+        {error && (
+          <Alert severity="error" sx={{ mb: 3 }} onClose={() => setError(null)}>
+            {error}
+          </Alert>
+        )}
+
+        {progress && (
+          <Alert severity="info" sx={{ mb: 3 }}>
+            {progress.message}
+            {progress.current !== undefined && progress.total !== undefined && (
+              <Typography variant="body2" sx={{ mt: 1 }}>
+                Progress: {progress.current} / {progress.total} forms
+              </Typography>
+            )}
+            {currentForm && (
+              <Typography variant="body2" sx={{ mt: 1, fontWeight: 'bold' }}>
+                Current: {currentForm}
+              </Typography>
+            )}
+          </Alert>
+        )}
+
+        <Grid container spacing={3}>
+          <Grid item xs={12} md={4}>
+            <Box mb={2}>
+              <Button
+                variant="contained"
+                startIcon={scraping ? <CircularProgress size={20} /> : <PlayArrow />}
+                onClick={handleScrape}
+                disabled={scraping}
+                fullWidth
+                size="large"
+              >
+                {scraping ? 'Scraping...' : 'Scrape Forms'}
+              </Button>
+            </Box>
+            <Button
+              variant="outlined"
+              startIcon={<Refresh />}
+              onClick={() => {
+                fetchForms()
+                fetchRateLimitStatus()
+              }}
+              fullWidth
+              disabled={loading}
+            >
+              Refresh
+            </Button>
+            {rateLimitStatus && (
+              <Box mt={3}>
+                <RateLimitStatusComponent status={rateLimitStatus} />
+              </Box>
+            )}
+          </Grid>
+
+          <Grid item xs={12} md={8}>
+            <FormList
+              forms={forms}
+              onFormClick={handleFormClick}
+              loading={loading}
+            />
+          </Grid>
         </Grid>
-      </Grid>
+      </TabPanel>
+
+      {/* Tab Panel: Technology Stack Comparison */}
+      <TabPanel value={activeTab} index={1}>
+        <TechStackComparison />
+      </TabPanel>
     </Container>
   )
 }

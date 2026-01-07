@@ -33,13 +33,14 @@ class Config:
     FIRECRAWL_TIMEOUT: Optional[int] = int(os.getenv('FIRECRAWL_TIMEOUT', '30000')) if os.getenv('FIRECRAWL_TIMEOUT') else None
     
     # Image Processing
-    SAMPLE_IMAGES_COUNT: int = int(os.getenv('SAMPLE_IMAGES_COUNT', '5'))
+    # Set to 0 or negative for unlimited images
+    SAMPLE_IMAGES_COUNT: int = int(os.getenv('SAMPLE_IMAGES_COUNT', '0'))  # 0 = save ALL images
     IMAGES_OUTPUT_DIR: str = os.getenv('IMAGES_OUTPUT_DIR', 'output/images')
     
     # API Settings
     API_HOST: str = os.getenv('API_HOST', '0.0.0.0')
-    API_PORT: int = int(os.getenv('API_PORT', '8001'))
-    CORS_ORIGINS: list = os.getenv('CORS_ORIGINS', 'http://localhost:3001').split(',')
+    API_PORT: int = int(os.getenv('API_PORT', '8000'))
+    CORS_ORIGINS: list = os.getenv('CORS_ORIGINS', 'http://localhost:3000').split(',')
     
     @classmethod
     def validate(cls) -> bool:
